@@ -1,0 +1,4263 @@
+{
+  "question_no": 11,
+  "source_schema": "deep11.json",
+  "assessment_status": "AI first judgment; heterogeneous schemas; do not pool claim or citation rates",
+  "answers": [
+    {
+      "answer_id": "Q11-M3-direct",
+      "view": "displayed",
+      "text_sha256": "280d16d70a7f7cb2ecd99bd50e389d27d95a3fb1247dbb9620dec3dee536ccf0",
+      "answer_judgment": "Wrong accrual period and conflicting JAMA attribution; neither estimated volume nor aggregate occurrence substitutes for observed overlap counts. Correctly distinguishes prescription claims from outcomes.",
+      "facets": [
+        "I",
+        "C"
+      ],
+      "confidence": 91,
+      "assertions": [
+        {
+          "start": 122,
+          "end": 163,
+          "text": "- **Jurisdiction:** Oregon, United States",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 164,
+          "end": 252,
+          "text": "- **Population:** Oregon Medicaid enrollees (low-income, predominantly publicly insured)",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 253,
+          "end": 306,
+          "text": "- **Data period:** 1988–1993 (as specified in source)",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 307,
+          "end": 399,
+          "text": "- **Study design:** Retrospective analysis of linked Medicaid prescribing and claims records",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 424,
+          "end": 482,
+          "text": "**Primary source:** Monroe J, Thompson J, Lamson M, et al.",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 483,
+          "end": 511,
+          "text": "*JAMA.* 1994;271(3):222–223.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 512,
+          "end": 555,
+          "text": "PMID: 8023479. [Letter/Short Communication]",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 669,
+          "end": 774,
+          "text": "| **Total prescriptions analyzed** | ~1.5 million (estimated from period) | Data collected concurrently |",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 775,
+          "end": 883,
+          "text": "| **Concurrent interacting prescriptions** | Identified via claims linkage | Identified via claims linkage |",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 884,
+          "end": 1043,
+          "text": "| **Interacting medicines category** | Ketoconazole, itraconazole, macrolide antibiotics (erythromycin, clarithromycin), other CYP3A4 inhibitors | Same class |",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1045,
+          "end": 1082,
+          "text": "**Specific findings (PMID 8023479):**",
+          "unit": 10,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 1087,
+          "end": 1311,
+          "text": "**Prevalence of concurrent prescribing:** The study found that **concurrent prescriptions of terfenadine with interacting medicines occurred in a measurable percentage of patients**, detected through pharmacy claims linkage.",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 1312,
+          "end": 1439,
+          "text": "Exact percentages were stated in the original letter (specific numerical values should be verified against the primary source).",
+          "unit": 12,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1444,
+          "end": 1700,
+          "text": "**Claims-detectable concurrent use:** The Medicaid claims system successfully identified patients receiving overlapping prescriptions for terfenadine and recognized contraindicated/interacting drugs—particularly azole antifungals and macrolide antibiotics.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 1705,
+          "end": 1878,
+          "text": "**Temporal pattern:** Concurrent prescribing was documented **before and after** FDA warnings and label changes, indicating persistent utilization despite regulatory alerts.",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2008,
+          "end": 2131,
+          "text": "| **No outcome validation** | Medicaid pharmacy claims contain **no diagnostic or clinical outcome data** for arrhythmias |",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2132,
+          "end": 2206,
+          "text": "| **No ECG data** | No electrocardiographic monitoring or QT measurement |",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2207,
+          "end": 2297,
+          "text": "| **No mortality linkage** | Death certificates or sudden death records not incorporated |",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2298,
+          "end": 2403,
+          "text": "| **No hospitalization validation** | Cannot distinguish arrhythmic vs. non-arrhythmic hospitalizations |",
+          "unit": 18,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2404,
+          "end": 2527,
+          "text": "| **Claims ≠ events** | Pharmacy overlap demonstrates *prescription* coweighting, not confirmed *ingestion* or *toxicity* |",
+          "unit": 19,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2529,
+          "end": 2601,
+          "text": "**Critical negative finding:** The study **explicitly did not measure:**",
+          "unit": 20,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 2603,
+          "end": 2637,
+          "text": "- Incidence of torsades de pointes",
+          "unit": 21,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2638,
+          "end": 2668,
+          "text": "- Incidence of QT prolongation",
+          "unit": 22,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2669,
+          "end": 2697,
+          "text": "- Sudden cardiac death rates",
+          "unit": 23,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2698,
+          "end": 2761,
+          "text": "- Any clinical adverse events attributable to drug interactions",
+          "unit": 24,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2763,
+          "end": 2902,
+          "text": "The authors reportedly noted that without clinical outcome linkage, **the actual arrhythmia burden remained unquantified** in this dataset.",
+          "unit": 25,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2955,
+          "end": 2976,
+          "text": "| Certainty | Basis |",
+          "unit": 26,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 2999,
+          "end": 3090,
+          "text": "| **Established** | Concurrent prescribing *occurred* and was *detectable* in claims data |",
+          "unit": 27,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3091,
+          "end": 3171,
+          "text": "| **Established** | The Medicaid system *could* flag overlapping prescriptions |",
+          "unit": 28,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3172,
+          "end": 3292,
+          "text": "| **Uncertain** | Whether flagged overlaps resulted in actual drug interactions (bioavailability, timing of ingestion) |",
+          "unit": 29,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3293,
+          "end": 3393,
+          "text": "| **Unknown** | Absolute or relative risk of arrhythmia from these combinations in this population |",
+          "unit": 30,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3394,
+          "end": 3508,
+          "text": "| **Unmeasured** | Physician awareness, patient adherence, or clinical monitoring that might have mitigated risk |",
+          "unit": 31,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3568,
+          "end": 3608,
+          "text": "| Date | Regulatory Action | Relevance |",
+          "unit": 32,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 3650,
+          "end": 3782,
+          "text": "| January 1992 | FDA \"Dear Healthcare Professional\" letter (ketoconazole-terfenadine interaction) | Preceded study period endpoint |",
+          "unit": 33,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3783,
+          "end": 3862,
+          "text": "| 1995 | Astemizole boxed warning strengthened | Post-dated study publication |",
+          "unit": 34,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3863,
+          "end": 3946,
+          "text": "| 1997 | Terfenadine withdrawn from US market | Not study-relevant but contextual |",
+          "unit": 35,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3947,
+          "end": 4015,
+          "text": "| 1999 | Astemizole withdrawn from most markets | Post-dated study |",
+          "unit": 36,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4017,
+          "end": 4227,
+          "text": "The Oregon study (1994) was published **after initial FDA warnings but before market withdrawal**, positioning it as an early pharmacovigilance demonstration of claims-data utility for interaction surveillance.",
+          "unit": 37,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4250,
+          "end": 4433,
+          "text": "The Oregon Medicaid study (PMID 8023479) demonstrated that **concurrent prescribing of terfenadine with CYP3A4 inhibitors was occurring and detectable in administrative claims data**.",
+          "unit": 38,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4434,
+          "end": 4584,
+          "text": "It did **not**—and methodologically could not—demonstrate any incidence, prevalence, or risk of arrhythmia outcomes resulting from these combinations.",
+          "unit": 39,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4585,
+          "end": 4689,
+          "text": "The absence of clinical outcome linkage in pharmacy claims datasets was a stated or implicit limitation.",
+          "unit": 40,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:8023479",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 512,
+              "end": 525,
+              "text": "PMID: 8023479"
+            },
+            {
+              "start": 1066,
+              "end": 1078,
+              "text": "PMID 8023479"
+            },
+            {
+              "start": 4277,
+              "end": 4289,
+              "text": "PMID 8023479"
+            },
+            {
+              "start": 4933,
+              "end": 4946,
+              "text": "PMID: 8023479"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Possible interactions with terfenadine or astemizole",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+            "ref": "turn273view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        },
+        {
+          "canonical": "DOI:10.1001/jama.1994.03510270056036",
+          "identity": "unresolved",
+          "occurrences": [
+            {
+              "start": 4895,
+              "end": 4931,
+              "text": "doi:10.1001/jama.1994.03510270056036"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "identity_confidence": 40
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "Monroe J, Thompson J, Lamson M, et al. Arrhythmia incidence in patients concurrently prescribed terfenadine or astemizole with interacting medications. *JAMA.* 1994;271(3):222–223. doi:10.1001/jama.1994.03510270056036. PMID: 8023479.",
+          "start": 4714,
+          "end": 4947
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 4,
+        "unsupported": 4
+      },
+      "unresolved_scope_or_attribution": 29,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 424,
+          "end": 482,
+          "text": "**Primary source:** Monroe J, Thompson J, Lamson M, et al.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "start": 512,
+          "end": 555,
+          "text": "PMID: 8023479. [Letter/Short Communication]",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 1045,
+          "end": 1082,
+          "text": "**Specific findings (PMID 8023479):**",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 4250,
+          "end": 4433,
+          "text": "The Oregon Medicaid study (PMID 8023479) demonstrated that **concurrent prescribing of terfenadine with CYP3A4 inhibitors was occurring and detectable in administrative claims data**.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "text": "Monroe J, Thompson J, Lamson M, et al. Arrhythmia incidence in patients concurrently prescribed terfenadine or astemizole with interacting medications. *JAMA.* 1994;271(3):222–223. doi:10.1001/jama.1994.03510270056036. PMID: 8023479.",
+          "start": 4714,
+          "end": 4947,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479",
+            "DOI:10.1001/jama.1994.03510270056036"
+          ]
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q11-M6-direct",
+      "view": "displayed",
+      "text_sha256": "1f680336e7e2c9d54464417d85d87a461cfe686d72aeca15bcf5dec9c1fd25e9",
+      "answer_judgment": "Attributes clinical outcomes and comparative risk to a dispensing-overlap study; this reverses its endpoint.",
+      "facets": [
+        "I",
+        "I"
+      ],
+      "confidence": 97,
+      "assertions": [
+        {
+          "start": 0,
+          "end": 106,
+          "text": "**Oregon Medicaid Prescribing-Claims Study: Concurrent Terfenadine/Astemizole with Interacting Medicines**",
+          "unit": 0,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 138,
+          "end": 189,
+          "text": "- **Jurisdiction:** Oregon, USA (Medicaid program).",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 190,
+          "end": 331,
+          "text": "- **Population:** Medicaid enrollees (adults and children) with prescriptions for terfenadine or astemizole between 1985–1992 (PMID:8023479).",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 364,
+          "end": 451,
+          "text": "- **Design:** Retrospective cohort study using Oregon Medicaid claims data (1985–1992).",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 452,
+          "end": 631,
+          "text": "- **Exposure:** Concurrent prescriptions for terfenadine or astemizole with interacting medicines (e.g., ketoconazole, itraconazole, erythromycin, clarithromycin, troleandomycin).",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 632,
+          "end": 715,
+          "text": "- **Outcome:** Arrhythmia incidence (primary) and other cardiac events (secondary).",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 716,
+          "end": 782,
+          "text": "- **Data Source:** Oregon Medicaid claims database (PMID:8023479).",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 837,
+          "end": 971,
+          "text": "- Terfenadine or astemizole were frequently co-prescribed with interacting medicines (e.g., macrolide antibiotics, azole antifungals).",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 975,
+          "end": 1112,
+          "text": "- **Risk of Arrhythmia:** Concurrent use was associated with a **significantly higher risk of arrhythmia** (adjusted odds ratio [OR] 2.7;",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1113,
+          "end": 1185,
+          "text": "95% CI 1.1–6.5) compared to terfenadine/astemizole alone (PMID:8023479).",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1229,
+          "end": 1373,
+          "text": "- Macrolide antibiotics (e.g., erythromycin) and azole antifungals (e.g., ketoconazole) were the most commonly implicated interacting medicines.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1377,
+          "end": 1484,
+          "text": "- The study did not stratify risk by specific interacting medicine due to small sample size (PMID:8023479).",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1486,
+          "end": 1518,
+          "text": "**What the Study Does Not Show**",
+          "unit": 12,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 1551,
+          "end": 1727,
+          "text": "- The study **does not quantify absolute arrhythmia incidence rates** (e.g., per 1,000 person-years) due to its retrospective design and reliance on claims data (PMID:8023479).",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 1731,
+          "end": 1821,
+          "text": "- It only provides a **relative risk estimate** (OR 2.7) and does not establish causality.",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1873,
+          "end": 2072,
+          "text": "- The study does not identify the **type of arrhythmia** (e.g., torsades de pointes, ventricular tachycardia) or the **mechanism** (e.g., QT prolongation) due to lack of clinical data (PMID:8023479).",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2104,
+          "end": 2232,
+          "text": "- The study does not assess **long-term cardiac outcomes** or mortality associated with concurrent prescriptions (PMID:8023479).",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2262,
+          "end": 2427,
+          "text": "- The findings are limited to **Oregon Medicaid enrollees** and may not apply to other populations (e.g., non-Medicaid patients, other jurisdictions) (PMID:8023479).",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2484,
+          "end": 2613,
+          "text": "- Unmeasured confounders (e.g., underlying cardiac conditions, other medications) may have influenced the results (PMID:8023479).",
+          "unit": 18,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2643,
+          "end": 2734,
+          "text": "- Claims data may misclassify arrhythmia events or interacting medicine use (PMID:8023479).",
+          "unit": 19,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2764,
+          "end": 2858,
+          "text": "- The study had a small number of arrhythmia cases, limiting statistical power (PMID:8023479).",
+          "unit": 20,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2860,
+          "end": 2906,
+          "text": "**Regulatory Context (as of 29 October 2026)**",
+          "unit": 21,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 2907,
+          "end": 3038,
+          "text": "- **Terfenadine:** Withdrawn from the U.S. market in 1998 due to risk of torsades de pointes (FDA Drug Safety Communication, 1998).",
+          "unit": 22,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3039,
+          "end": 3134,
+          "text": "- **Astemizole:** Withdrawn in 1999 due to similar risks (FDA Drug Safety Communication, 1999).",
+          "unit": 23,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:8023479",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 317,
+              "end": 329,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 768,
+              "end": 780,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 1171,
+              "end": 1183,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 1470,
+              "end": 1482,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 1713,
+              "end": 1725,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 2058,
+              "end": 2070,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 2218,
+              "end": 2230,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 2413,
+              "end": 2425,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 2599,
+              "end": 2611,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 2720,
+              "end": 2732,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 2844,
+              "end": 2856,
+              "text": "PMID:8023479"
+            },
+            {
+              "start": 3156,
+              "end": 3168,
+              "text": "PMID:8023479"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Possible interactions with terfenadine or astemizole",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+            "ref": "turn273view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        },
+        {
+          "canonical": "DOI:10.1056/nejm199403243301204",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 3226,
+              "end": 3303,
+              "text": "DOI:10.1056/NEJM199403243301204](https://doi.org/10.1056/NEJM199403243301204)"
+            }
+          ],
+          "use_status": "verified_unrelated_record_when_proffered_as_target_evidence",
+          "registry_verification": {
+            "title": "Interferon alfa-2a as compared with conventional chemotherapy for the treatment of chronic myeloid leukemia",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8114834/",
+            "ref": "turn250search0",
+            "evidence": "Publisher page or PubMed bibliographic record with matching DOI; existence only."
+          },
+          "identity_confidence": 97,
+          "use_confidence": 96
+        },
+        {
+          "canonical": "https://www.fda.gov/drugs/drugsafety/ucm142886.htm",
+          "identity": "unresolved",
+          "occurrences": [
+            {
+              "start": 3407,
+              "end": 3457,
+              "text": "https://www.fda.gov/drugs/drugsafety/ucm142886.htm"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "identity_confidence": 40
+        },
+        {
+          "canonical": "https://www.fda.gov/drugs/drugsafety/ucm142887.htm",
+          "identity": "unresolved",
+          "occurrences": [
+            {
+              "start": 3562,
+              "end": 3612,
+              "text": "https://www.fda.gov/drugs/drugsafety/ucm142887.htm"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "identity_confidence": 40
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "- [PMID:8023479] – Ray WA, et al. *N Engl J Med*. 1994;330(12):826-830. [DOI:10.1056/NEJM199403243301204](https://doi.org/10.1056/NEJM199403243301204)",
+          "start": 3153,
+          "end": 3303
+        },
+        {
+          "text": "- FDA Drug Safety Communication. *Terfenadine (marketed as Seldane)* – Withdrawal. 1998. [FDA Archive](https://www.fda.gov/drugs/drugsafety/ucm142886.htm)",
+          "start": 3304,
+          "end": 3458
+        },
+        {
+          "text": "- FDA Drug Safety Communication. *Astemizole (marketed as Hismanal)* – Withdrawal. 1999. [FDA Archive](https://www.fda.gov/drugs/drugsafety/ucm142887.htm)",
+          "start": 3459,
+          "end": 3613
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 8,
+        "unsupported": 5
+      },
+      "unresolved_scope_or_attribution": 8,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 190,
+          "end": 331,
+          "text": "- **Population:** Medicaid enrollees (adults and children) with prescriptions for terfenadine or astemizole between 1985–1992 (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 716,
+          "end": 782,
+          "text": "- **Data Source:** Oregon Medicaid claims database (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 1113,
+          "end": 1185,
+          "text": "95% CI 1.1–6.5) compared to terfenadine/astemizole alone (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 1377,
+          "end": 1484,
+          "text": "- The study did not stratify risk by specific interacting medicine due to small sample size (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 1551,
+          "end": 1727,
+          "text": "- The study **does not quantify absolute arrhythmia incidence rates** (e.g., per 1,000 person-years) due to its retrospective design and reliance on claims data (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 1873,
+          "end": 2072,
+          "text": "- The study does not identify the **type of arrhythmia** (e.g., torsades de pointes, ventricular tachycardia) or the **mechanism** (e.g., QT prolongation) due to lack of clinical data (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 2104,
+          "end": 2232,
+          "text": "- The study does not assess **long-term cardiac outcomes** or mortality associated with concurrent prescriptions (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 2262,
+          "end": 2427,
+          "text": "- The findings are limited to **Oregon Medicaid enrollees** and may not apply to other populations (e.g., non-Medicaid patients, other jurisdictions) (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 2484,
+          "end": 2613,
+          "text": "- Unmeasured confounders (e.g., underlying cardiac conditions, other medications) may have influenced the results (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 2643,
+          "end": 2734,
+          "text": "- Claims data may misclassify arrhythmia events or interacting medicine use (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 2764,
+          "end": 2858,
+          "text": "- The study had a small number of arrhythmia cases, limiting statistical power (PMID:8023479).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "text": "- [PMID:8023479] – Ray WA, et al. *N Engl J Med*. 1994;330(12):826-830. [DOI:10.1056/NEJM199403243301204](https://doi.org/10.1056/NEJM199403243301204)",
+          "start": 3153,
+          "end": 3303,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479",
+            "DOI:10.1056/nejm199403243301204"
+          ]
+        },
+        {
+          "text": "- FDA Drug Safety Communication. *Terfenadine (marketed as Seldane)* – Withdrawal. 1998. [FDA Archive](https://www.fda.gov/drugs/drugsafety/ucm142886.htm)",
+          "start": 3304,
+          "end": 3458,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "https://www.fda.gov/drugs/drugsafety/ucm142886.htm"
+          ]
+        },
+        {
+          "text": "- FDA Drug Safety Communication. *Astemizole (marketed as Hismanal)* – Withdrawal. 1999. [FDA Archive](https://www.fda.gov/drugs/drugsafety/ucm142887.htm)",
+          "start": 3459,
+          "end": 3613,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "https://www.fda.gov/drugs/drugsafety/ucm142887.htm"
+          ]
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q11-M5-direct",
+      "view": "displayed",
+      "text_sha256": "69786198e89d8b84c466578586e2e84d685b441b3a95fe86b951bda1b20d64bd",
+      "answer_judgment": "Wrong overlap estimates and period; clinical outcome limitation is correctly explained while the actual 122 episodes are absent.",
+      "facets": [
+        "I",
+        "C"
+      ],
+      "confidence": 91,
+      "assertions": [
+        {
+          "start": 42,
+          "end": 237,
+          "text": "The study in question is \"Concurrent prescribing of terfenadine or astemizole with interacting drugs: a Medicaid claims analysis,\" published in *Clinical Pharmacology & Therapeutics* (1994) by L.",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 241,
+          "end": 255,
+          "text": "Gurwitz et al.",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 256,
+          "end": 356,
+          "text": "The jurisdiction is the United States, specifically utilizing data from the Oregon Medicaid program.",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 357,
+          "end": 613,
+          "text": "This retrospective cohort study analyzed administrative pharmacy claims to assess the prevalence of potentially dangerous drug-drug interactions involving non-sedating antihistamines that were later withdrawn from the market due to cardiac safety concerns.",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 646,
+          "end": 746,
+          "text": "The population consisted of adult beneficiaries enrolled in the Oregon Medicaid program during 1992.",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 747,
+          "end": 847,
+          "text": "The researchers identified patients who received prescriptions for either terfenadine or astemizole.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 848,
+          "end": 1059,
+          "text": "They then cross-referenced these records with concurrent prescriptions for known inhibitors of cytochrome P450 3A4 (CYP3A4), specifically ketoconazole, itraconazole, erythromycin, clarithromycin, and nefazodone.",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1060,
+          "end": 1301,
+          "text": "These antifungal and antibiotic agents inhibit the metabolism of terfenadine and astemizole, leading to elevated plasma concentrations of the parent compounds, which are associated with QT interval prolongation and torsades de pointes (TdP).",
+          "unit": 7,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1342,
+          "end": 1457,
+          "text": "The primary finding was the high frequency of clinically significant drug-drug interactions in real-world practice.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1458,
+          "end": 1612,
+          "text": "Among patients prescribed terfenadine, approximately 1.6% also received a prescription for one of the interacting CYP3A4 inhibitors within the same month.",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1613,
+          "end": 1731,
+          "text": "For astemizole, the rate of concurrent prescribing with an interacting agent was slightly lower but still substantial.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1732,
+          "end": 1922,
+          "text": "The study highlighted that despite warnings issued by manufacturers and regulatory bodies regarding these specific combinations, prescribers frequently failed to check for contraindications.",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1923,
+          "end": 2133,
+          "text": "The findings demonstrated that administrative claims data could effectively identify patterns of unsafe prescribing behavior that might not be captured in clinical trials or spontaneous reporting systems alone.",
+          "unit": 12,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2182,
+          "end": 2384,
+          "text": "Crucially, this study **does not show** the actual incidence of arrhythmias, such as torsades de pointes, ventricular tachycardia, or sudden cardiac death, resulting from these concurrent prescriptions.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2385,
+          "end": 2482,
+          "text": "The design limitations preclude causal inference regarding clinical outcomes for several reasons:",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2488,
+          "end": 2576,
+          "text": "**Lack of Clinical Outcome Data:** The study relied exclusively on pharmacy claims data.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2577,
+          "end": 2752,
+          "text": "It did not include medical records, hospital discharge diagnoses, electrocardiogram (ECG) results, or mortality data linked to the specific episodes of concurrent prescribing.",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2753,
+          "end": 2866,
+          "text": "Therefore, it cannot determine whether any patient in the interaction group actually experienced a cardiac event.",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2871,
+          "end": 3082,
+          "text": "**Absence of Temporal Linkage:** While the study identified concurrent prescriptions, it did not establish a temporal sequence between the administration of the interacting drugs and the onset of adverse events.",
+          "unit": 18,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3083,
+          "end": 3224,
+          "text": "Without linkage to acute care utilization or death certificates, the study cannot attribute any potential arrhythmia to the drug combination.",
+          "unit": 19,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3229,
+          "end": 3430,
+          "text": "**No Control Group for Outcomes:** The study compared rates of concurrent prescribing across different drug pairs but did not compare arrhythmia rates between patients with and without the interaction.",
+          "unit": 20,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3431,
+          "end": 3540,
+          "text": "Consequently, it provides no evidence on the relative risk of arrhythmia conferred by the interaction itself.",
+          "unit": 21,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3545,
+          "end": 3665,
+          "text": "**Underreporting Bias:** Even if some patients had experienced minor symptoms, they would not appear in pharmacy claims.",
+          "unit": 22,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3666,
+          "end": 3794,
+          "text": "Serious events like TdP often result in emergency department visits or hospitalization, which were not captured in this dataset.",
+          "unit": 23,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3795,
+          "end": 3955,
+          "text": "Thus, the study likely underestimates the true burden of adverse effects if they occurred, but more importantly, it remains silent on their occurrence entirely.",
+          "unit": 24,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 4006,
+          "end": 4223,
+          "text": "*   **Finding:** There is a measurable, non-negligible rate of concurrent prescribing of terfenadine/astemizole with CYP3A4 inhibitors in the Oregon Medicaid population, indicating a failure in prescribing safeguards.",
+          "unit": 25,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 4224,
+          "end": 4344,
+          "text": "*   **Uncertainty/Not Shown:** The study does not quantify the number of arrhythmic events caused by these interactions.",
+          "unit": 26,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4345,
+          "end": 4477,
+          "text": "It does not prove that the concurrent use led to harm, nor does it estimate the absolute or relative risk of TdP in this population.",
+          "unit": 27,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4478,
+          "end": 4641,
+          "text": "The link between the pharmacokinetic interaction (identified via claims) and the pharmacodynamic outcome (arrhythmia) remains unverified in this specific analysis.",
+          "unit": 28,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4684,
+          "end": 4964,
+          "text": "By 29 October 2026, both terfenadine and astemizole have been withdrawn from markets in many jurisdictions, including the United States (terfenadine withdrawn in 1997; astemizole withdrawn earlier in various regions and largely phased out in the US by the late 1990s/early 2000s).",
+          "unit": 29,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4965,
+          "end": 5133,
+          "text": "The FDA and other regulators used post-marketing surveillance data, including case reports of TdP and ECG studies showing QT prolongation, to justify these withdrawals.",
+          "unit": 30,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 5134,
+          "end": 5277,
+          "text": "The Oregon Medicaid study served as an early example of using claims data to monitor prescribing practices for drugs with known safety signals.",
+          "unit": 31,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 5278,
+          "end": 5391,
+          "text": "However, because it lacked outcome linkage, it complemented rather than replaced direct adverse event monitoring.",
+          "unit": 32,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 5392,
+          "end": 5586,
+          "text": "Current regulator records confirm that the withdrawal decisions were based on cumulative evidence of cardiac toxicity, not solely on the prevalence of concurrent prescribing found in this study.",
+          "unit": 33,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 5588,
+          "end": 5757,
+          "text": "In summary, the study identifies a public health concern regarding prescribing errors but explicitly does not provide evidence on the frequency of resulting arrhythmias.",
+          "unit": 34,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 5758,
+          "end": 6003,
+          "text": "It highlights the gap between identifying risky prescribing patterns and confirming clinical harm, emphasizing the need for linked databases (combining pharmacy, medical, and mortality records) to fully assess drug safety in real-world settings.",
+          "unit": 35,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:8023479",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 6283,
+              "end": 6296,
+              "text": "PMID: 8023479"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Possible interactions with terfenadine or astemizole",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+            "ref": "turn273view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1.  Gurwitz, J. H., Avorn, J., Soumerai, S. B., Everitt, D. E., Ross-Degnan, D., & Perry, A. (1994). Concurrent prescribing of terfenadine or astemizole with interacting drugs: a Medicaid claims analysis. *Clinical Pharmacology & Therapeutics*, 55(6), 683–688. PMID: 8023479.",
+          "start": 6022,
+          "end": 6297
+        },
+        {
+          "text": "2.  U.S. Food and Drug Administration. (1997). Terfenadine Withdrawal Notice. [Archived Regulatory Records].",
+          "start": 6298,
+          "end": 6406
+        },
+        {
+          "text": "3.  European Medicines Agency. (Historical Assessment Reports on Astemizole/Terfenadine Cardiac Safety).",
+          "start": 6407,
+          "end": 6511
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 2,
+        "unsupported": 8
+      },
+      "unresolved_scope_or_attribution": 26,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 241,
+          "end": 255,
+          "text": "Gurwitz et al.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "1.  Gurwitz, J. H., Avorn, J., Soumerai, S. B., Everitt, D. E., Ross-Degnan, D., & Perry, A. (1994). Concurrent prescribing of terfenadine or astemizole with interacting drugs: a Medicaid claims analysis. *Clinical Pharmacology & Therapeutics*, 55(6), 683–688. PMID: 8023479.",
+          "start": 6022,
+          "end": 6297,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "text": "2.  U.S. Food and Drug Administration. (1997). Terfenadine Withdrawal Notice. [Archived Regulatory Records].",
+          "start": 6298,
+          "end": 6406,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "3.  European Medicines Agency. (Historical Assessment Reports on Astemizole/Terfenadine Cardiac Safety).",
+          "start": 6407,
+          "end": 6511,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q11-M2-direct",
+      "view": "displayed",
+      "text_sha256": "07f84b1092f44fc5361804ec2abbd3d7e0f52b898c3c216a4088d26c520644f9",
+      "answer_judgment": "Identifies concurrent use but no actual counts; the absence of an outcome endpoint is incorrectly reframed as a low-powered negative incidence test.",
+      "facets": [
+        "P",
+        "P"
+      ],
+      "confidence": 82,
+      "assertions": [
+        {
+          "start": 92,
+          "end": 135,
+          "text": "**Jurisdiction & Population:** Oregon, USA;",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 136,
+          "end": 197,
+          "text": "Medicaid enrollees (low-income, publicly insured population).",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 199,
+          "end": 267,
+          "text": "**Dose/Route:** Terfenadine and astemizole were oral antihistamines.",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 268,
+          "end": 330,
+          "text": "The study examined prescribing claims, not administered doses.",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 415,
+          "end": 705,
+          "text": "The Oregon Medicaid claims study documented that terfenadine and astemizole were frequently co-prescribed with known CYP3A4 inhibitors (e.g., macrolide antibiotics such as erythromycin and clarithromycin, azole antifungals such as ketoconazole and itraconazole) and other interacting drugs.",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 706,
+          "end": 995,
+          "text": "This demonstrated that a substantial proportion of patients in this Medicaid population received these antihistamines alongside medicines capable of inhibiting their metabolism, thereby increasing the risk of elevated parent-drug or metabolite concentrations and potential QT-prolongation.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 997,
+          "end": 1057,
+          "text": "**What the study does NOT show about arrhythmia incidence:**",
+          "unit": 6,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 1059,
+          "end": 1220,
+          "text": "The study did **not** demonstrate a statistically significant increase in arrhythmia incidence (or cardiac death) attributable to these interacting combinations.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1221,
+          "end": 1391,
+          "text": "Claims-based studies generally lack the clinical outcome data (e.g., ECG-confirmed torsades de pointes, sudden cardiac death) needed to directly measure arrhythmia rates.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1392,
+          "end": 1578,
+          "text": "The rarity of such events in the Medicaid population, combined with the limitations of administrative coding for cardiac arrhythmias, meant the study was underpowered to detect a signal.",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1579,
+          "end": 1740,
+          "text": "Therefore, the absence of a detected increase in arrhythmia does not constitute evidence of safety; it reflects a limitation of the study design and data source.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1789,
+          "end": 1914,
+          "text": "- **Finding:** High prevalence of concurrent prescribing of terfenadine/astemizole with CYP3A4 inhibitors in Oregon Medicaid.",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1915,
+          "end": 2028,
+          "text": "- **Finding:** The study highlighted the public-health concern of widespread co-prescribing of interacting drugs.",
+          "unit": 12,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2029,
+          "end": 2205,
+          "text": "- **Uncertainty:** Whether the observed co-prescribing patterns translated into measurable excess arrhythmia risk in this population could not be resolved by claims data alone.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2206,
+          "end": 2333,
+          "text": "- **Uncertainty:** The generalizability of findings to other populations (e.g., non-Medicaid, different age groups) is limited.",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2335,
+          "end": 2602,
+          "text": "**Applicable regulator records:** The FDA subsequently withdrew terfenadine (Seldane) from the US market in 1997 and restricted astemizole (Hismanal) due to cardiac safety concerns, partly informed by the body of evidence including claims-based studies like this one.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2604,
+          "end": 2645,
+          "text": "**Source:** PMID 8023479 (primary source;",
+          "unit": 16,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 2646,
+          "end": 2754,
+          "text": "I have not independently verified the full citation details against a current database as of this response).",
+          "unit": 17,
+          "scope": "operational_not_clinical",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [],
+          "reason": "Operational/model evidence or abstention statement; not used as a clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 90
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:8023479",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 2616,
+              "end": 2628,
+              "text": "PMID 8023479"
+            },
+            {
+              "start": 2901,
+              "end": 2914,
+              "text": "PMID: 8023479"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Possible interactions with terfenadine or astemizole",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+            "ref": "turn273view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. Ray WA, et al. Oregon Medicaid prescribing-claims study of terfenadine/astemizole and interacting drug co-prescribing. PMID: 8023479.",
+          "start": 2779,
+          "end": 2915
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "unsupported": 8,
+        "contradicted": 1
+      },
+      "unresolved_scope_or_attribution": 6,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 2604,
+          "end": 2645,
+          "text": "**Source:** PMID 8023479 (primary source;",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "text": "1. Ray WA, et al. Oregon Medicaid prescribing-claims study of terfenadine/astemizole and interacting drug co-prescribing. PMID: 8023479.",
+          "start": 2779,
+          "end": 2915,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q11-M1-direct",
+      "view": "displayed",
+      "text_sha256": "0d3256949e85f85c8f544f964e00ad58f2f6f1fe70362d1e5d71e64bab4bd3f0",
+      "answer_judgment": "Invents hospitalized/recorded arrhythmia associations; no such clinical outcome was measured.",
+      "facets": [
+        "I",
+        "I"
+      ],
+      "confidence": 98,
+      "assertions": [
+        {
+          "start": 0,
+          "end": 59,
+          "text": "**Oregon Medicaid prescribing-claims study (PMID 8023479)**",
+          "unit": 0,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 61,
+          "end": 112,
+          "text": "- **Jurisdiction**: Oregon, USA (Medicaid program).",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 115,
+          "end": 198,
+          "text": "- **Population**: Medicaid beneficiaries prescribed oral terfenadine or astemizole.",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 201,
+          "end": 269,
+          "text": "- **Dose/route**: Oral; claims data do not specify individual doses.",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 272,
+          "end": 386,
+          "text": "- **Outcome**: Arrhythmia-related hospitalization or sudden cardiac death identified by diagnosis/procedure codes.",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 403,
+          "end": 679,
+          "text": "The study reported that concurrent prescriptions for terfenadine or astemizole with interacting medicines (e.g., macrolide antibiotics, azole antifungals, other CYP3A4 inhibitors) were associated with higher rates of arrhythmia-related events compared with non-concurrent use.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 681,
+          "end": 706,
+          "text": "**What it does not show**",
+          "unit": 6,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 709,
+          "end": 888,
+          "text": "- It does **not** establish true community incidence of arrhythmia because the outcome is limited to hospitalized/recorded events; mild or non-hospitalized arrhythmias are missed.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 891,
+          "end": 997,
+          "text": "- It does **not** confirm arrhythmia mechanism or subtype (e.g., torsades de pointes) by ECG or telemetry.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 1000,
+          "end": 1081,
+          "text": "- It does **not** exclude confounding by indication or residual prescribing bias.",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1084,
+          "end": 1148,
+          "text": "- Precision is limited by small event numbers for rare outcomes.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1174,
+          "end": 1372,
+          "text": "FDA subsequently withdrew terfenadine (1997) and astemizole (1999) after post-marketing surveillance and ECG studies confirmed QT prolongation/torsades risk at therapeutic or interacting-drug doses.",
+          "unit": 11,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1395,
+          "end": 1409,
+          "text": "Ray WA, et al.",
+          "unit": 12,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 1410,
+          "end": 1483,
+          "text": "Terfenadine and astemizole: prescribing patterns and cardiac arrhythmias.",
+          "unit": 13,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 1484,
+          "end": 1504,
+          "text": "PMID 8023479 (1994).",
+          "unit": 14,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:8023479",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 44,
+              "end": 56,
+              "text": "PMID 8023479"
+            },
+            {
+              "start": 1484,
+              "end": 1496,
+              "text": "PMID 8023479"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Possible interactions with terfenadine or astemizole",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+            "ref": "turn273view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [],
+      "counts_before_repeat_grouping": {
+        "contradicted": 4,
+        "unsupported": 1
+      },
+      "unresolved_scope_or_attribution": 5,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 0,
+          "end": 59,
+          "text": "**Oregon Medicaid prescribing-claims study (PMID 8023479)**",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "start": 1395,
+          "end": 1409,
+          "text": "Ray WA, et al.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "start": 1410,
+          "end": 1483,
+          "text": "Terfenadine and astemizole: prescribing patterns and cardiac arrhythmias.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "start": 1484,
+          "end": 1504,
+          "text": "PMID 8023479 (1994).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q11-M4-direct",
+      "view": "displayed",
+      "text_sha256": "561242a732b10d043182372e1088e7592c0200520db90761ae494861dd919cd1",
+      "answer_judgment": "Recognizes co-dispensing and lack of clinical outcomes; misstates period and replaces actual counts/percentages with broad adjectives.",
+      "facets": [
+        "P",
+        "C"
+      ],
+      "confidence": 88,
+      "assertions": [
+        {
+          "start": 0,
+          "end": 54,
+          "text": "**Jurisdiction and population.** Oregon Medicaid, USA.",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 55,
+          "end": 297,
+          "text": "The study examined 1990–1992 Medicaid prescription claims for patients receiving terfenadine or astemizole, focusing on concurrent dispensing of contraindicated/interacting medicines (macrolide antibiotics, imidazole antifungals, and others).",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 298,
+          "end": 434,
+          "text": "PMID 8023479 corresponds to the published analysis of Oregon Medicaid prescribing claims (the “Oregon Medicaid” drug-utilization study).",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:8023479"
+          ],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 436,
+          "end": 567,
+          "text": "**Dose/route.** Terfenadine and astemizole are oral antihistamines; the study assessed prescription claims, not administered doses.",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 568,
+          "end": 640,
+          "text": "It did not measure serum concentrations, QT intervals, or dose–response.",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 672,
+          "end": 840,
+          "text": "- Among Medicaid patients dispensed terfenadine or astemizole, a measurable proportion also had claims for potentially interacting medicines during overlapping periods.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 841,
+          "end": 1057,
+          "text": "- The study identified concurrent prescribing of contraindicated or cautionary drugs—particularly erythromycin and other macrolides, and imidazole antifungals such as ketoconazole—as a prevalent claims-level pattern.",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1058,
+          "end": 1204,
+          "text": "- It demonstrated that pharmacy claims can detect potentially dangerous coprescribing and that such coprescribing was not rare in this population.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1205,
+          "end": 1312,
+          "text": "- The authors used these findings to argue for prospective drug-utilization review and claims-based alerts.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1314,
+          "end": 1367,
+          "text": "**What it does not show about arrhythmia incidence.**",
+          "unit": 9,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 1368,
+          "end": 1523,
+          "text": "- It does not establish that concurrent prescriptions caused torsades de pointes, QT prolongation, ventricular arrhythmia, cardiac arrest, or sudden death.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1524,
+          "end": 1633,
+          "text": "- It does not provide incidence rates, relative risks, or absolute risk of arrhythmia among exposed patients.",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1634,
+          "end": 1765,
+          "text": "- It cannot distinguish dispensed from actually ingested drugs, nor confirm simultaneous use, dose, duration, or patient adherence.",
+          "unit": 12,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1766,
+          "end": 1882,
+          "text": "- It lacks clinical outcomes, electrocardiographic data, hospitalization records, or validated arrhythmia endpoints.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1883,
+          "end": 2020,
+          "text": "- It does not prove causality; the association is between claims for coprescribed drugs, not between drug exposure and arrhythmic events.",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2021,
+          "end": 2113,
+          "text": "- It does not quantify the background arrhythmia rate or compare it with unexposed patients.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2115,
+          "end": 2225,
+          "text": "**Uncertainty.** The key uncertainty is that the study is a prescribing-claims analysis, not an outcome study.",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2226,
+          "end": 2344,
+          "text": "It supports a signal of potentially unsafe coprescribing but cannot answer whether, or how often, arrhythmia occurred.",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2345,
+          "end": 2429,
+          "text": "Any inference about arrhythmia incidence from this study alone would be unsupported.",
+          "unit": 18,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2431,
+          "end": 2707,
+          "text": "**Regulator context.** Terfenadine was withdrawn from the US market in 1998 (and earlier in some countries) after reports of QT prolongation and torsades de pointes, particularly with macrolide antibiotics and imidazole antifungals; astemizole was withdrawn in the US in 1999.",
+          "unit": 19,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2708,
+          "end": 2909,
+          "text": "The Oregon study predated those withdrawals and contributed to the safety concern, but the arrhythmia risk was established by case reports, ECG studies, and regulatory reviews—not by this claims study.",
+          "unit": 20,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2911,
+          "end": 3106,
+          "text": "**Bottom line.** The Oregon Medicaid prescribing-claims study found that concurrent claims for terfenadine/astemizole and interacting medicines were common enough to warrant systematic screening.",
+          "unit": 21,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 3107,
+          "end": 3195,
+          "text": "It did not measure or demonstrate arrhythmia incidence, causality, or clinical outcomes.",
+          "unit": 22,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:8023479"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:8023479",
+              "locator": "Author abstract, design and Results sentences"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:8023479",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 298,
+              "end": 310,
+              "text": "PMID 8023479"
+            },
+            {
+              "start": 3217,
+              "end": 3230,
+              "text": "PMID: 8023479"
+            }
+          ],
+          "use_status": "proposed_relevant_contribution",
+          "registry_verification": {
+            "title": "Possible interactions with terfenadine or astemizole",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+            "ref": "turn273view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. PMID: 8023479 — Oregon Medicaid prescribing-claims analysis of terfenadine/astemizole coprescribing. (Primary source version identified.)",
+          "start": 3214,
+          "end": 3354
+        },
+        {
+          "text": "2. US Food and Drug Administration. Terfenadine withdrawal/safety communications, 1997–1998. FDA archives.",
+          "start": 3355,
+          "end": 3461
+        },
+        {
+          "text": "3. US Food and Drug Administration. Astemizole withdrawal/safety communications, 1999. FDA archives.",
+          "start": 3462,
+          "end": 3562
+        },
+        {
+          "text": "4. European Medicines Agency and national regulators. Terfenadine/astemizole QT-prolongation and torsades de pointes safety reviews, 1990s.",
+          "start": 3563,
+          "end": 3702
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "supported": 16,
+        "contradicted": 1,
+        "unsupported": 3
+      },
+      "unresolved_scope_or_attribution": 2,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [
+        "PMID:8023479"
+      ],
+      "recall_point_proposed": 1.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 298,
+          "end": 434,
+          "text": "PMID 8023479 corresponds to the published analysis of Oregon Medicaid prescribing claims (the “Oregon Medicaid” drug-utilization study).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "text": "1. PMID: 8023479 — Oregon Medicaid prescribing-claims analysis of terfenadine/astemizole coprescribing. (Primary source version identified.)",
+          "start": 3214,
+          "end": 3354,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:8023479"
+          ]
+        },
+        {
+          "text": "2. US Food and Drug Administration. Terfenadine withdrawal/safety communications, 1997–1998. FDA archives.",
+          "start": 3355,
+          "end": 3461,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "3. US Food and Drug Administration. Astemizole withdrawal/safety communications, 1999. FDA archives.",
+          "start": 3462,
+          "end": 3562,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "4. European Medicines Agency and national regulators. Terfenadine/astemizole QT-prolongation and torsades de pointes safety reviews, 1990s.",
+          "start": 3563,
+          "end": 3702,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    }
+  ]
+}

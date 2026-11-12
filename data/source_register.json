@@ -1,0 +1,1253 @@
+[
+  {
+    "source_id": "FDA:RAXAR-RL-740:1999-08",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/98/20-695S003_Raxar_Prntlbl.pdf",
+    "questions": [
+      18
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/98/20-695S003_Raxar_Prntlbl.pdf",
+        "locator": "PDF pp 11–12/printed pp 10–11, lines 276–283 and 300–309; revision PDF p 24",
+        "access_depth": "Exact adopted PDF re-fetched; pp 11–12 and revision p 24 inspected; p 11 visually checked on 31 October 2026."
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:Singer-2001-08-13:PID-D010228",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+    "questions": [
+      17,
+      18,
+      19
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "Package PDF p 50 header and p 64/printed p 15 grepafloxacin paragraph",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026."
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF pp 64–65/printed pp 15–16; general limitations pp 53–54",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026."
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF p 64/printed p 15, Table 6",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026."
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF p 64, methods immediately before Table 6",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026."
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF pp 64–65; supporting reporting caveats pp 53–54",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026."
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:astemizole-notice-1999",
+    "url": "https://www.govinfo.gov/content/pkg/FR-1999-08-23/html/99-21813.htm",
+    "questions": [
+      13
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1999-08-23/html/99-21813.htm",
+        "locator": "Summary; supplementary final two paragraphs, FR p 45973",
+        "access_depth": "Full official notice inspected"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1999-08-23/html/99-21813.htm",
+        "locator": "Supplementary statement that agency considered sponsor explanation and available information",
+        "access_depth": "Full official notice inspected"
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA determination that Hismanal was withdrawn for safety reasons",
+      "publication_year": 1999,
+      "original_url": "https://www.govinfo.gov/content/pkg/FR-1999-08-23/html/99-21813.htm",
+      "source_sha256": "1848127c0e8d4b618effa9eca7950f12376ac046d58a1d81c1c9e94edd26fd27",
+      "extraction_sha256": "10f3b9af564ced1bc4d997b43833b2520ef9875299fa34d5706ddb9aa0d1e381",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:citalopram-capsule-2023:215428s002",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%220bb9dfa0-f842-cf8c-cc79-79a14d75d446%22&limit=1",
+    "questions": [
+      31
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA drug label 0bb9dfa0-f842-cf8c-cc79-79a14d75d446",
+      "publication_year": 2025,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%220bb9dfa0-f842-cf8c-cc79-79a14d75d446%22&limit=1",
+      "source_sha256": "22352e30ca63803cbc083b0b1f91535d7948caa796b98d57da8ebe24963b4459",
+      "extraction_sha256": "a99c697621c772310dbf8cede20058ea11e2ba2dcfa68077e9767ddb6cf221e1",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:terfenadine-final-1998",
+    "url": "https://www.govinfo.gov/content/pkg/FR-1998-10-05/html/98-26522.htm",
+    "questions": [
+      9
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1998-10-05/html/98-26522.htm",
+        "locator": "Summary, Effective Date and final order",
+        "access_depth": "Full official notice inspected"
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA final terfenadine approval withdrawal",
+      "publication_year": 1998,
+      "original_url": "https://www.govinfo.gov/content/pkg/FR-1998-10-05/html/98-26522.htm",
+      "source_sha256": "8b851efe11ae0d2b05237a7902f05c8eeccd303fa32b59db81b0a71c9a2d8430",
+      "extraction_sha256": "848185af44915b1b70d3a77f14d0660eb6c91db660d80a6bd66cc92acd90ea30",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:terfenadine-market-history-1998",
+    "url": "https://www.govinfo.gov/content/pkg/FR-1998-10-08/html/98-26923.htm",
+    "questions": [
+      9
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1998-10-08/html/98-26923.htm",
+        "locator": "Terfenadine paragraph; staged raw offsets 31164–31533",
+        "access_depth": "Official selected passage in Notion inspected"
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA:terfenadine-market-history-1998",
+      "publication_year": 1998,
+      "original_url": "https://www.govinfo.gov/content/pkg/FR-1998-10-08/html/98-26923.htm",
+      "source_sha256": "cbc84ed282f251d90073336d16cac198d06371ebce2f627ff42177e53675b78d",
+      "extraction_sha256": "75671f76cc04dfeb9a770f98025db609702dbfa6c30f4735ab37e70c2a25b40f",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:terfenadine-proposal-1997",
+    "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+    "questions": [
+      9,
+      12
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+        "locator": "Background, especially labeling/warning paragraphs; Summary",
+        "access_depth": "Full official notice inspected"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+        "locator": "Summary and Background paragraphs on CYP3A4, hepatic dysfunction and serious events",
+        "access_depth": "Full official notice inspected"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+        "locator": "Summary and Background; compare the experimental populations in PMID 8445813 and PMID 1526078",
+        "access_depth": "Official notice and primary study abstracts inspected"
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA notice proposing terfenadine application withdrawal",
+      "publication_year": 1997,
+      "original_url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+      "source_sha256": "4c1d1efa3f5bfb236391f5153de1c76adb0c7a6dae6af807826c03bd95545bbe",
+      "extraction_sha256": "d248c604f0e22839adafb9fefe5366cd2c3be0fe9055e224356e133712cbe259",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FDA:withdrawn-proposal-2014",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2014-07-02/html/2014-15371.htm",
+    "questions": [
+      5
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2014-07-02/html/2014-15371.htm",
+        "locator": "Cisapride paragraph, Federal Register p 37690–37691; staged raw offsets 28372–29046",
+        "access_depth": "Official notice passage inspected"
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA proposed list of drugs withdrawn for safety or effectiveness",
+      "publication_year": 2014,
+      "original_url": "https://www.govinfo.gov/content/pkg/FR-2014-07-02/html/2014-15371.htm",
+      "source_sha256": "3161e75920df918c2bcde870d286d0dc0d9725ffb098760f7bda390b30025afb",
+      "extraction_sha256": "b4d2ca708bf8b9d80d075ae8e068f502f122205520e49afb956f125cccaacec8",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "FederalRegister:2007-07-09:E7-13160",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2007-07-09/pdf/E7-13160.pdf",
+    "questions": [
+      17
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2007-07-09/pdf/E7-13160.pdf",
+        "locator": "PDF p 1, FR 72(130)p 37244",
+        "access_depth": "Exact adopted official PDF re-fetched and complete relevant corrected notice read on 31 October 2026."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2007-07-09/pdf/E7-13160.pdf",
+        "locator": "Safety-rationale and effective-date paragraphs",
+        "access_depth": "Exact adopted official PDF re-fetched and complete relevant corrected notice read on 31 October 2026."
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FederalRegister:2007-07-09:E7-13160",
+      "publication_year": 2007,
+      "original_url": "https://www.govinfo.gov/content/pkg/FR-2007-07-09/pdf/E7-13160.pdf",
+      "source_sha256": "90a5faae12ee31f0e12aae430a53d8b0882cef664e16f5447ca6670d6541a76a",
+      "extraction_sha256": "f0430d2feac8955d247f993f697f4dee2e0d28fa9515c3cc1cb06dd51f184505",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:10334509",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10334509/",
+    "questions": [
+      4
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10334509/",
+        "locator": "Author abstract, I(K1) results",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:11040340",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11040340/",
+    "questions": [
+      20
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11040340/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:11181910",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11181910/",
+    "questions": [
+      20
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524388202",
+        "locator": "Publisher Cellular Electrophysiology excerpt; Abstract potency results",
+        "access_depth": "Primary abstract plus publisher Methods excerpt inspected"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11181910/",
+        "locator": "Author abstract, rabbit outcomes",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11181910/",
+        "locator": "Publication date, abstract and publisher Discussion excerpt",
+        "access_depth": "Primary record and inspected excerpts"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:11419817",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+    "questions": [
+      5,
+      6
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S000292700102490X",
+        "locator": "Introduction, paragraphs beginning Cisapride was first marketed / In June 1998 / In January 2000",
+        "access_depth": "Publisher-indexed primary Introduction excerpt and author abstract inspected"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Author abstract, Results and Conclusions",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Author abstract, Results; replace staged Objective-only anchor",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Author abstract, Results following event counts",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Methods/Results abstract and reporting design",
+        "access_depth": "Primary author abstract inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:12709719",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12709719/",
+    "questions": [
+      21,
+      22
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:14709949",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14709949/",
+    "questions": [
+      33
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:1526078",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+    "questions": [
+      10,
+      12
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+        "locator": "Study regimen and ECG endpoints in abstract",
+        "access_depth": "Primary author abstracts inspected"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:1623896",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1623896/",
+    "questions": [
+      1,
+      3
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1623896/",
+        "locator": "Author abstract, relevant result sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1623896/",
+        "locator": "Author abstract, case series and prospective-study sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:16304291",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16304291/",
+    "questions": [
+      24
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:16472283",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16472283/",
+    "questions": [
+      21,
+      22,
+      24
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:1677700",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+    "questions": [
+      1,
+      2
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract, relevant result sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Case-series abstract and study design",
+        "access_depth": "Primary abstract; inference from design"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract, opening and penultimate sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract, first three sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract and case series design",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:1937973",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1937973/",
+    "questions": [
+      13,
+      14
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1937973/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1937973/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:20399985",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20399985/",
+    "questions": [
+      34
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:22591294",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22591294/",
+    "questions": [
+      25,
+      26
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:23229485",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23229485/",
+    "questions": [
+      21,
+      24
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:23360890",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23360890/",
+    "questions": [
+      29,
+      30,
+      32
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:23635050",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23635050/",
+    "questions": [
+      26
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:24615307",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24615307/",
+    "questions": [
+      27
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:26920666",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26920666/",
+    "questions": [
+      21,
+      24
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:30269062",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30269062/",
+    "questions": [
+      21,
+      24
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:38252439",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38252439/",
+    "questions": [
+      35
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": "10.1001/jamanetworkopen.2023.52034",
+      "title": "Antipsychotics and the QTc Interval During Delirium in the Intensive Care Unit: A Secondary Analysis of a Randomized Clinical Trial.",
+      "publication_year": 2024,
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804270/",
+      "source_sha256": "a433f9a9cd657809719b8abed37eaf23db9155030cdb317fdc7d0c92815b514c",
+      "extraction_sha256": "febdce74097f521b1cda5ee752fc5fd48910d35878d3a6cd373ec9e7b802d999",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:7526675",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7526675/",
+    "questions": [
+      37,
+      38,
+      40
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:7662454",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7662454/",
+    "questions": [
+      3
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7662454/",
+        "locator": "Author abstract, Subjects, Methods, Results and Conclusions",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7662454/",
+        "locator": "Author abstract, Conclusions; design limitations",
+        "access_depth": "Primary author abstract inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:7695465",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7695465/",
+    "questions": [
+      7
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7695465/",
+        "locator": "Complete short author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7695465/",
+        "locator": "Complete author abstract; publication type Case Report",
+        "access_depth": "Primary abstract only"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:8023479",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+    "questions": [
+      11
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+        "locator": "Author abstract, design and Results sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+        "locator": "Author abstract and retrospective claims design",
+        "access_depth": "Primary author abstract inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:8445813",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8445813/",
+    "questions": [
+      10,
+      12
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8445813/",
+        "locator": "Author abstract, Participants, Intervention, Results; replace Objective-only anchor",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8445813/",
+        "locator": "Author abstract, Participants, Intervention and Results",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:9071844",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+    "questions": [
+      13,
+      14,
+      16
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Abstract; comparison with PMID 1937973",
+        "access_depth": "Primary abstracts inspected"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Author abstract, case sentence",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Author abstract, recovery sentence",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Author abstract and case-report design",
+        "access_depth": "Primary author abstract inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:9445174",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+    "questions": [
+      8
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+        "locator": "Author abstract, Methods and results; replace Background-only anchor",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+        "locator": "Author abstract, Methods and results",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+        "locator": "Preparation and experimental design in abstract",
+        "access_depth": "Primary author abstract inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:9583453",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+    "questions": [
+      15
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://www.jstage.jst.go.jp/article/jcj/62/3/62_3_225/_pdf",
+        "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs",
+        "access_depth": "Full 3-page primary scan OCR-read; p 225 visually checked"
+      },
+      {
+        "url": "https://www.jstage.jst.go.jp/article/jcj/62/3/62_3_225/_pdf",
+        "locator": "p 225 Case Report; p 227 Discussion",
+        "access_depth": "Full primary paper inspected"
+      },
+      {
+        "url": "https://www.jstage.jst.go.jp/article/jcj/62/3/62_3_225/_pdf",
+        "locator": "p 225 last paragraph; p 227 Discussion/Conclusion",
+        "access_depth": "Full primary paper inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "PMID:9863639",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+    "questions": [
+      1,
+      4
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+        "locator": "Author abstract, relevant result sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+        "locator": "Author abstract, methods and concentration-response sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+        "locator": "Author abstract; contrast with PMID 10334509",
+        "access_depth": "Primary author abstracts; translational inference"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%22ef4d587e-1e3e-4dbd-82f8-b102ec30df12%22&limit=1",
+    "questions": [
+      36
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "HALOPERIDOL",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%22ef4d587e-1e3e-4dbd-82f8-b102ec30df12%22&limit=1",
+      "source_sha256": "b42064105723b8e28410c3f53e9efe55f34defa4afba1c68af974c01efefbe7a",
+      "extraction_sha256": "c3bcb511e2dae8dd89a09f2cb757977500eca16d8d7df16037cfb94ce1d5fa97",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%224f130869-ba47-15fe-e063-6394a90a8ebc%22&limit=1",
+    "questions": [
+      28
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "CLARITHROMYCIN",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%224f130869-ba47-15fe-e063-6394a90a8ebc%22&limit=1",
+      "source_sha256": "909e865682264d322ea933ac095c1c35224302313cfc1bf9cd8604bf7168fd18",
+      "extraction_sha256": "ac900ddacb0dfa13e41127d6078d0c8984a5967dbd9e7e142773acf5f3aef039",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%2296bb0a48-48ee-4756-959b-f901434fd629%22&limit=1",
+    "questions": [
+      38,
+      39,
+      40
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "SOTALOL HYDROCHLORIDE",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%2296bb0a48-48ee-4756-959b-f901434fd629%22&limit=1",
+      "source_sha256": "6247df6071f0e712037da7c024ede1ed9ca42f6c4ca16c300ee915d3112f842d",
+      "extraction_sha256": "cd4de74ddd4ea4308644456ff9a37fe7f6e4569ccdc2c49ca1c89b42c7b8eda0",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%2257f7f2ec-3e5b-4ccf-e063-6294a90a5cf1%22&limit=1",
+    "questions": [
+      38,
+      39,
+      40
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "AMIODARONE HYDROCHLORIDE",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%2257f7f2ec-3e5b-4ccf-e063-6294a90a5cf1%22&limit=1",
+      "source_sha256": "03788b1f4aae76c6dfc3c595e23b28f3855526835eb60122ca1d537be4a01a89",
+      "extraction_sha256": "5e68520d951487952dc84da87dc4948b13395bd28058edfb2f00cd9e91f54a0a",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%225a09da31-0caa-e72a-e063-6394a90a5bf6%22&limit=1",
+    "questions": [
+      29,
+      31,
+      32
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "CITALOPRAM HYDROBROMIDE",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%225a09da31-0caa-e72a-e063-6394a90a5bf6%22&limit=1",
+      "source_sha256": "db3817ae165066ecf02c43e68dd1e712692e69d175d8ed2c36ad9ce4c49b7c9d",
+      "extraction_sha256": "0476c45e0a61f9271d249394a5f58abab1dec182ad7b683a600f5a1784940f00",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%2259428a91-3a88-2e83-e063-6294a90a3cef%22&limit=1",
+    "questions": [
+      21,
+      23
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "MOXIFLOXACIN",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%2259428a91-3a88-2e83-e063-6294a90a3cef%22&limit=1",
+      "source_sha256": "0762dc2c8875d205fdcd59595e7de89a28538e674cd0de2e0d0a46891fe263bf",
+      "extraction_sha256": "36d92aa77502f4be1409bbd6cc09ef33eccdff3e8251b0ce587fd8f825fdadcb",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%229b23608a-06f0-434f-b7f6-697c5eed28ed%22&limit=1",
+    "questions": [
+      36
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA drug label 9b23608a-06f0-434f-b7f6-697c5eed28ed",
+      "publication_year": 2025,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%229b23608a-06f0-434f-b7f6-697c5eed28ed%22&limit=1",
+      "source_sha256": "fb62100027bf4493199c4385737b8c563612083a3608f0357f3b2d34675be3cc",
+      "extraction_sha256": "fe9e0aed931cd679376ff2216f9a4277a79d8e3dae3f8fbccf938b3ef8a4fb0f",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%22be7fded9-0e2a-4b0e-b668-7be090de7919%22&limit=1",
+    "questions": [
+      28
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "ERYTHROMYCIN",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%22be7fded9-0e2a-4b0e-b668-7be090de7919%22&limit=1",
+      "source_sha256": "fec289654d2d2d9b96e88884ac3425c8d3864f1796c1c82ce05d07bb38e3b6bb",
+      "extraction_sha256": "d0e9d08314a3fab64001109305d6ffd5b2598d4e13c88e58e7e42cd0fe744dc6",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%22f3409439-088d-49ec-9e10-c6c3b1a07eef%22&limit=1",
+    "questions": [
+      36
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA drug label f3409439-088d-49ec-9e10-c6c3b1a07eef",
+      "publication_year": 2022,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%22f3409439-088d-49ec-9e10-c6c3b1a07eef%22&limit=1",
+      "source_sha256": "a4745474888fa8c96fa552258e08d43230b636760add02944f1da5c109a09459",
+      "extraction_sha256": "cd32560ba51686eb64d4c4d865ffd8a4097d9d433f80e7bc9157ac92c4c9dbf9",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%2215b15a3c-847e-4df1-8f5e-131ff4290a6d%22&limit=1",
+    "questions": [
+      21,
+      23
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "LEVOFLOXACIN",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%2215b15a3c-847e-4df1-8f5e-131ff4290a6d%22&limit=1",
+      "source_sha256": "0756536e2576fba324ea7ea0331017bb3443d30a75f9da990c89220e7498cc38",
+      "extraction_sha256": "447e5c8c231b92423bf06e2376a4a1724933279fb7b776690c425ac832626453",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%2257c4efae-23a1-9d06-e063-6394a90a4480%22&limit=1",
+    "questions": [
+      21,
+      23
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "CIPROFLOXACIN",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%2257c4efae-23a1-9d06-e063-6394a90a4480%22&limit=1",
+      "source_sha256": "1ea46900ebefb1e029fb6f15dff711e627f7fa50440e1196343a59c69ca78e22",
+      "extraction_sha256": "c9602259445f00e0314461bb2cb880cea28f8c936f5f520e1bc70249060a75c0",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%229929f3a5-d78b-4d99-bf87-d2693a9ac47e%22&limit=1",
+    "questions": [
+      29
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "FDA drug label 9929f3a5-d78b-4d99-bf87-d2693a9ac47e",
+      "publication_year": 2024,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%229929f3a5-d78b-4d99-bf87-d2693a9ac47e%22&limit=1",
+      "source_sha256": "ed444e1ea3030dcf5d384f46d92274c40cb166fdd0eb3babb44fccebffa4c040",
+      "extraction_sha256": "73cc135f63b4d8891478d63e681a191921a4b35fe5304aa7d01446eca1b0d788",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49",
+    "url": "https://api.fda.gov/drug/label.json?search=id%3A%221c5f0fcc-88ce-47e9-a128-b7326b7a5a02%22&limit=1",
+    "questions": [
+      28
+    ],
+    "recorded_reference_locators": [],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "AZITHROMYCIN DIHYDRATE",
+      "publication_year": 2026,
+      "original_url": "https://api.fda.gov/drug/label.json?search=id%3A%221c5f0fcc-88ce-47e9-a128-b7326b7a5a02%22&limit=1",
+      "source_sha256": "cc6bf250147491f657e966f533f23d256b83883643631dc1b99ac24a72f5d991",
+      "extraction_sha256": "232dff34dd7c05de47ba857c02f9ee963e024f2cf2c84d7f656d10237f0451a8",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "UK:hansard-1993",
+    "url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-04-14/Writtens-8.html",
+    "questions": [
+      1
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-04-14/Writtens-8.html",
+        "locator": "Drugs; paragraph headed Terodiline",
+        "access_depth": "Official parliamentary text inspected"
+      }
+    ],
+    "catalog_metadata": {},
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  },
+  {
+    "source_id": "UK:hansard-1996-04-30",
+    "url": "https://api.parliament.uk/historic-hansard/written-answers/1996/apr/30/safety-of-medicines",
+    "questions": [
+      1
+    ],
+    "recorded_reference_locators": [
+      {
+        "url": "https://api.parliament.uk/historic-hansard/written-answers/1996/apr/30/safety-of-medicines",
+        "locator": "HC Deb 30 April 1996, vol276, c509W–510W; category(c), Micturin row and footnote1",
+        "access_depth": "Full official retrospective table inspected"
+      }
+    ],
+    "catalog_metadata": {
+      "doi": null,
+      "title": "UK Parliament, Safety of Medicines, 30 April 1996",
+      "publication_year": 1996,
+      "original_url": "https://api.parliament.uk/historic-hansard/written-answers/1996/apr/30/safety-of-medicines",
+      "source_sha256": "96a0f0d9e5bcf52cfed5d06ac306b5e710053ae6cbfecca1184d84192035aac4",
+      "extraction_sha256": "b07c2866b0c1888265f85a5879184acc409059af19e7aa136431f09224f11fe2",
+      "access_depth": "selected_passages"
+    },
+    "version_note": "Use the exact identifier/version and question-specific locator. A current URL may serve a later version. Catalog identity equivalence still needs source review.",
+    "supplied_material": "Identifier, rubric and source locators; no third-party full text",
+    "redistribution": "No blanket rights clearance; retrieve from original publisher or regulator",
+    "unresolved_url": false
+  }
+]

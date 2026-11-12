@@ -1,0 +1,73 @@
+{
+  "review_date": "2026-11-09",
+  "provenance": "User-submitted targeted spot check; reviewer field unnamed. Expertise and independence not attested.",
+  "scope": "Only the listed criteria. Other grades and granular annotations remain first AI judgments.",
+  "entries": [
+    {
+      "record_id": "Q30-M1-direct",
+      "model": "inclusionai/ling-3.0-flash-sante",
+      "arm": "direct",
+      "question_no": 30,
+      "facet_id": "Limits",
+      "original_grade": "C",
+      "returned_grade": "P",
+      "source_locator": "S04 (PMID 23360890): Methods §§3–4; limitations §10.",
+      "reason": "Notes ECG selection and confounding but omits QTc's surrogate limitation. Low clinical-event rates were not established.",
+      "canonical_answer_sha256": "0129938b745433da0809532d7e093a08fdbb992fff9c28e25bcb223f17c7701c",
+      "changed": true
+    },
+    {
+      "record_id": "Q30-M2-direct",
+      "model": "inclusionai/ling-3.0-flash",
+      "arm": "direct",
+      "question_no": 30,
+      "facet_id": "Limits",
+      "original_grade": "P",
+      "returned_grade": "I",
+      "source_locator": "S04 (PMID 23360890): Methods §§3–4; limitations §10.",
+      "reason": "Misstates ascertainment and endpoint: ECG 14–90 days after prescription was required; measured QTc, not hospitalisation/death.",
+      "canonical_answer_sha256": "fb434ab58d52f59c0f752d2a88259c87250f7d5ce0fa046cde50c670fe9a2a22",
+      "changed": true
+    },
+    {
+      "record_id": "Q23-M1-direct",
+      "model": "inclusionai/ling-3.0-flash-sante",
+      "arm": "direct",
+      "question_no": 23,
+      "facet_id": "Versions",
+      "original_grade": "P",
+      "returned_grade": "C",
+      "source_locator": "S08 v1; S09 v1; S10 v11: set_id, version, tablet product metadata.",
+      "reason": "Lists all three exact SPL identifiers and versions.",
+      "canonical_answer_sha256": "0884f1afb770aa825b65601959b4cbd8ac73981b425aaf5bd071158caa2a2010",
+      "changed": true
+    },
+    {
+      "record_id": "Q23-M2-direct",
+      "model": "inclusionai/ling-3.0-flash",
+      "arm": "direct",
+      "question_no": 23,
+      "facet_id": "Versions",
+      "original_grade": "C",
+      "returned_grade": "C",
+      "source_locator": "S08 v1; S09 v1; S10 v11: set_id, version, tablet product metadata.",
+      "reason": "Pairs each drug with its correct exact SPL identifier and version.",
+      "canonical_answer_sha256": "731e930caed812f8679fa8edb8bc37fcd9e96c60e19636d34d77b88fb245f57a",
+      "changed": false
+    },
+    {
+      "record_id": "Q01-M2-direct",
+      "model": "inclusionai/ling-3.0-flash",
+      "arm": "direct",
+      "question_no": 1,
+      "facet_id": "T2",
+      "original_grade": "P",
+      "returned_grade": "P",
+      "source_locator": "S03 (PMID 1677700): author abstract.",
+      "reason": "Notes older patients with QT prolongation/TdP; omits bradycardia or atrioventricular conduction disturbance in all five cases.",
+      "canonical_answer_sha256": "802434e454c099b900c8d1cc014f8b0aa97dac7d732d506bc0b994881b5546c9",
+      "changed": false
+    }
+  ],
+  "additional_note": "Q23-M1-direct and Q23-M2-direct: ciprofloxacin says 'Avoid Use' with QT-prolonging drugs (selected label v11, section 7). Not an added facet rating."
+}

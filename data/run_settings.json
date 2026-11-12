@@ -1,0 +1,71 @@
+{
+  "models": [
+    "inclusionai/ling-3.0-flash-sante",
+    "inclusionai/ling-3.0-flash",
+    "moonshotai/kimi-k2.6",
+    "deepseek/deepseek-v4.1-flash",
+    "qwen/qwen3.8-flash",
+    "mistralai/mistral-small-2603"
+  ],
+  "common_prompt_wrapper": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.",
+  "evidence_cutoff": "2026-10-29",
+  "max_input_tokens": 32768,
+  "max_billable_output_tokens": 8192,
+  "max_concurrent_requests": 1,
+  "max_transport_retries": 2,
+  "sdk_automatic_retries": 0,
+  "sampling": {
+    "sante": "temperature=0 via Vercel; no added reasoning override",
+    "base_ling": "temperature=0 via Vercel; no added reasoning override",
+    "qwen": "temperature=0 via Vercel; reasoning.effort=none",
+    "deepseek_and_mistral": "temperature=0 and top_p=1 when advertised by endpoint; reasoning.enabled=false",
+    "kimi": "temperature and top_p not overridden; reasoning.enabled=false"
+  },
+  "gateways": {
+    "sante": "Vercel / Novita",
+    "base_ling": "Vercel / Novita",
+    "qwen": "Vercel / Alibaba",
+    "deepseek": "OpenRouter / Together",
+    "kimi": "OpenRouter / DigitalOcean",
+    "mistral": "OpenRouter / Mistral"
+  },
+  "seed": "No sampling seed established in supplied request evidence",
+  "judge": "Initial external AI review; separate Gemini assessment not run; exact first-judge model/version not established",
+  "run_manifest_sha256": "f24a33e8f4d5fbf2576cd5789728caa78675d2d16540fe0311ed6120b4e336eb",
+  "settings_scope": "Frozen run settings and qualification metadata. Endpoint revision labels do not prove served weight revisions.",
+  "routes": {
+    "deepseek": {
+      "endpoint_name": "Together | deepseek/deepseek-v4.1-flash-20260910",
+      "provider_tag": "together",
+      "reasoning_state": "disabled",
+      "response_provider_identity": "Together"
+    },
+    "kimi": {
+      "endpoint_name": "DigitalOcean | moonshotai/kimi-k2.6-20260420",
+      "provider_tag": "digitalocean",
+      "reasoning_state": "disabled",
+      "response_provider_identity": "DigitalOcean"
+    },
+    "mistral": {
+      "endpoint_name": "Mistral | mistralai/mistral-small-2603",
+      "provider_tag": "mistral/eu",
+      "reasoning_state": "disabled",
+      "response_provider_identity": "Mistral"
+    },
+    "qwen": {
+      "endpoint_name": "Alibaba | qwen/qwen3.8-flash-20260826",
+      "provider_tag": "alibaba",
+      "reasoning_state": "disabled",
+      "response_provider_identity": "Alibaba"
+    },
+    "sante": {
+      "provider_tag": "novita",
+      "reasoning_state": "provider_default"
+    },
+    "standard": {
+      "provider_tag": "novita",
+      "reasoning_state": "provider_default"
+    }
+  },
+  "prompt_disclosure": "Exact recorded direct message arrays included. No retrieval tools or supplied source passages."
+}

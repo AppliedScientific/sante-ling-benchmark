@@ -1,0 +1,584 @@
+[
+  {
+    "question_no": 1,
+    "source_schema": "featured1_claims.json",
+    "reference_notes": {
+      "primary_evidence": {
+        "H93": [
+          "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-04-14/Writtens-8.html",
+          "Terodiline paragraph, 1993 retrospective account; July 1991 warning, further reports, voluntary company withdrawal, October 1991 Current Problems 32."
+        ],
+        "H96": [
+          "https://api.parliament.uk/historic-hansard/written-answers/1996/apr/30/safety-of-medicines",
+          "1996 table, category (c), Micturin row and footnote. Year of market removal, not precise legal effective date."
+        ],
+        "Hletter": [
+          "https://publications.parliament.uk/pa/cm199596/cmhansrd/vo960509/text/60509w14.htm",
+          "Retrospective CSM communications list: 25 July 1991 terodiline and adverse cardiac reactions. Not a substitute for the unseen original letter."
+        ],
+        "Connolly": [
+          "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+          "Author metadata and primary abstract. Five patients, four women; mean 74 years, range 55–87. TdP and QT prolongation; baseline QT normal in three, normalized off drug in four; bradycardia or AV conduction disturbance in all."
+        ],
+        "McLeod": [
+          "https://pubmed.ncbi.nlm.nih.gov/1676922/",
+          "June 1991 BMJ report, title/author/DOI metadata: TdP complicating treatment with terodiline."
+        ],
+        "Stewart": [
+          "https://pubmed.ncbi.nlm.nih.gov/1623896/",
+          "1992 abstract: four cases, two hypokalaemic on diuretics; separate eight elderly inpatients, 12.5 mg BID seven days, mean QT +29 ms, QTc +15 ms, resting HR −6.7/min."
+        ],
+        "Thomas": [
+          "https://pubmed.ncbi.nlm.nih.gov/7662454/",
+          "1995 original abstract, subjects/methods/results: stable-dose asymptomatic patients; increased QTc and dispersion correlated with total and both enantiomer concentrations. Not a TdP incidence study."
+        ],
+        "IKr": [
+          "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+          "1998 original abstract: guinea-pig ventricular myocytes, E4031-sensitive native IKr IC50 0.7 µM. Higher concentrations also affect IKs."
+        ],
+        "IK1": [
+          "https://pubmed.ncbi.nlm.nih.gov/10334509/",
+          "1999 original abstract: separate native outward IK1 IC50 7 µM; not IKr."
+        ],
+        "Dog": [
+          "https://pubmed.ncbi.nlm.nih.gov/11569530/",
+          "2001 abstract, dog action-potential duration versus concentrations: not a selective direct-current measurement."
+        ],
+        "Racemate": [
+          "https://pubmed.ncbi.nlm.nih.gov/8689817/",
+          "1996 randomized single-dose volunteer study of racemate and enantiomers, not metabolites; QTc increase with racemate and R(+)."
+        ],
+        "Genotype": [
+          "https://pubmed.ncbi.nlm.nih.gov/10886124/",
+          "2000 primary study of genotypes in eight survivors identified via a UK reporting system, not a population absolute-risk estimate."
+        ],
+        "HEK": [
+          "https://pubmed.ncbi.nlm.nih.gov/17110801/",
+          "2006 primary comparison, hERG in HEK at 37 C: terodiline IC50 375 nM; distinction from native IKr 0.7 µM and different Purkinje outcomes."
+        ],
+        "WrongOrgan": [
+          "https://openalex.org/W2038180959",
+          "Indexed DOI/title metadata only: Lancet organ-donation news item, not metabolite pharmacology; publisher/resolver body inaccessible."
+        ],
+        "WrongPain": [
+          "https://pubmed.ncbi.nlm.nih.gov/12642375/",
+          "MEK1/neuropathic pain original bibliographic record; correct DOI misassigned to claimed Redfern paper."
+        ],
+        "S7B": [
+          "https://database.ich.org/sites/default/files/S7B_Guideline.pdf",
+          "ICH S7B, finalized May 2005."
+        ],
+        "Roden": [
+          "https://pubmed.ncbi.nlm.nih.gov/14999113/",
+          "Verified bibliographic identity: broad 2004 review, not a primary terodiline case series."
+        ],
+        "Redfern": [
+          "https://pubmed.ncbi.nlm.nih.gov/12667944/",
+          "Verified bibliographic identity: 2003 comparative hERG/QT safety-margin paper."
+        ],
+        "Trace": [
+          "[private source-trace locator omitted; use request inventory where applicable]",
+          "Per-answer finalizer input, structured-source and paper-abstract arrays; not the entire preceding search process."
+        ],
+        "Index": [
+          "[private source-trace locator omitted; use request inventory where applicable]",
+          "Recorded DOI/title/metadata from public discovery; identity or explicit title-level proposition only."
+        ]
+      }
+    }
+  },
+  {
+    "question_no": 2,
+    "source_schema": "deep02.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 3,
+    "source_schema": "deep03.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 4,
+    "source_schema": "deep04.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 5,
+    "source_schema": "deep05.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 6,
+    "source_schema": "deep06.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 7,
+    "source_schema": "deep07.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 8,
+    "source_schema": "deep08.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 9,
+    "source_schema": "deep09.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 10,
+    "source_schema": "deep10.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 11,
+    "source_schema": "deep11.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 12,
+    "source_schema": "deep12.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 13,
+    "source_schema": "deep13.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 14,
+    "source_schema": "deep14.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 15,
+    "source_schema": "deep15.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 16,
+    "source_schema": "deep16.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 17,
+    "source_schema": "deep17.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 18,
+    "source_schema": "deep18.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 19,
+    "source_schema": "deep19.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 20,
+    "source_schema": "deep20.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 21,
+    "source_schema": "featured2_claims.json",
+    "reference_notes": {
+      "sources": {
+        "M": "Selected moxifloxacin SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1 §§5.6,7.5; FDA AVELOX 2016 §5.6 (formulation/version distinctions retained).",
+        "L": "Selected levofloxacin SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1 §§5.11,8.5; LEVAQUIN 2013 §5.9.",
+        "C": "Selected ciprofloxacin SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11 §§5.12,7.",
+        "FQtrial": "PMID12709719 and 16472283 Methods/Results/Conclusions.",
+        "Korea": "PMID30269062 Methods selection/exclusions; Table 2.",
+        "Nordic": "PMID26920666 Methods/Results; Main results and Limitations.",
+        "Zeuli": "PMID23229485 original abstract Methods/Results and risk factors.",
+        "registry": "See per-answer exact source/citation records and identity statuses.",
+        "uncited": "No adequate linked passage identified.",
+        "ICH": "FDA E14 Q&A R3 https://www.fda.gov/media/71379/download?attachment= ; threshold section.",
+        "FDA2016/18": "FDA original safety notice https://www.fda.gov/downloads/Drugs/DrugSafety/UCM612834.pdf and earlier notices enumerated therein.",
+        "CredibleMeds": "https://crediblemeds.org/blog/changes-made-crediblemeds-lists ; March 2015 cipro reclassification."
+      }
+    }
+  },
+  {
+    "question_no": 22,
+    "source_schema": "deep22.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:12709719": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+        "PMID:16472283": "Abstract > Methods; Results and Conclusions"
+      },
+      "primary_source_benchmarks": {
+        "PMID:12709719": {
+          "finding": "In a randomized, four-period crossover study in healthy adults, single doses of moxifloxacin 800 mg, levofloxacin 1,000 mg and ciprofloxacin 1,500 mg were compared with placebo. The reported mean 24-hour QTc changes using Bazett correction were 16.34–17.83 ms, 3.53–4.88 ms and 2.27–4.93 ms, respectively. These ranges reflect different baseline methods; they are not confidence intervals.",
+          "limitations": "The study used high single exposures. Baseline method and daily variation affected the estimates. Clinical-event relevance was not established. The complete original abstract was inspected; the full methods and tables were not independently inspected.",
+          "source_with_locator": "[PMID:12709719](https://pubmed.ncbi.nlm.nih.gov/12709719/). <b>Locator:</b> Abstract > METHODS; RESULTS; CONCLUSIONS. <b>Access depth:</b> complete original abstract inspected."
+        },
+        "PMID:16472283": {
+          "finding": "Thirteen healthy participants received ciprofloxacin 500 mg twice daily, levofloxacin 500 mg daily and moxifloxacin 400 mg daily in an open-label crossover study with randomized treatment order. Each course lasted seven days, with a one-week washout. Lead II QTc was assessed before treatment, two hours after the first dose and after the course. Moxifloxacin increased QTc by 6 ms from baseline; no QTc effect was detected for ciprofloxacin or levofloxacin, and no QT-dispersion change was detected.",
+          "limitations": "This small surrogate-endpoint study does not establish absence of torsades de pointes or safety with other QT-active medicines. The exact correction formula and numerical full-text tables are excluded from mandatory gold because their original passages were not inspected.",
+          "source_with_locator": "[PMID:16472283](https://pubmed.ncbi.nlm.nih.gov/16472283/). <b>Locator:</b> Abstract > Methods; Results and Conclusions. <b>Access depth:</b> complete original abstract inspected."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 23,
+    "source_schema": "deep23.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1": "§5.6 (sec_6990767177), §7.5 (sec_7880738376)",
+        "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1": "§5.11 (ID253); §8.5 geriatric QT caution",
+        "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11": "§5.12 (LINK_0df637d7-f34a-4d3b-9486-604abbe2bc35); §7 QT-drug interaction row"
+      },
+      "primary_source_benchmarks": {
+        "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1": {
+          "finding": "The selected oral moxifloxacin tablet label reports a mean QTc change of 6±26 ms after 400 mg. It recommends avoiding specified QT-risk conditions, class IA or III antiarrhythmics and other QT-prolonging medicines. Section 7.5 describes limited human interaction information; its dog experiment with sotalol is not a human risk estimate.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:656f582c-ecba-4ec8-9420-9562114d889b\\:v1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=656f582c-ecba-4ec8-9420-9562114d889b). <b>Locator:</b> §5.6 (sec\\_6990767177), §7.5 (sec\\_7880738376). <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1": {
+          "finding": "The selected oral levofloxacin tablet label recommends avoidance in known QT prolongation, uncorrected hypokalaemia and use of class IA or III antiarrhythmics. Its geriatric section adds QT caution. Spontaneously reported torsades cases do not provide an incidence estimate.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada\\:v1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b9dc8bf3-97d9-4d1c-9a68-3ae553acdada). <b>Locator:</b> §5.11 (ID253); §8.5 geriatric QT caution. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11": {
+          "finding": "The selected oral ciprofloxacin tablet label recommends avoidance in known QT prolongation or specified risk conditions and with named QT-active classes, including class IA or III antiarrhythmics, tricyclic antidepressants, macrolides and antipsychotics. It does not support describing ciprofloxacin as an unconditionally safe substitute.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:c08b37c3-5f01-47ed-9508-02813bbd008b\\:v11](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c08b37c3-5f01-47ed-9508-02813bbd008b). <b>Locator:</b> §5.12 (LINK\\_0df637d7-f34a-4d3b-9486-604abbe2bc35); §7 QT-drug interaction row. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 24,
+    "source_schema": "deep24.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:16472283": "Abstract > Methods; Results and Conclusions",
+        "PMID:16304291": "Abstract > Design and setting; Patients; Interventions; Main outcome measures; Results",
+        "PMID:30269062": "Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).",
+        "PMID:26920666": "Full text: Methods, Study cohort (sec5), Follow-up and outcome (sec8); Results, Cohort (sec12), Main results (sec13); Limitations (sec17).",
+        "PMID:23229485": "Abstract paragraphs 2–4: methods, results and risk factors."
+      },
+      "primary_source_benchmarks": {
+        "PMID:16472283": {
+          "finding": "Thirteen healthy participants received ciprofloxacin 500 mg twice daily, levofloxacin 500 mg daily and moxifloxacin 400 mg daily in an open-label crossover study with randomized treatment order. Each course lasted seven days, with a one-week washout. Lead II QTc was assessed before treatment, two hours after the first dose and after the course. Moxifloxacin increased QTc by 6 ms from baseline; no QTc effect was detected for ciprofloxacin or levofloxacin, and no QT-dispersion change was detected.",
+          "limitations": "This small surrogate-endpoint study does not establish absence of torsades de pointes or safety with other QT-active medicines. The exact correction formula and numerical full-text tables are excluded from mandatory gold because their original passages were not inspected.",
+          "source_with_locator": "[PMID:16472283](https://pubmed.ncbi.nlm.nih.gov/16472283/). <b>Locator:</b> Abstract > Methods; Results and Conclusions. <b>Access depth:</b> complete original abstract inspected."
+        },
+        "PMID:16304291": {
+          "finding": "This US multicentre, randomized, double-blind trial enrolled 394 patients aged at least 65 years with community-acquired pneumonia. Treatment was moxifloxacin 400 mg or levofloxacin 500 mg daily, intravenously or orally, for 7–14 days. The Holter composite occurred in 16/192 versus 10/195 patients (P=.29), mainly as nonsustained ventricular tachycardia. One torsades event occurred in the levofloxacin arm. Day-three QTcF changes were +6.4±23.2 versus −2.5±22.9 ms.",
+          "limitations": "There was no ciprofloxacin arm. A nonsignificant difference is not proof of equivalence, and this result does not establish safety for every concomitant-medication combination.",
+          "source_with_locator": "[PMID:16304291](https://pubmed.ncbi.nlm.nih.gov/16304291/). <b>Locator:</b> Abstract > Design and setting; Patients; Interventions; Main outcome measures; Results. <b>Access depth:</b> complete original abstract inspected."
+        },
+        "PMID:30269062": {
+          "finding": "A Korean claims cohort from 2015 compared oral fluoroquinolones with cefixime. During days 1–7, the moxifloxacin odds ratio for serious ventricular arrhythmia was 1.87 (95% CI 1.15–3.11), based on seven events. No increased association was detected for ciprofloxacin or levofloxacin. The study excluded exposure to QT- or torsades-associated drugs during the 30 days before through the 30 days after the index date.",
+          "limitations": "Residual confounding, claims-based endpoints, absence of ECG and laboratory measurements, and the small moxifloxacin event count limit inference. The exclusion criterion prevents direct extrapolation to patients already using QT-active medicines.",
+          "source_with_locator": "[PMID:30269062](https://pmc.ncbi.nlm.nih.gov/articles/PMC6169761/). <b>Locator:</b> Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).. <b>Access depth:</b> primary full text inspected."
+        },
+        "PMID:26920666": {
+          "finding": "This Danish and Swedish propensity-matched cohort compared oral fluoroquinolones with penicillin V. Most fluoroquinolone exposure was ciprofloxacin. The rate ratio for serious arrhythmia during current use was 0.85 (95% CI 0.61–1.18).",
+          "limitations": "The drug mix was dominated by ciprofloxacin. This null estimate does not prove equivalence or establish the risk of every individual fluoroquinolone or high-risk drug combination.",
+          "source_with_locator": "[PMID:26920666](https://pmc.ncbi.nlm.nih.gov/articles/PMC4770814/). <b>Locator:</b> Full text: Methods, Study cohort (sec5), Follow-up and outcome (sec8); Results, Cohort (sec12), Main results (sec13); Limitations (sec17).. <b>Access depth:</b> primary full text inspected."
+        },
+        "PMID:23229485": {
+          "finding": "This retrospective study included 94 haematology inpatients receiving a fluoroquinolone with an azole: 88 received levofloxacin, 53 voriconazole and 40 fluconazole. Mean QTc change was 6.1 ms (95% CI 0.2–11.9). Twenty-one patients (22.3%) met the study criteria for a clinically significant QTc change. Hypokalaemia and left ventricular ejection fraction below 55% were associated with these changes.",
+          "limitations": "The 22.3% result concerns QTc changes, not torsades incidence. The trend with multiple QT-active drugs was not statistically significant. The study does not establish a causal drug ranking or a drug-specific interaction risk ratio. Exact full-text threshold definitions are not mandatory gold in this abstract-bounded review.",
+          "source_with_locator": "[PMID:23229485](https://pubmed.ncbi.nlm.nih.gov/23229485/). <b>Locator:</b> Abstract paragraphs 2–4: methods, results and risk factors.. <b>Access depth:</b> complete original abstract inspected."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 25,
+    "source_schema": "deep25.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:22591294": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596."
+      },
+      "primary_source_benchmarks": {
+        "PMID:22591294": {
+          "finding": "The Tennessee Medicaid cohort included patients aged 30–74 years and 347,795 azithromycin prescriptions. Over five days, cardiovascular-death hazard was higher than with amoxicillin: HR 2.49 (95% CI 1.38–4.50). The estimated excess was 47 cardiovascular deaths per million courses, rising to 245 per million in the highest decile of baseline cardiovascular risk.",
+          "limitations": "This was an observational study in a selected population. Indication, comparator selection and residual health differences may confound the association. Prescription courses are not unique patients. The comparison with no antibiotic addresses a different contrast from the comparison with amoxicillin.",
+          "source_with_locator": "[PMID:22591294](https://pubmed.ncbi.nlm.nih.gov/22591294/). <b>Locator:</b> Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.. <b>Access depth:</b> primary full text inspected via NCBI BioC."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 26,
+    "source_schema": "deep26.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:22591294": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+        "PMID:23635050": "Abstract > Methods; Results; Conclusions"
+      },
+      "primary_source_benchmarks": {
+        "PMID:22591294": {
+          "finding": "The Tennessee Medicaid cohort included patients aged 30–74 years and 347,795 azithromycin prescriptions. Over five days, cardiovascular-death hazard was higher than with amoxicillin: HR 2.49 (95% CI 1.38–4.50). The estimated excess was 47 cardiovascular deaths per million courses, rising to 245 per million in the highest decile of baseline cardiovascular risk.",
+          "limitations": "This was an observational study in a selected population. Indication, comparator selection and residual health differences may confound the association. Prescription courses are not unique patients. The comparison with no antibiotic addresses a different contrast from the comparison with amoxicillin.",
+          "source_with_locator": "[PMID:22591294](https://pubmed.ncbi.nlm.nih.gov/22591294/). <b>Locator:</b> Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.. <b>Access depth:</b> primary full text inspected via NCBI BioC."
+        },
+        "PMID:23635050": {
+          "finding": "This nationwide Danish historical cohort covered adults aged 18–64 years during 1997–2010. Over five days, the cardiovascular-death rate ratio for azithromycin was 2.85 (95% CI 1.13–7.24) versus no antibiotic, but 0.93 (0.56–1.55) versus penicillin V. The adjusted difference versus penicillin V was −1 cardiovascular death per million episodes (95% CI −9 to 11).",
+          "limitations": "The population and active comparator differ from those in Ray et al. The null active-comparator estimate does not establish zero risk. The original abstract was inspected; detailed full-text covariates and tables are not mandatory gold.",
+          "source_with_locator": "[PMID:23635050](https://pubmed.ncbi.nlm.nih.gov/23635050/). <b>Locator:</b> Abstract > Methods; Results; Conclusions. <b>Access depth:</b> complete original abstract inspected."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 27,
+    "source_schema": "deep27.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:24615307": "Abstract > METHODS; RESULTS; CONCLUSIONS"
+      },
+      "primary_source_benchmarks": {
+        "PMID:24615307": {
+          "finding": "In this US veterans outpatient cohort, days 1–5 hazard ratios versus amoxicillin were 1.48 (95% CI 1.05–2.09) for death and 1.77 (1.20–2.62) for serious arrhythmia with azithromycin. The corresponding levofloxacin estimates were 2.49 (1.70–3.64) and 2.43 (1.56–3.79). During days 6–10, levofloxacin estimates remained elevated at 1.95 (1.32–2.88) for death and 1.75 (1.09–2.82) for arrhythmia; azithromycin estimates were not statistically significant.",
+          "limitations": "The measured death endpoint must not be relabelled as specifically cardiovascular death. Different indications and treatment durations, and residual confounding, prevent a causal head-to-head ranking from the two common-comparator estimates. Uninspected absolute-event tables are excluded from mandatory gold.",
+          "source_with_locator": "[PMID:24615307](https://pubmed.ncbi.nlm.nih.gov/24615307/). <b>Locator:</b> Abstract > METHODS; RESULTS; CONCLUSIONS. <b>Access depth:</b> complete original abstract inspected."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 28,
+    "source_schema": "deep28.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49": "§5.4 (S5.4)",
+        "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2": "§4.2 (Section_4.2), §5.2 (Section_5.2), §7 named-QT interaction rows",
+        "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11": "WARNINGS/QT Prolongation L39d221b7-0bcb-4a75-9aba-c33f378f85e5; CONTRAINDICATIONS L618032fe-09b2-42b5-9a7b-66fb78ecbaf7"
+      },
+      "primary_source_benchmarks": {
+        "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49": {
+          "finding": "The selected Pfizer Zithromax oral-tablet label directs assessment of QT-related benefits and risks in at-risk groups, including patients taking other QT-prolonging medicines. This language is not a universal formal contraindication to every such combination.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:db52b91e-79f7-4cc1-9564-f2eee8e31c45\\:v49](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db52b91e-79f7-4cc1-9564-f2eee8e31c45). <b>Locator:</b> §5.4 (S5.4). <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2": {
+          "finding": "The selected Solaris immediate-release clarithromycin 250 mg and 500 mg tablet label advises avoidance in specified QT or proarrhythmic conditions and with QT-prolonging medicines. Coadministration with cisapride or pimozide is specifically contraindicated.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:4d42821d-ce7a-7d64-e063-6294a90a0875\\:v2](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4d42821d-ce7a-7d64-e063-6294a90a0875). <b>Locator:</b> §4.2 (Section\\_4.2), §5.2 (Section\\_5.2), §7 named-QT interaction rows. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11": {
+          "finding": "The selected Torrent erythromycin-base 250 mg and 500 mg tablet label gives QT-related avoidance language for specified risk states and class IA or III agents. Its named contraindicated medicines include terfenadine, astemizole, cisapride and pimozide. This is the selected erythromycin-base product, not the different delayed-release candidate.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:933049f6-61b9-4ed5-b6b7-60c5037e2115\\:v11](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=933049f6-61b9-4ed5-b6b7-60c5037e2115). <b>Locator:</b> WARNINGS/QT Prolongation L39d221b7-0bcb-4a75-9aba-c33f378f85e5; CONTRAINDICATIONS L618032fe-09b2-42b5-9a7b-66fb78ecbaf7. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 29,
+    "source_schema": "deep29.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:23360890": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+        "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3": "§6.1/ECG Changes, ID59 (not ID26); §7 ID71 only as relevant"
+      },
+      "primary_source_benchmarks": {
+        "PMID:23360890": {
+          "finding": "The electronic-health-record study included 38,397 adults with an ECG 14–90 days after a prescription. Adjusted dose–QTc associations were detected for citalopram, escitalopram and amitriptyline. Within-person citalopram changes were +7.8 ms (SE 3.6) for 10 to 20 mg, and +10.3 ms (SE 4.0) for 20 to 40 mg.",
+          "limitations": "Treatment, dose and ECG ascertainment were not randomized. The ECG sample was older and less healthy than patients without ECG data. Cross-sectional and within-person estimates must remain distinct. Null findings for other drugs do not prove absence of risk, and these QTc results do not estimate an individual torsades probability.",
+          "source_with_locator": "[PMID:23360890](https://pmc.ncbi.nlm.nih.gov/articles/PMC3558546/). <b>Locator:</b> Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).. <b>Access depth:</b> primary full text inspected."
+        },
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5": {
+          "finding": "The selected citalopram tablet label has a 40 mg/day ceiling and a 20 mg/day ceiling for patients older than 60 years, hepatic impairment, CYP2C19 poor metabolizers or concomitant CYP2C19 inhibitors. It specifies QT-related avoidance and ECG or electrolyte monitoring conditions. Its section 12.2 study in 119 healthy subjects reports QTcNi changes of 8.5 ms at 20 mg and 18.5 ms at 60 mg; the 12.6 ms estimate for 40 mg is predicted, not directly measured.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e\\:v5](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=625a78b2-4751-4ca5-91b6-7c85fd9f8c2e). <b>Locator:</b> §2.3 Section\\_2.3; §2.4 Section\\_2.4; §5.2 Section\\_5.2; §12.2 Section\\_12.2/Cardiac Electrophysiology; §7. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3": {
+          "finding": "Section 6.1, ECG Changes (ID59), of the selected escitalopram tablet label reports a healthy-volunteer study with 113 subjects. QTcF changes were 4.5 ms at 10 mg and 10.7 ms at 30 mg; the 6.6 ms estimate for 20 mg is predicted. These separate study estimates do not establish an equivalent-dose clinical-risk comparison with citalopram.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:ccbe97b5-da68-4fff-929a-240dd705fe6f\\:v3](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ccbe97b5-da68-4fff-929a-240dd705fe6f). <b>Locator:</b> §6.1/ECG Changes, ID59 (not ID26); §7 ID71 only as relevant. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 30,
+    "source_schema": "deep30.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:23360890": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10)."
+      },
+      "primary_source_benchmarks": {
+        "PMID:23360890": {
+          "finding": "The electronic-health-record study included 38,397 adults with an ECG 14–90 days after a prescription. Adjusted dose–QTc associations were detected for citalopram, escitalopram and amitriptyline. Within-person citalopram changes were +7.8 ms (SE 3.6) for 10 to 20 mg, and +10.3 ms (SE 4.0) for 20 to 40 mg.",
+          "limitations": "Treatment, dose and ECG ascertainment were not randomized. The ECG sample was older and less healthy than patients without ECG data. Cross-sectional and within-person estimates must remain distinct. Null findings for other drugs do not prove absence of risk, and these QTc results do not estimate an individual torsades probability.",
+          "source_with_locator": "[PMID:23360890](https://pmc.ncbi.nlm.nih.gov/articles/PMC3558546/). <b>Locator:</b> Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).. <b>Access depth:</b> primary full text inspected."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 31,
+    "source_schema": "deep31.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 32,
+    "source_schema": "deep32.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 33,
+    "source_schema": "deep33.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 34,
+    "source_schema": "deep34.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 35,
+    "source_schema": "deep35.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 36,
+    "source_schema": "deep36.json",
+    "reference_notes": {}
+  },
+  {
+    "question_no": 37,
+    "source_schema": "deep37.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:7526675": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words."
+      },
+      "primary_source_benchmarks": {
+        "PMID:7526675": {
+          "finding": "The available abstract reports before-and-after comparisons in three groups of 26 patients with cardiac disease or arrhythmias receiving amiodarone, sematilide or sotalol. All three prolonged QT and QTc. Only amiodarone reduced QT and QTc dispersion, including in the myocardial-infarction subgroup.",
+          "limitations": "The indexed original abstract is explicitly truncated. The full paper’s doses, timing, randomization details and complete outcome collection were not independently verified. Dispersion findings do not establish comparative clinical torsades incidence. Numerical QTc-dispersion units are not required gold, and the review must not claim that the full study measured no clinical events.",
+          "source_with_locator": "[PMID:7526675](https://pubmed.ncbi.nlm.nih.gov/7526675/). <b>Locator:</b> All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.. <b>Access depth:</b> original abstract inspected; indexed abstract truncated."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  },
+  {
+    "question_no": 38,
+    "source_schema": "deep38.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "PMID:7526675": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs"
+      },
+      "primary_source_benchmarks": {
+        "PMID:7526675": {
+          "finding": "The available abstract reports before-and-after comparisons in three groups of 26 patients with cardiac disease or arrhythmias receiving amiodarone, sematilide or sotalol. All three prolonged QT and QTc. Only amiodarone reduced QT and QTc dispersion, including in the myocardial-infarction subgroup.",
+          "limitations": "The indexed original abstract is explicitly truncated. The full paper’s doses, timing, randomization details and complete outcome collection were not independently verified. Dispersion findings do not establish comparative clinical torsades incidence. Numerical QTc-dispersion units are not required gold, and the review must not claim that the full study measured no clinical events.",
+          "source_with_locator": "[PMID:7526675](https://pubmed.ncbi.nlm.nih.gov/7526675/). <b>Locator:</b> All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.. <b>Access depth:</b> original abstract inspected; indexed abstract truncated."
+        },
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": {
+          "finding": "The selected oral sotalol label identifies reduced creatinine clearance, female sex, higher dose, bradycardia, ventricular tachycardia or fibrillation, and heart failure as torsades risk factors. It specifies electrolyte correction, renal-function-based dosing and ECG precautions. It recommends avoiding other QT-prolonging medicines, a washout of at least three half-lives for class I or III antiarrhythmics, and no concomitant class IA or III treatment.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:56879738-8662-4f5c-8386-761ab2b5e46f\\:v6](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56879738-8662-4f5c-8386-761ab2b5e46f). <b>Locator:</b> §5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": {
+          "finding": "The selected oral amiodarone label recommends avoiding QT-prolonging medicines. Negative chronotropes can worsen bradycardia, and interactions may persist for weeks to months after discontinuation. The label calls for correction of potassium, magnesium and calcium abnormalities and describes metabolic interactions. The 2–5% worsened-arrhythmia figure is not a torsades-specific incidence. Sotalol’s renal-clearance dosing rule must not be transferred to amiodarone.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:57f7f2ea-4ca9-4ada-e063-6294a90a492b\\:v1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57f7f2ea-4ca9-4ada-e063-6294a90a492b). <b>Locator:</b> §5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        }
+      },
+      "additional_checked_records": {
+        "PMID:8691967": {
+          "locator": "Results; patients with LV dysfunction after MI, d-sotalol vs placebo, RR death 1.65 (1.15–2.36); not racemic sotalol vs amiodarone.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8691967/"
+        },
+        "PMID:18031520": {
+          "locator": "ATHENA protocol, Methods: dronedarone vs placebo, not amiodarone.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18031520/"
+        },
+        "PMID:10486417": {
+          "locator": "DIAMOND-CHF original, Methods: dofetilide vs placebo; not sotalol/amiodarone.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10486417/"
+        }
+      }
+    }
+  },
+  {
+    "question_no": 39,
+    "source_schema": "deep39.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs"
+      },
+      "primary_source_benchmarks": {
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": {
+          "finding": "The selected oral sotalol label identifies reduced creatinine clearance, female sex, higher dose, bradycardia, ventricular tachycardia or fibrillation, and heart failure as torsades risk factors. It specifies electrolyte correction, renal-function-based dosing and ECG precautions. It recommends avoiding other QT-prolonging medicines, a washout of at least three half-lives for class I or III antiarrhythmics, and no concomitant class IA or III treatment.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:56879738-8662-4f5c-8386-761ab2b5e46f\\:v6](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56879738-8662-4f5c-8386-761ab2b5e46f). <b>Locator:</b> §5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": {
+          "finding": "The selected oral amiodarone label recommends avoiding QT-prolonging medicines. Negative chronotropes can worsen bradycardia, and interactions may persist for weeks to months after discontinuation. The label calls for correction of potassium, magnesium and calcium abnormalities and describes metabolic interactions. The 2–5% worsened-arrhythmia figure is not a torsades-specific incidence. Sotalol’s renal-clearance dosing rule must not be transferred to amiodarone.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:57f7f2ea-4ca9-4ada-e063-6294a90a492b\\:v1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57f7f2ea-4ca9-4ada-e063-6294a90a492b). <b>Locator:</b> §5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        }
+      },
+      "additional_checked_records": {
+        "PMID:16042664": {
+          "locator": "Methods/Results: healthy-volunteer crossover. Telithromycin did not increase sotalol-induced QT prolongation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16042664/"
+        },
+        "PMID:29245320": {
+          "locator": "Case report: QTc prolongation and TdP in one patient receiving two drugs, not causal proof or a comparison.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29245320/"
+        },
+        "PMID:15869686": {
+          "locator": "Case report: TdP in a 71-year-old woman after both drugs. Does not estimate risk or define label instructions.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15869686/"
+        }
+      }
+    }
+  },
+  {
+    "question_no": 40,
+    "source_schema": "deep40.json",
+    "reference_notes": {
+      "evidence_locators": {
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs",
+        "PMID:7526675": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words."
+      },
+      "primary_source_benchmarks": {
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": {
+          "finding": "The selected oral sotalol label identifies reduced creatinine clearance, female sex, higher dose, bradycardia, ventricular tachycardia or fibrillation, and heart failure as torsades risk factors. It specifies electrolyte correction, renal-function-based dosing and ECG precautions. It recommends avoiding other QT-prolonging medicines, a washout of at least three half-lives for class I or III antiarrhythmics, and no concomitant class IA or III treatment.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:56879738-8662-4f5c-8386-761ab2b5e46f\\:v6](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56879738-8662-4f5c-8386-761ab2b5e46f). <b>Locator:</b> §5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": {
+          "finding": "The selected oral amiodarone label recommends avoiding QT-prolonging medicines. Negative chronotropes can worsen bradycardia, and interactions may persist for weeks to months after discontinuation. The label calls for correction of potassium, magnesium and calcium abnormalities and describes metabolic interactions. The 2–5% worsened-arrhythmia figure is not a torsades-specific incidence. Sotalol’s renal-clearance dosing rule must not be transferred to amiodarone.",
+          "limitations": "The specified product and version control this source mapping. A different historical candidate set ID is not an automatic substitute. Scientific content acceptance and source-copy permission are separate. Any approved equivalence is limited to the explicitly verified unchanged passage.",
+          "source_with_locator": "[SPL\\:57f7f2ea-4ca9-4ada-e063-6294a90a492b\\:v1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57f7f2ea-4ca9-4ada-e063-6294a90a492b). <b>Locator:</b> §5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs. <b>Access depth:</b> selected complete label sections inspected, nested lists/tables retained; XML version/hash matches staged selected source."
+        },
+        "PMID:7526675": {
+          "finding": "The available abstract reports before-and-after comparisons in three groups of 26 patients with cardiac disease or arrhythmias receiving amiodarone, sematilide or sotalol. All three prolonged QT and QTc. Only amiodarone reduced QT and QTc dispersion, including in the myocardial-infarction subgroup.",
+          "limitations": "The indexed original abstract is explicitly truncated. The full paper’s doses, timing, randomization details and complete outcome collection were not independently verified. Dispersion findings do not establish comparative clinical torsades incidence. Numerical QTc-dispersion units are not required gold, and the review must not claim that the full study measured no clinical events.",
+          "source_with_locator": "[PMID:7526675](https://pubmed.ncbi.nlm.nih.gov/7526675/). <b>Locator:</b> All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.. <b>Access depth:</b> original abstract inspected; indexed abstract truncated."
+        }
+      },
+      "additional_checked_records": {}
+    }
+  }
+]

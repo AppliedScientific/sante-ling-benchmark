@@ -1,0 +1,28 @@
+{
+  "release_date": "2026-11-12",
+  "scope": "direct-only",
+  "scheduled": 240,
+  "available": 237,
+  "models": 6,
+  "questions": 40,
+  "settings": [
+    "direct"
+  ],
+  "returned_criteria": 5,
+  "changed_grades": 3,
+  "source_record_sha256": "7be57147e67a5f37fd85e7b4fe19121085b5e19c634abd1e7c5864b2c22c0b9c",
+  "text_policy": "Exact displayed outputs. No correction of candidate text; missing outputs remain null. Responses are not provider wire envelopes.",
+  "assessment_policy": "Original AI facet and granular assessments retained. Returned facet labels applied only in a separate analysis view.",
+  "source_policy": "Identifiers, locators and reviewer-authored summaries; no full articles, PDFs or retrieval corpus.",
+  "execution_limit": "One recorded run. Five direct slots were carried from the preceding configuration. Provider aliases do not prove served weights.",
+  "excluded": [
+    "Credentials and account data",
+    "Blinding key and original private crosswalk",
+    "Private orchestration code and instructions",
+    "Internal development history",
+    "Assisted runs",
+    "Diagnostic runs",
+    "Private model-improvement feedback",
+    "Editorial drafts"
+  ]
+}

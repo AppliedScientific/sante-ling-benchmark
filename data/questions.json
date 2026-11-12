@@ -1,0 +1,3351 @@
+[
+  {
+    "question_no": 1,
+    "case": "case-1",
+    "family": "terodiline",
+    "jurisdiction": "United Kingdom",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhy was terodiline, used for urinary incontinence, withdrawn in 1991 in the UK, and what did the primary record show about doses, patients and the mechanism of arrhythmia risk? Separate evidence available at withdrawal from later mechanistic findings.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": true,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1007/BF00265918": "PMID:1623896",
+        "DOI:10.1016/0140-6736(91)90481-4": "PMID:1677700",
+        "DOI:10.1038/sj.bjp.0702173": "PMID:9863639",
+        "PMCID:PMC1565686": "PMID:9863639"
+      },
+      "facet_source_map": {
+        "T1": [
+          {
+            "locator": "Drugs; paragraph headed Terodiline",
+            "source_id": "UK:hansard-1993"
+          }
+        ],
+        "T1-year": [
+          {
+            "locator": "HC Deb 30 April 1996, vol276, c509W–510W; category(c), Micturin row and footnote1",
+            "source_id": "UK:hansard-1996-04-30"
+          }
+        ],
+        "T2": [
+          {
+            "locator": "Author abstract, relevant result sentences",
+            "source_id": "PMID:1677700"
+          }
+        ],
+        "T3": [
+          {
+            "locator": "Author abstract, relevant result sentences",
+            "source_id": "PMID:1623896"
+          }
+        ],
+        "T4": [
+          {
+            "locator": "Author abstract, relevant result sentences",
+            "source_id": "PMID:9863639"
+          }
+        ],
+        "T5": [
+          {
+            "locator": "Case-series abstract and study design",
+            "source_id": "PMID:1677700"
+          }
+        ]
+      },
+      "required_facets": [
+        "T1",
+        "T1-year",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ],
+      "required_sources": [
+        "UK:hansard-1993",
+        "UK:hansard-1996-04-30",
+        "PMID:1677700",
+        "PMID:1623896",
+        "PMID:9863639"
+      ],
+      "source_rationales": {
+        "PMID:1623896": "Keep the later four-case arrhythmia series separate from eight elderly inpatients studied prospectively at 12.5 mg twice daily for seven days; the latter provides a prescribed-dose/QT/heart-rate observation.",
+        "PMID:1677700": "1991 case series links terodiline, prolonged QT and torsades in older patients with bradycardia or conduction disturbance. | The source sequence supports a safety reconstruction, not a patient-incidence estimate or proof that one mechanism explains every case.",
+        "PMID:9863639": "Later guinea-pig ventricular-myocyte evidence identifies IKr inhibition, IC50 0.7 μM; it was published in 1998, not known from that experiment in 1991.",
+        "UK:hansard-1993": "UK retrospective official account: July 1991 professional warning about serious cardiac rhythm disturbance, followed by voluntary company withdrawal after further reports. Separate the 1993 account from the uninspected 1991 communication.",
+        "UK:hansard-1996-04-30": "The 30 April 1996 official table places Micturin/terodiline in the licence-holder withdrawal category with cardiac arrhythmias as the major concern. Its footnote identifies 1991 as the year of market removal, not an exact legal-finality day."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "T1",
+        "description": "UK retrospective official account: July 1991 professional warning about serious cardiac rhythm disturbance, followed by voluntary company withdrawal after further reports. Separate the 1993 account from the uninspected 1991 communication.",
+        "source_id": "UK:hansard-1993",
+        "url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-04-14/Writtens-8.html",
+        "locator": "Drugs; paragraph headed Terodiline",
+        "access_depth": "Official parliamentary text inspected",
+        "support": "UK retrospective official account: July 1991 professional warning about serious cardiac rhythm disturbance, followed by voluntary company withdrawal after further reports. Separate the 1993 account from the uninspected 1991 communication.",
+        "limits": ""
+      },
+      {
+        "id": "T1-year",
+        "description": "The 30 April 1996 official table places Micturin/terodiline in the licence-holder withdrawal category with cardiac arrhythmias as the major concern. Its footnote identifies 1991 as the year of market removal, not an exact legal-finality day.",
+        "source_id": "UK:hansard-1996-04-30",
+        "url": "https://api.parliament.uk/historic-hansard/written-answers/1996/apr/30/safety-of-medicines",
+        "locator": "HC Deb 30 April 1996, vol276, c509W–510W; category(c), Micturin row and footnote1",
+        "access_depth": "Full official retrospective table inspected",
+        "support": "Supports the UK market-removal year and distinguishes the action category.",
+        "limits": "Do not infer an exact date or worldwide final licence-withdrawal year."
+      },
+      {
+        "id": "T2",
+        "description": "1991 case series links terodiline, prolonged QT and torsades in older patients with bradycardia or conduction disturbance.",
+        "source_id": "PMID:1677700",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract, relevant result sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "1991 case series links terodiline, prolonged QT and torsades in older patients with bradycardia or conduction disturbance.",
+        "limits": ""
+      },
+      {
+        "id": "T3",
+        "description": "Keep the later four-case arrhythmia series separate from eight elderly inpatients studied prospectively at 12.5 mg twice daily for seven days; the latter provides a prescribed-dose/QT/heart-rate observation.",
+        "source_id": "PMID:1623896",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1623896/",
+        "locator": "Author abstract, relevant result sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Keep the later four-case arrhythmia series separate from eight elderly inpatients studied prospectively at 12.5 mg twice daily for seven days; the latter provides a prescribed-dose/QT/heart-rate observation.",
+        "limits": ""
+      },
+      {
+        "id": "T4",
+        "description": "Later guinea-pig ventricular-myocyte evidence identifies IKr inhibition, IC50 0.7 μM; it was published in 1998, not known from that experiment in 1991.",
+        "source_id": "PMID:9863639",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+        "locator": "Author abstract, relevant result sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Later guinea-pig ventricular-myocyte evidence identifies IKr inhibition, IC50 0.7 μM; it was published in 1998, not known from that experiment in 1991.",
+        "limits": ""
+      },
+      {
+        "id": "T5",
+        "description": "The source sequence supports a safety reconstruction, not a patient-incidence estimate or proof that one mechanism explains every case.",
+        "source_id": "PMID:1677700",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Case-series abstract and study design",
+        "access_depth": "Primary abstract; inference from design",
+        "support": "The source sequence supports a safety reconstruction, not a patient-incidence estimate or proof that one mechanism explains every case.",
+        "limits": "Separate drug dose from concentration, case evidence from experimental mechanism, and association from quantified causality."
+      }
+    ]
+  },
+  {
+    "question_no": 2,
+    "case": "case-1",
+    "family": "terodiline",
+    "jurisdiction": "United Kingdom",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did Connolly et al.'s 1991 Lancet terodiline case series report about patient characteristics, rhythm and QT changes, and what cannot be inferred from that series?\n\nIdentified source versions: PMID:1677700.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/0140-6736(91)90481-4": "PMID:1677700"
+      },
+      "facet_source_map": {
+        "T2a": [
+          {
+            "locator": "Author abstract, opening and penultimate sentences",
+            "source_id": "PMID:1677700"
+          }
+        ],
+        "T2b": [
+          {
+            "locator": "Author abstract, first three sentences",
+            "source_id": "PMID:1677700"
+          }
+        ],
+        "T2c": [
+          {
+            "locator": "Author abstract and case series design",
+            "source_id": "PMID:1677700"
+          }
+        ]
+      },
+      "required_facets": [
+        "T2a",
+        "T2b",
+        "T2c"
+      ],
+      "required_sources": [
+        "PMID:1677700"
+      ],
+      "source_rationales": {
+        "PMID:1677700": "Five patients: four women and one man, mean age 74 years (55–87); all had bradycardia or atrioventricular conduction disturbance. | Torsades occurred with QT prolongation; QT was normal before treatment in three and normalized after withdrawal in four. | Temporal observations support a safety signal; selected case reports lack an exposed population denominator and do not quantify incidence or establish every competing cause."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "T2a",
+        "description": "Five patients: four women and one man, mean age 74 years (55–87); all had bradycardia or atrioventricular conduction disturbance.",
+        "source_id": "PMID:1677700",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract, opening and penultimate sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Five patients: four women and one man, mean age 74 years (55–87); all had bradycardia or atrioventricular conduction disturbance.",
+        "limits": ""
+      },
+      {
+        "id": "T2b",
+        "description": "Torsades occurred with QT prolongation; QT was normal before treatment in three and normalized after withdrawal in four.",
+        "source_id": "PMID:1677700",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract, first three sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Torsades occurred with QT prolongation; QT was normal before treatment in three and normalized after withdrawal in four.",
+        "limits": ""
+      },
+      {
+        "id": "T2c",
+        "description": "Temporal observations support a safety signal; selected case reports lack an exposed population denominator and do not quantify incidence or establish every competing cause.",
+        "source_id": "PMID:1677700",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1677700/",
+        "locator": "Author abstract and case series design",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Temporal observations support a safety signal; selected case reports lack an exposed population denominator and do not quantify incidence or establish every competing cause.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 3,
+    "case": "case-1",
+    "family": "terodiline",
+    "jurisdiction": "United Kingdom",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat human evidence relates prescribed terodiline dose and measured exposure to heart rate and QT changes, and how far can those findings explain the reported arrhythmias?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1007/BF00265918": "PMID:1623896",
+        "DOI:10.1136/hrt.74.1.53": "PMID:7662454",
+        "PMCID:PMC483946": "PMID:7662454"
+      },
+      "facet_source_map": {
+        "T3a": [
+          {
+            "locator": "Author abstract, case series and prospective-study sentences",
+            "source_id": "PMID:1623896"
+          }
+        ],
+        "T3b": [
+          {
+            "locator": "Author abstract, Subjects, Methods, Results and Conclusions",
+            "source_id": "PMID:7662454"
+          }
+        ],
+        "T3c": [
+          {
+            "locator": "Author abstract, Conclusions; design limitations",
+            "source_id": "PMID:7662454"
+          }
+        ]
+      },
+      "required_facets": [
+        "T3a",
+        "T3b",
+        "T3c"
+      ],
+      "required_sources": [
+        "PMID:1623896",
+        "PMID:7662454"
+      ],
+      "source_rationales": {
+        "PMID:1623896": "Separate four polymorphic-VT cases (two with diuretic-associated hypokalaemia) from the eight-patient prospective study. At 12.5 mg twice daily for seven days, mean QT increased 29 ms, QTc 15 ms and resting heart rate fell 6.7 beats/min.",
+        "PMID:7662454": "The 1995 on/off-treatment comparison in asymptomatic stable-dose recipients found QTc and QT-dispersion increases correlated with total terodiline and both enantiomer concentrations; 12 patients were in sinus rhythm. | Dose is not measured plasma exposure; QT and QTc are different. These small later studies do not provide an individual torsades probability or prove a stereoselective causal mechanism."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "T3a",
+        "description": "Separate four polymorphic-VT cases (two with diuretic-associated hypokalaemia) from the eight-patient prospective study. At 12.5 mg twice daily for seven days, mean QT increased 29 ms, QTc 15 ms and resting heart rate fell 6.7 beats/min.",
+        "source_id": "PMID:1623896",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1623896/",
+        "locator": "Author abstract, case series and prospective-study sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Separate four polymorphic-VT cases (two with diuretic-associated hypokalaemia) from the eight-patient prospective study. At 12.5 mg twice daily for seven days, mean QT increased 29 ms, QTc 15 ms and resting heart rate fell 6.7 beats/min.",
+        "limits": ""
+      },
+      {
+        "id": "T3b",
+        "description": "The 1995 on/off-treatment comparison in asymptomatic stable-dose recipients found QTc and QT-dispersion increases correlated with total terodiline and both enantiomer concentrations; 12 patients were in sinus rhythm.",
+        "source_id": "PMID:7662454",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7662454/",
+        "locator": "Author abstract, Subjects, Methods, Results and Conclusions",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "The 1995 on/off-treatment comparison in asymptomatic stable-dose recipients found QTc and QT-dispersion increases correlated with total terodiline and both enantiomer concentrations; 12 patients were in sinus rhythm.",
+        "limits": ""
+      },
+      {
+        "id": "T3c",
+        "description": "Dose is not measured plasma exposure; QT and QTc are different. These small later studies do not provide an individual torsades probability or prove a stereoselective causal mechanism.",
+        "source_id": "PMID:7662454",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7662454/",
+        "locator": "Author abstract, Conclusions; design limitations",
+        "access_depth": "Primary author abstract inspected",
+        "support": "Dose is not measured plasma exposure; QT and QTc are different. These small later studies do not provide an individual torsades probability or prove a stereoselective causal mechanism.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 4,
+    "case": "case-1",
+    "family": "terodiline",
+    "jurisdiction": "United Kingdom",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did post-withdrawal experimental studies find about terodiline's effects on cardiac repolarizing currents, and what limits their translation to the earlier patients?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/s0014-2999(99)00130-2": "PMID:10334509",
+        "DOI:10.1038/sj.bjp.0702173": "PMID:9863639",
+        "PMCID:PMC1565686": "PMID:9863639"
+      },
+      "facet_source_map": {
+        "T4a": [
+          {
+            "locator": "Author abstract, methods and concentration-response sentences",
+            "source_id": "PMID:9863639"
+          }
+        ],
+        "T4b": [
+          {
+            "locator": "Author abstract, I(K1) results",
+            "source_id": "PMID:10334509"
+          }
+        ],
+        "T4c": [
+          {
+            "locator": "Author abstract; contrast with PMID 10334509",
+            "source_id": "PMID:9863639"
+          }
+        ]
+      },
+      "required_facets": [
+        "T4a",
+        "T4b",
+        "T4c"
+      ],
+      "required_sources": [
+        "PMID:9863639",
+        "PMID:10334509"
+      ],
+      "source_rationales": {
+        "PMID:10334509": "1999 guinea-pig ventricular myocytes: outward IK1 IC50 7 μM; maximum inhibition about 60% at 100–300 μM, with persistent inhibition after washout. Distinct current and experiment.",
+        "PMID:9863639": "1998 guinea-pig ventricular myocytes: native IKr distinguished from IKs using E4031; IKr IC50 0.7 μM. The abstract describes steps from −40 mV for 0.2–1 s and additional IKs effects at higher concentrations. | Experimental preparation, current, concentration unit and publication date must accompany a value. Neither assay directly measures human torsades incidence."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "T4a",
+        "description": "1998 guinea-pig ventricular myocytes: native IKr distinguished from IKs using E4031; IKr IC50 0.7 μM. The abstract describes steps from −40 mV for 0.2–1 s and additional IKs effects at higher concentrations.",
+        "source_id": "PMID:9863639",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+        "locator": "Author abstract, methods and concentration-response sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "1998 guinea-pig ventricular myocytes: native IKr distinguished from IKs using E4031; IKr IC50 0.7 μM. The abstract describes steps from −40 mV for 0.2–1 s and additional IKs effects at higher concentrations.",
+        "limits": "This is not a recombinant human hERG assay."
+      },
+      {
+        "id": "T4b",
+        "description": "1999 guinea-pig ventricular myocytes: outward IK1 IC50 7 μM; maximum inhibition about 60% at 100–300 μM, with persistent inhibition after washout. Distinct current and experiment.",
+        "source_id": "PMID:10334509",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10334509/",
+        "locator": "Author abstract, I(K1) results",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "1999 guinea-pig ventricular myocytes: outward IK1 IC50 7 μM; maximum inhibition about 60% at 100–300 μM, with persistent inhibition after washout. Distinct current and experiment.",
+        "limits": ""
+      },
+      {
+        "id": "T4c",
+        "description": "Experimental preparation, current, concentration unit and publication date must accompany a value. Neither assay directly measures human torsades incidence.",
+        "source_id": "PMID:9863639",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9863639/",
+        "locator": "Author abstract; contrast with PMID 10334509",
+        "access_depth": "Primary author abstracts; translational inference",
+        "support": "Experimental preparation, current, concentration unit and publication date must accompany a value. Neither assay directly measures human torsades incidence.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 5,
+    "case": "case-1",
+    "family": "cisapride",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat evidence preceded US cisapride cardiac-safety warnings, restrictions and market discontinuation, and which dated action occurred at each stage?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1111/j.1572-0241.2001.03927.x": "PMID:11419817"
+      },
+      "facet_source_map": {
+        "C5a": [
+          {
+            "locator": "Introduction, paragraphs beginning Cisapride was first marketed / In June 1998 / In January 2000",
+            "source_id": "PMID:11419817"
+          }
+        ],
+        "C5b": [
+          {
+            "locator": "Cisapride paragraph, Federal Register p 37690–37691; staged raw offsets 28372–29046",
+            "source_id": "FDA:withdrawn-proposal-2014"
+          }
+        ],
+        "C5c": [
+          {
+            "locator": "Author abstract, Results and Conclusions",
+            "source_id": "PMID:11419817"
+          }
+        ]
+      },
+      "required_facets": [
+        "C5a",
+        "C5b",
+        "C5c"
+      ],
+      "required_sources": [
+        "PMID:11419817",
+        "FDA:withdrawn-proposal-2014"
+      ],
+      "source_rationales": {
+        "FDA:withdrawn-proposal-2014": "The April 12, 2000 company letter announced marketing discontinuation from July 14, 2000 and investigational limited access. The 2014 proposed rule reports that history retrospectively.",
+        "PMID:11419817": "FDA authors recount sequential escalation: 1995 metabolic-interaction boxed warning; June 1998 added risk conditions/QT-active drugs; 1999 bradycardia and familial long-QT additions; January 2000 further restrictions and pretreatment ECG/electrolyte/creatinine assessment. | Cardiac reports plus pharmacokinetic/electrophysiology evidence drove a benefit–risk judgment for the approved nocturnal-heartburn indication; report totals are not population incidence."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "C5a",
+        "description": "FDA authors recount sequential escalation: 1995 metabolic-interaction boxed warning; June 1998 added risk conditions/QT-active drugs; 1999 bradycardia and familial long-QT additions; January 2000 further restrictions and pretreatment ECG/electrolyte/creatinine assessment.",
+        "source_id": "PMID:11419817",
+        "url": "https://www.sciencedirect.com/science/article/pii/S000292700102490X",
+        "locator": "Introduction, paragraphs beginning Cisapride was first marketed / In June 1998 / In January 2000",
+        "access_depth": "Publisher-indexed primary Introduction excerpt and author abstract inspected",
+        "support": "FDA authors recount sequential escalation: 1995 metabolic-interaction boxed warning; June 1998 added risk conditions/QT-active drugs; 1999 bradycardia and familial long-QT additions; January 2000 further restrictions and pretreatment ECG/electrolyte/creatinine assessment.",
+        "limits": "Historical FDA-authored analysis, not each original warning letter; do not imply every 1999 change first received approval that same date."
+      },
+      {
+        "id": "C5b",
+        "description": "The April 12, 2000 company letter announced marketing discontinuation from July 14, 2000 and investigational limited access. The 2014 proposed rule reports that history retrospectively.",
+        "source_id": "FDA:withdrawn-proposal-2014",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2014-07-02/html/2014-15371.htm",
+        "locator": "Cisapride paragraph, Federal Register p 37690–37691; staged raw offsets 28372–29046",
+        "access_depth": "Official notice passage inspected",
+        "support": "The April 12, 2000 company letter announced marketing discontinuation from July 14, 2000 and investigational limited access. The 2014 proposed rule reports that history retrospectively.",
+        "limits": ""
+      },
+      {
+        "id": "C5c",
+        "description": "Cardiac reports plus pharmacokinetic/electrophysiology evidence drove a benefit–risk judgment for the approved nocturnal-heartburn indication; report totals are not population incidence.",
+        "source_id": "PMID:11419817",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Author abstract, Results and Conclusions",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Cardiac reports plus pharmacokinetic/electrophysiology evidence drove a benefit–risk judgment for the approved nocturnal-heartburn indication; report totals are not population incidence.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 6,
+    "case": "case-1",
+    "family": "cisapride",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did the FDA's postmarketing cisapride case analysis report about arrhythmia types and patient circumstances, and why do those reports not establish population incidence?\n\nIdentified source versions: PMID:11419817.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1111/j.1572-0241.2001.03927.x": "PMID:11419817"
+      },
+      "facet_source_map": {
+        "C6a": [
+          {
+            "locator": "Author abstract, Results; replace staged Objective-only anchor",
+            "source_id": "PMID:11419817"
+          }
+        ],
+        "C6b": [
+          {
+            "locator": "Author abstract, Results following event counts",
+            "source_id": "PMID:11419817"
+          }
+        ],
+        "C6c": [
+          {
+            "locator": "Methods/Results abstract and reporting design",
+            "source_id": "PMID:11419817"
+          }
+        ]
+      },
+      "required_facets": [
+        "C6a",
+        "C6b",
+        "C6c"
+      ],
+      "required_sources": [
+        "PMID:11419817"
+      ],
+      "source_rationales": {
+        "PMID:11419817": "FDA reports for 1993–1999: QT prolongation 117, torsades 107, polymorphic VT 16, VF 18, VT 27, cardiac arrest 25, unspecified serious arrhythmia 16, sudden death 15; total 341 individual patients. Eighty died; 23% describes this selected case series. | Most had other drugs or medical conditions. Temporal association, some cases without another identified explanation, and positive dechallenge/rechallenge informed the association. | Spontaneous reporting lacks a reliable exposed denominator and complete ascertainment; 80/341 is not a treated-population death rate. Do not assert a detailed deduplication algorithm absent from the inspected text."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "C6a",
+        "description": "FDA reports for 1993–1999: QT prolongation 117, torsades 107, polymorphic VT 16, VF 18, VT 27, cardiac arrest 25, unspecified serious arrhythmia 16, sudden death 15; total 341 individual patients. Eighty died; 23% describes this selected case series.",
+        "source_id": "PMID:11419817",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Author abstract, Results; replace staged Objective-only anchor",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "FDA reports for 1993–1999: QT prolongation 117, torsades 107, polymorphic VT 16, VF 18, VT 27, cardiac arrest 25, unspecified serious arrhythmia 16, sudden death 15; total 341 individual patients. Eighty died; 23% describes this selected case series.",
+        "limits": ""
+      },
+      {
+        "id": "C6b",
+        "description": "Most had other drugs or medical conditions. Temporal association, some cases without another identified explanation, and positive dechallenge/rechallenge informed the association.",
+        "source_id": "PMID:11419817",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Author abstract, Results following event counts",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Most had other drugs or medical conditions. Temporal association, some cases without another identified explanation, and positive dechallenge/rechallenge informed the association.",
+        "limits": ""
+      },
+      {
+        "id": "C6c",
+        "description": "Spontaneous reporting lacks a reliable exposed denominator and complete ascertainment; 80/341 is not a treated-population death rate. Do not assert a detailed deduplication algorithm absent from the inspected text.",
+        "source_id": "PMID:11419817",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11419817/",
+        "locator": "Methods/Results abstract and reporting design",
+        "access_depth": "Primary author abstract inspected",
+        "support": "Spontaneous reporting lacks a reliable exposed denominator and complete ascertainment; 80/341 is not a treated-population death rate. Do not assert a detailed deduplication algorithm absent from the inspected text.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 7,
+    "case": "case-1",
+    "family": "cisapride",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat does the published high-dose cisapride case report establish about QT prolongation, symptoms and ventricular rhythm, and what limits causal or dose-response conclusions? Distinguish patient and dose details that can be verified from details not established by the evidence you can inspect.\n\nIdentified source versions: PMID:7695465.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "C7a": [
+          {
+            "locator": "Complete short author abstract",
+            "source_id": "PMID:7695465"
+          }
+        ],
+        "C7b": [
+          {
+            "locator": "Complete author abstract; publication type Case Report",
+            "source_id": "PMID:7695465"
+          }
+        ]
+      },
+      "required_facets": [
+        "C7a",
+        "C7b"
+      ],
+      "required_sources": [
+        "PMID:7695465"
+      ],
+      "source_rationales": {
+        "PMID:7695465": "The identified high-dose cisapride case reports acquired QT prolongation, syncope and nonsustained ventricular tachycardia. | The inspected abstract supplies no exact dose, patient-level comorbidities, timing or exclusion of competing causes. State this limitation; one case cannot establish a general exposure–response curve or therapeutic-dose safety."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "C7a",
+        "description": "The identified high-dose cisapride case reports acquired QT prolongation, syncope and nonsustained ventricular tachycardia.",
+        "source_id": "PMID:7695465",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7695465/",
+        "locator": "Complete short author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "The identified high-dose cisapride case reports acquired QT prolongation, syncope and nonsustained ventricular tachycardia.",
+        "limits": ""
+      },
+      {
+        "id": "C7b",
+        "description": "The inspected abstract supplies no exact dose, patient-level comorbidities, timing or exclusion of competing causes. State this limitation; one case cannot establish a general exposure–response curve or therapeutic-dose safety.",
+        "source_id": "PMID:7695465",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7695465/",
+        "locator": "Complete author abstract; publication type Case Report",
+        "access_depth": "Primary abstract only",
+        "support": "The inspected abstract supplies no exact dose, patient-level comorbidities, timing or exclusion of competing causes. State this limitation; one case cannot establish a general exposure–response curve or therapeutic-dose safety.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 8,
+    "case": "case-1",
+    "family": "cisapride",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did primary electrophysiology experiments show about cisapride and repolarizing potassium currents, and what limits extrapolation to patients?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1161/01.cir.97.2.204": "PMID:9445174"
+      },
+      "facet_source_map": {
+        "C8a": [
+          {
+            "locator": "Author abstract, Methods and results; replace Background-only anchor",
+            "source_id": "PMID:9445174"
+          }
+        ],
+        "C8b": [
+          {
+            "locator": "Author abstract, Methods and results",
+            "source_id": "PMID:9445174"
+          }
+        ],
+        "C8c": [
+          {
+            "locator": "Preparation and experimental design in abstract",
+            "source_id": "PMID:9445174"
+          }
+        ]
+      },
+      "required_facets": [
+        "C8a",
+        "C8b",
+        "C8c"
+      ],
+      "required_sources": [
+        "PMID:9445174"
+      ],
+      "source_rationales": {
+        "PMID:9445174": "Guinea-pig ventricular myocytes under whole-cell clamp: cisapride IKr IC50 15 nmol/L; IKs inhibition much weaker, estimated IC50 above 10 μM. Short 250 ms and long 5000 ms pulses addressed different current components. | Isolated Langendorff-perfused guinea-pig hearts showed greater MAPD90 prolongation at slower pacing with 100 nmol/L cisapride: 23±3 ms at 250 ms cycle length versus 7±1 ms at 150 ms. | This supports a repolarization mechanism. It is not a recombinant human hERG experiment, a patient trial, or a quantitative human torsades-risk estimate."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "C8a",
+        "description": "Guinea-pig ventricular myocytes under whole-cell clamp: cisapride IKr IC50 15 nmol/L; IKs inhibition much weaker, estimated IC50 above 10 μM. Short 250 ms and long 5000 ms pulses addressed different current components.",
+        "source_id": "PMID:9445174",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+        "locator": "Author abstract, Methods and results; replace Background-only anchor",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Guinea-pig ventricular myocytes under whole-cell clamp: cisapride IKr IC50 15 nmol/L; IKs inhibition much weaker, estimated IC50 above 10 μM. Short 250 ms and long 5000 ms pulses addressed different current components.",
+        "limits": ""
+      },
+      {
+        "id": "C8b",
+        "description": "Isolated Langendorff-perfused guinea-pig hearts showed greater MAPD90 prolongation at slower pacing with 100 nmol/L cisapride: 23±3 ms at 250 ms cycle length versus 7±1 ms at 150 ms.",
+        "source_id": "PMID:9445174",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+        "locator": "Author abstract, Methods and results",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Isolated Langendorff-perfused guinea-pig hearts showed greater MAPD90 prolongation at slower pacing with 100 nmol/L cisapride: 23±3 ms at 250 ms cycle length versus 7±1 ms at 150 ms.",
+        "limits": ""
+      },
+      {
+        "id": "C8c",
+        "description": "This supports a repolarization mechanism. It is not a recombinant human hERG experiment, a patient trial, or a quantitative human torsades-risk estimate.",
+        "source_id": "PMID:9445174",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9445174/",
+        "locator": "Preparation and experimental design in abstract",
+        "access_depth": "Primary author abstract inspected",
+        "support": "This supports a repolarization mechanism. It is not a recombinant human hERG experiment, a patient trial, or a quantitative human torsades-risk estimate.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 9,
+    "case": "case-1",
+    "family": "terfenadine",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat was the US sequence of terfenadine safety warnings, the proposal to withdraw approval, market discontinuation and final withdrawal of approval, and what evidence supported each action?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "F9a": [
+          {
+            "locator": "Background, especially labeling/warning paragraphs; Summary",
+            "source_id": "FDA:terfenadine-proposal-1997"
+          }
+        ],
+        "F9b": [
+          {
+            "locator": "Terfenadine paragraph; staged raw offsets 31164–31533",
+            "source_id": "FDA:terfenadine-market-history-1998"
+          }
+        ],
+        "F9c": [
+          {
+            "locator": "Summary, Effective Date and final order",
+            "source_id": "FDA:terfenadine-final-1998"
+          }
+        ]
+      },
+      "required_facets": [
+        "F9a",
+        "F9b",
+        "F9c"
+      ],
+      "required_sources": [
+        "FDA:terfenadine-proposal-1997",
+        "FDA:terfenadine-market-history-1998",
+        "FDA:terfenadine-final-1998"
+      ],
+      "source_rationales": {
+        "FDA:terfenadine-final-1998": "Final notice published October 5, 1998; approval withdrawal effective November 4, 1998. Distinguish document publication, hearing-waiver process and effective action.",
+        "FDA:terfenadine-market-history-1998": "FDA’s October 8, 1998 proposed rule reports manufacturer removal of Seldane/Seldane-D in February 1998. This is a retrospective market-removal statement.",
+        "FDA:terfenadine-proposal-1997": "The 1997 notice retrospectively records sponsor warning letters in 1990, 1992 and 1996 and the 1992 boxed warning; its January 14, 1997 action is a proposal to withdraw approvals, following availability of fexofenadine."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "F9a",
+        "description": "The 1997 notice retrospectively records sponsor warning letters in 1990, 1992 and 1996 and the 1992 boxed warning; its January 14, 1997 action is a proposal to withdraw approvals, following availability of fexofenadine.",
+        "source_id": "FDA:terfenadine-proposal-1997",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+        "locator": "Background, especially labeling/warning paragraphs; Summary",
+        "access_depth": "Full official notice inspected",
+        "support": "The 1997 notice retrospectively records sponsor warning letters in 1990, 1992 and 1996 and the 1992 boxed warning; its January 14, 1997 action is a proposal to withdraw approvals, following availability of fexofenadine.",
+        "limits": ""
+      },
+      {
+        "id": "F9b",
+        "description": "FDA’s October 8, 1998 proposed rule reports manufacturer removal of Seldane/Seldane-D in February 1998. This is a retrospective market-removal statement.",
+        "source_id": "FDA:terfenadine-market-history-1998",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1998-10-08/html/98-26923.htm",
+        "locator": "Terfenadine paragraph; staged raw offsets 31164–31533",
+        "access_depth": "Official selected passage in Notion inspected",
+        "support": "FDA’s October 8, 1998 proposed rule reports manufacturer removal of Seldane/Seldane-D in February 1998. This is a retrospective market-removal statement.",
+        "limits": ""
+      },
+      {
+        "id": "F9c",
+        "description": "Final notice published October 5, 1998; approval withdrawal effective November 4, 1998. Distinguish document publication, hearing-waiver process and effective action.",
+        "source_id": "FDA:terfenadine-final-1998",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1998-10-05/html/98-26522.htm",
+        "locator": "Summary, Effective Date and final order",
+        "access_depth": "Full official notice inspected",
+        "support": "Final notice published October 5, 1998; approval withdrawal effective November 4, 1998. Distinguish document publication, hearing-waiver process and effective action.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 10,
+    "case": "case-1",
+    "family": "terfenadine",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did the original terfenadine–ketoconazole and terfenadine–erythromycin studies measure about exposure and electrocardiographic effects, and what do they establish about interaction risk?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1038/clpt.1992.135": "PMID:1526078"
+      },
+      "facet_source_map": {
+        "F10a": [
+          {
+            "locator": "Author abstract, Participants, Intervention, Results; replace Objective-only anchor",
+            "source_id": "PMID:8445813"
+          }
+        ],
+        "F10b": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:1526078"
+          }
+        ],
+        "F10c": [
+          {
+            "locator": "Study regimen and ECG endpoints in abstract",
+            "source_id": "PMID:1526078"
+          }
+        ]
+      },
+      "required_facets": [
+        "F10a",
+        "F10b",
+        "F10c"
+      ],
+      "required_sources": [
+        "PMID:8445813",
+        "PMID:1526078"
+      ],
+      "source_rationales": {
+        "PMID:1526078": "Nine-subject prospective interaction experiment: terfenadine 60 mg every 12 h, then erythromycin 500 mg every 8 h for 1 week. Parent accumulated in 3; metabolite Cmax rose 107% and AUC 170% on average, with QT/ST-U changes in a subset. | Both are small intervention studies, not population arrhythmia comparisons. Neither establishes a clinical torsades incidence. The retrospective HMO cohort PMID 7606309 is a separate optional source.",
+        "PMID:8445813": "Six healthy volunteers received terfenadine 60 mg every 12 h for 7 days, then ketoconazole 200 mg every 12 h. Parent drug became detectable in all; QTc abnormalities led four to stop ketoconazole early."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "F10a",
+        "description": "Six healthy volunteers received terfenadine 60 mg every 12 h for 7 days, then ketoconazole 200 mg every 12 h. Parent drug became detectable in all; QTc abnormalities led four to stop ketoconazole early.",
+        "source_id": "PMID:8445813",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8445813/",
+        "locator": "Author abstract, Participants, Intervention, Results; replace Objective-only anchor",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Six healthy volunteers received terfenadine 60 mg every 12 h for 7 days, then ketoconazole 200 mg every 12 h. Parent drug became detectable in all; QTc abnormalities led four to stop ketoconazole early.",
+        "limits": ""
+      },
+      {
+        "id": "F10b",
+        "description": "Nine-subject prospective interaction experiment: terfenadine 60 mg every 12 h, then erythromycin 500 mg every 8 h for 1 week. Parent accumulated in 3; metabolite Cmax rose 107% and AUC 170% on average, with QT/ST-U changes in a subset.",
+        "source_id": "PMID:1526078",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Nine-subject prospective interaction experiment: terfenadine 60 mg every 12 h, then erythromycin 500 mg every 8 h for 1 week. Parent accumulated in 3; metabolite Cmax rose 107% and AUC 170% on average, with QT/ST-U changes in a subset.",
+        "limits": ""
+      },
+      {
+        "id": "F10c",
+        "description": "Both are small intervention studies, not population arrhythmia comparisons. Neither establishes a clinical torsades incidence. The retrospective HMO cohort PMID 7606309 is a separate optional source.",
+        "source_id": "PMID:1526078",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+        "locator": "Study regimen and ECG endpoints in abstract",
+        "access_depth": "Primary author abstracts inspected",
+        "support": "Both are small intervention studies, not population arrhythmia comparisons. Neither establishes a clinical torsades incidence. The retrospective HMO cohort PMID 7606309 is a separate optional source.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 11,
+    "case": "case-1",
+    "family": "terfenadine",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did the Oregon Medicaid prescribing-claims study find about concurrent terfenadine or astemizole prescriptions with interacting medicines, and what does it not show about arrhythmia incidence?\n\nIdentified source versions: PMID:8023479.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "PMCID:PMC1022420": "PMID:8023479"
+      },
+      "facet_source_map": {
+        "F11a": [
+          {
+            "locator": "Author abstract, design and Results sentences",
+            "source_id": "PMID:8023479"
+          }
+        ],
+        "F11b": [
+          {
+            "locator": "Author abstract and retrospective claims design",
+            "source_id": "PMID:8023479"
+          }
+        ]
+      },
+      "required_facets": [
+        "F11a",
+        "F11b"
+      ],
+      "required_sources": [
+        "PMID:8023479"
+      ],
+      "source_rationales": {
+        "PMID:8023479": "Oregon Medicaid prescription claims over 22 months in 1991–1992: 122 concurrent prescribing episodes; 94% involved terfenadine. Different physicians accounted for 48% of episodes, different pharmacies 3%. | Claims identify prescribing overlap, not verified ingestion, adherence, QT measurements or arrhythmia incidence. Exact undocumented overlap-window mechanics are not required."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "F11a",
+        "description": "Oregon Medicaid prescription claims over 22 months in 1991–1992: 122 concurrent prescribing episodes; 94% involved terfenadine. Different physicians accounted for 48% of episodes, different pharmacies 3%.",
+        "source_id": "PMID:8023479",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+        "locator": "Author abstract, design and Results sentences",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Oregon Medicaid prescription claims over 22 months in 1991–1992: 122 concurrent prescribing episodes; 94% involved terfenadine. Different physicians accounted for 48% of episodes, different pharmacies 3%.",
+        "limits": ""
+      },
+      {
+        "id": "F11b",
+        "description": "Claims identify prescribing overlap, not verified ingestion, adherence, QT measurements or arrhythmia incidence. Exact undocumented overlap-window mechanics are not required.",
+        "source_id": "PMID:8023479",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8023479/",
+        "locator": "Author abstract and retrospective claims design",
+        "access_depth": "Primary author abstract inspected",
+        "support": "Claims identify prescribing overlap, not verified ingestion, adherence, QT measurements or arrhythmia incidence. Exact undocumented overlap-window mechanics are not required.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 12,
+    "case": "case-1",
+    "family": "terfenadine",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow did the original interaction studies and FDA assessment distinguish the roles of metabolic inhibition and intrinsic liver disease in terfenadine cardiac risk?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1038/clpt.1992.135": "PMID:1526078"
+      },
+      "facet_source_map": {
+        "F12a": [
+          {
+            "locator": "Author abstract, Participants, Intervention and Results",
+            "source_id": "PMID:8445813"
+          }
+        ],
+        "F12a-erythromycin": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:1526078"
+          }
+        ],
+        "F12b": [
+          {
+            "locator": "Summary and Background paragraphs on CYP3A4, hepatic dysfunction and serious events",
+            "source_id": "FDA:terfenadine-proposal-1997"
+          }
+        ],
+        "F12c": [
+          {
+            "locator": "Summary and Background; compare the experimental populations in PMID 8445813 and PMID 1526078",
+            "source_id": "FDA:terfenadine-proposal-1997"
+          }
+        ]
+      },
+      "required_facets": [
+        "F12a",
+        "F12a-erythromycin",
+        "F12b",
+        "F12c"
+      ],
+      "required_sources": [
+        "PMID:8445813",
+        "PMID:1526078",
+        "FDA:terfenadine-proposal-1997"
+      ],
+      "source_rationales": {
+        "FDA:terfenadine-proposal-1997": "FDA 1997 assesses impaired metabolism from either interacting drugs or intrinsic liver disease as a route to elevated parent terfenadine and potassium-channel/repolarization toxicity. | The selected interaction experiments do not directly quantify risk in liver disease. Keep the regulator’s hepatic-impairment interpretation separate. Human-microsome study PMID 7587944 is optional corroboration of CYP3A4 metabolism, not a liver-disease risk estimate.",
+        "PMID:1526078": "The nine-subject erythromycin experiment documents altered terfenadine metabolism, with parent accumulation and repolarization changes in a subset; it does not quantify clinical risk in liver disease.",
+        "PMID:8445813": "The six-person ketoconazole experiment documents parent-drug accumulation and QTc effects under the administered regimen; it is not a hepatic-disease cohort."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "F12a",
+        "description": "The six-person ketoconazole experiment documents parent-drug accumulation and QTc effects under the administered regimen; it is not a hepatic-disease cohort.",
+        "source_id": "PMID:8445813",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8445813/",
+        "locator": "Author abstract, Participants, Intervention and Results",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "The six-person ketoconazole experiment documents parent-drug accumulation and QTc effects under the administered regimen; it is not a hepatic-disease cohort.",
+        "limits": ""
+      },
+      {
+        "id": "F12a-erythromycin",
+        "description": "The nine-subject erythromycin experiment documents altered terfenadine metabolism, with parent accumulation and repolarization changes in a subset; it does not quantify clinical risk in liver disease.",
+        "source_id": "PMID:1526078",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1526078/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected",
+        "support": "Separately supports the erythromycin interaction arm of the comparison.",
+        "limits": "No individual torsades probability or hepatic-impairment effect estimate."
+      },
+      {
+        "id": "F12b",
+        "description": "FDA 1997 assesses impaired metabolism from either interacting drugs or intrinsic liver disease as a route to elevated parent terfenadine and potassium-channel/repolarization toxicity.",
+        "source_id": "FDA:terfenadine-proposal-1997",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+        "locator": "Summary and Background paragraphs on CYP3A4, hepatic dysfunction and serious events",
+        "access_depth": "Full official notice inspected",
+        "support": "FDA 1997 assesses impaired metabolism from either interacting drugs or intrinsic liver disease as a route to elevated parent terfenadine and potassium-channel/repolarization toxicity.",
+        "limits": ""
+      },
+      {
+        "id": "F12c",
+        "description": "The selected interaction experiments do not directly quantify risk in liver disease. Keep the regulator’s hepatic-impairment interpretation separate. Human-microsome study PMID 7587944 is optional corroboration of CYP3A4 metabolism, not a liver-disease risk estimate.",
+        "source_id": "FDA:terfenadine-proposal-1997",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1997-01-14/html/97-714.htm",
+        "locator": "Summary and Background; compare the experimental populations in PMID 8445813 and PMID 1526078",
+        "access_depth": "Official notice and primary study abstracts inspected",
+        "support": "The selected interaction experiments do not directly quantify risk in liver disease. Keep the regulator’s hepatic-impairment interpretation separate. Human-microsome study PMID 7587944 is optional corroboration of CYP3A4 metabolism, not a liver-disease risk estimate.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 13,
+    "case": "case-1",
+    "family": "astemizole",
+    "jurisdiction": "US regulatory decision; clinical case reports retain their own study locations, not presumed US patients.",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat do the original astemizole overdose and astemizole–ketoconazole case reports establish about cardiac risk, and what does the FDA’s 1999 notice establish about withdrawal of Hismanal from US sale? Separate the clinical observations, the dated regulatory actions and what those records do not establish.\n\nIdentified source versions: PMID:1937973; PMID:9071844; FederalRegister:1999-08-23:99-21813.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/0167-5273(91)90166-m": "PMID:1937973",
+        "FederalRegister:1999-08-23:99-21813": "FDA:astemizole-notice-1999"
+      },
+      "facet_source_map": {
+        "A13a": [
+          {
+            "locator": "Summary; supplementary final two paragraphs, FR p 45973",
+            "source_id": "FDA:astemizole-notice-1999"
+          }
+        ],
+        "A13b": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:1937973"
+          }
+        ],
+        "A13b-interaction": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:9071844"
+          }
+        ],
+        "A13c": [
+          {
+            "locator": "Supplementary statement that agency considered sponsor explanation and available information",
+            "source_id": "FDA:astemizole-notice-1999"
+          }
+        ]
+      },
+      "required_facets": [
+        "A13a",
+        "A13b",
+        "A13b-interaction",
+        "A13c"
+      ],
+      "required_sources": [
+        "FDA:astemizole-notice-1999",
+        "PMID:1937973",
+        "PMID:9071844"
+      ],
+      "source_rationales": {
+        "FDA:astemizole-notice-1999": "Manufacturer removed 10 mg Hismanal from US sale June 18, 1999; the August 23 FDA notice determined safety-related withdrawal and Orange Book/ANDA consequences. This is not a clinical case dataset. | The selected notice does not enumerate the full prior warning history or prove that these exact publications were the decisive FDA inputs; distinguish clinical context from documented regulatory reasoning.",
+        "PMID:1937973": "The deliberate-overdose report describes QT prolongation, Mobitz type II block and torsades; it is case evidence without a population denominator.",
+        "PMID:9071844": "The recommended-dose astemizole plus ketoconazole case documents long QT and torsades, providing a distinct interaction-risk circumstance."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "A13a",
+        "description": "Manufacturer removed 10 mg Hismanal from US sale June 18, 1999; the August 23 FDA notice determined safety-related withdrawal and Orange Book/ANDA consequences. This is not a clinical case dataset.",
+        "source_id": "FDA:astemizole-notice-1999",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1999-08-23/html/99-21813.htm",
+        "locator": "Summary; supplementary final two paragraphs, FR p 45973",
+        "access_depth": "Full official notice inspected",
+        "support": "Manufacturer removed 10 mg Hismanal from US sale June 18, 1999; the August 23 FDA notice determined safety-related withdrawal and Orange Book/ANDA consequences. This is not a clinical case dataset.",
+        "limits": ""
+      },
+      {
+        "id": "A13b",
+        "description": "The deliberate-overdose report describes QT prolongation, Mobitz type II block and torsades; it is case evidence without a population denominator.",
+        "source_id": "PMID:1937973",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1937973/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "The deliberate-overdose report describes QT prolongation, Mobitz type II block and torsades; it is case evidence without a population denominator.",
+        "limits": ""
+      },
+      {
+        "id": "A13b-interaction",
+        "description": "The recommended-dose astemizole plus ketoconazole case documents long QT and torsades, providing a distinct interaction-risk circumstance.",
+        "source_id": "PMID:9071844",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected",
+        "support": "Supports the interaction case component, not a population incidence estimate.",
+        "limits": "Does not prove this exact report was a decisive regulatory input."
+      },
+      {
+        "id": "A13c",
+        "description": "The selected notice does not enumerate the full prior warning history or prove that these exact publications were the decisive FDA inputs; distinguish clinical context from documented regulatory reasoning.",
+        "source_id": "FDA:astemizole-notice-1999",
+        "url": "https://www.govinfo.gov/content/pkg/FR-1999-08-23/html/99-21813.htm",
+        "locator": "Supplementary statement that agency considered sponsor explanation and available information",
+        "access_depth": "Full official notice inspected",
+        "support": "The selected notice does not enumerate the full prior warning history or prove that these exact publications were the decisive FDA inputs; distinguish clinical context from documented regulatory reasoning.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 14,
+    "case": "case-1",
+    "family": "astemizole",
+    "jurisdiction": "International case comparison; no assertion that either is a US case.",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow did the reported circumstances of astemizole overdose differ from the recommended-dose astemizole–ketoconazole case, and what limits a comparison of those cases?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/0167-5273(91)90166-m": "PMID:1937973"
+      },
+      "facet_source_map": {
+        "A14a": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:1937973"
+          }
+        ],
+        "A14b": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:9071844"
+          }
+        ],
+        "A14c": [
+          {
+            "locator": "Abstract; comparison with PMID 1937973",
+            "source_id": "PMID:9071844"
+          }
+        ]
+      },
+      "required_facets": [
+        "A14a",
+        "A14b",
+        "A14c"
+      ],
+      "required_sources": [
+        "PMID:1937973",
+        "PMID:9071844"
+      ],
+      "source_rationales": {
+        "PMID:1937973": "Deliberate astemizole overdose report describes Mobitz II block, QT prolongation and torsades.",
+        "PMID:9071844": "Recommended-dose astemizole plus ketoconazole report concerns a 63-year-old woman with long QT and torsades; discontinuation and several treatments preceded recovery. | Different selected cases cannot quantify relative risk. Overdose and interaction are distinct exposure circumstances; neither abstract supplies exact doses/timelines needed for a numerical comparison."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "A14a",
+        "description": "Deliberate astemizole overdose report describes Mobitz II block, QT prolongation and torsades.",
+        "source_id": "PMID:1937973",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1937973/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Deliberate astemizole overdose report describes Mobitz II block, QT prolongation and torsades.",
+        "limits": ""
+      },
+      {
+        "id": "A14b",
+        "description": "Recommended-dose astemizole plus ketoconazole report concerns a 63-year-old woman with long QT and torsades; discontinuation and several treatments preceded recovery.",
+        "source_id": "PMID:9071844",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "Recommended-dose astemizole plus ketoconazole report concerns a 63-year-old woman with long QT and torsades; discontinuation and several treatments preceded recovery.",
+        "limits": ""
+      },
+      {
+        "id": "A14c",
+        "description": "Different selected cases cannot quantify relative risk. Overdose and interaction are distinct exposure circumstances; neither abstract supplies exact doses/timelines needed for a numerical comparison.",
+        "source_id": "PMID:9071844",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Abstract; comparison with PMID 1937973",
+        "access_depth": "Primary abstracts inspected",
+        "support": "Different selected cases cannot quantify relative risk. Overdose and interaction are distinct exposure circumstances; neither abstract supplies exact doses/timelines needed for a numerical comparison.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 15,
+    "case": "case-1",
+    "family": "astemizole",
+    "jurisdiction": "Japan; replace staged United States field for this case interpretation.",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat does the astemizole/cimetidine report describe about measured exposure, vasospastic angina and other patient circumstances, and which causal interpretations remain uncertain?\n\nIdentified source versions: PMID:9583453.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1253/jcj.62.225": "PMID:9583453"
+      },
+      "facet_source_map": {
+        "A15a": [
+          {
+            "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs",
+            "source_id": "PMID:9583453"
+          }
+        ],
+        "A15b": [
+          {
+            "locator": "p 225 Case Report; p 227 Discussion",
+            "source_id": "PMID:9583453"
+          }
+        ],
+        "A15c": [
+          {
+            "locator": "p 225 last paragraph; p 227 Discussion/Conclusion",
+            "source_id": "PMID:9583453"
+          }
+        ]
+      },
+      "required_facets": [
+        "A15a",
+        "A15b",
+        "A15c"
+      ],
+      "required_sources": [
+        "PMID:9583453"
+      ],
+      "source_rationales": {
+        "PMID:9583453": "Japan: 77-year-old woman, astemizole 10 mg/day for 6 months; prolonged QT and 3 TdP episodes. Early hospital serum concentration of astemizole plus metabolites was 15.85 ng/mL, not a parent-only assay result. | Cimetidine, other medicines, age and prior fulminant hepatitis are possible contributors; contemporaneous hepatic testing was normal. Exposure and QT declined after withdrawal. | Acetylcholine challenge demonstrated coronary vasospasm, but the authors could not prove its relationship to astemizole concentration. A single case does not isolate cimetidine’s causal contribution."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "A15a",
+        "description": "Japan: 77-year-old woman, astemizole 10 mg/day for 6 months; prolonged QT and 3 TdP episodes. Early hospital serum concentration of astemizole plus metabolites was 15.85 ng/mL, not a parent-only assay result.",
+        "source_id": "PMID:9583453",
+        "url": "https://www.jstage.jst.go.jp/article/jcj/62/3/62_3_225/_pdf",
+        "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs",
+        "access_depth": "Full 3-page primary scan OCR-read; p 225 visually checked",
+        "support": "Japan: 77-year-old woman, astemizole 10 mg/day for 6 months; prolonged QT and 3 TdP episodes. Early hospital serum concentration of astemizole plus metabolites was 15.85 ng/mL, not a parent-only assay result.",
+        "limits": ""
+      },
+      {
+        "id": "A15b",
+        "description": "Cimetidine, other medicines, age and prior fulminant hepatitis are possible contributors; contemporaneous hepatic testing was normal. Exposure and QT declined after withdrawal.",
+        "source_id": "PMID:9583453",
+        "url": "https://www.jstage.jst.go.jp/article/jcj/62/3/62_3_225/_pdf",
+        "locator": "p 225 Case Report; p 227 Discussion",
+        "access_depth": "Full primary paper inspected",
+        "support": "Cimetidine, other medicines, age and prior fulminant hepatitis are possible contributors; contemporaneous hepatic testing was normal. Exposure and QT declined after withdrawal.",
+        "limits": ""
+      },
+      {
+        "id": "A15c",
+        "description": "Acetylcholine challenge demonstrated coronary vasospasm, but the authors could not prove its relationship to astemizole concentration. A single case does not isolate cimetidine’s causal contribution.",
+        "source_id": "PMID:9583453",
+        "url": "https://www.jstage.jst.go.jp/article/jcj/62/3/62_3_225/_pdf",
+        "locator": "p 225 last paragraph; p 227 Discussion/Conclusion",
+        "access_depth": "Full primary paper inspected",
+        "support": "Acetylcholine challenge demonstrated coronary vasospasm, but the authors could not prove its relationship to astemizole concentration. A single case does not isolate cimetidine’s causal contribution.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 16,
+    "case": "case-1",
+    "family": "astemizole",
+    "jurisdiction": "Case report with Taiwanese author affiliation; actual treatment location not independently established by the inspected abstract; remove United States assumption.",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat does the original recommended-dose astemizole–ketoconazole case report demonstrate about the episode of torsades, and what uncertainty remains?\n\nIdentified source versions: PMID:9071844.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "A16a": [
+          {
+            "locator": "Author abstract, case sentence",
+            "source_id": "PMID:9071844"
+          }
+        ],
+        "A16b": [
+          {
+            "locator": "Author abstract, recovery sentence",
+            "source_id": "PMID:9071844"
+          }
+        ],
+        "A16c": [
+          {
+            "locator": "Author abstract and case-report design",
+            "source_id": "PMID:9071844"
+          }
+        ]
+      },
+      "required_facets": [
+        "A16a",
+        "A16b",
+        "A16c"
+      ],
+      "required_sources": [
+        "PMID:9071844"
+      ],
+      "source_rationales": {
+        "PMID:9071844": "A 63-year-old woman developed long QT and torsades while taking recommended-dose astemizole with ketoconazole. | After stopping both drugs and receiving temporary pacing, magnesium sulfate and lidocaine, arrhythmia ceased and ECG normalized at discharge. Multiple interventions prevent isolating one treatment effect. | Supports an interaction safety signal; does not quantify incidence, identify an exact pharmacokinetic mechanism in this patient or exclude every alternative cause."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "A16a",
+        "description": "A 63-year-old woman developed long QT and torsades while taking recommended-dose astemizole with ketoconazole.",
+        "source_id": "PMID:9071844",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Author abstract, case sentence",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "A 63-year-old woman developed long QT and torsades while taking recommended-dose astemizole with ketoconazole.",
+        "limits": ""
+      },
+      {
+        "id": "A16b",
+        "description": "After stopping both drugs and receiving temporary pacing, magnesium sulfate and lidocaine, arrhythmia ceased and ECG normalized at discharge. Multiple interventions prevent isolating one treatment effect.",
+        "source_id": "PMID:9071844",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Author abstract, recovery sentence",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "After stopping both drugs and receiving temporary pacing, magnesium sulfate and lidocaine, arrhythmia ceased and ECG normalized at discharge. Multiple interventions prevent isolating one treatment effect.",
+        "limits": ""
+      },
+      {
+        "id": "A16c",
+        "description": "Supports an interaction safety signal; does not quantify incidence, identify an exact pharmacokinetic mechanism in this patient or exclude every alternative cause.",
+        "source_id": "PMID:9071844",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9071844/",
+        "locator": "Author abstract and case-report design",
+        "access_depth": "Primary author abstract inspected",
+        "support": "Supports an interaction safety signal; does not quantify incidence, identify an exact pharmacokinetic mechanism in this patient or exclude every alternative cause.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 17,
+    "case": "case-1",
+    "family": "grepafloxacin",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nUsing the FDA’s 13 August 2001 postmarketing safety memorandum and the corrected 9 July 2007 RAXAR notice, distinguish grepafloxacin’s sponsor market removal from the later withdrawal of US approval. What dates and cardiac-safety reasons do these records establish, and which parts are retrospective accounts?\n\nIdentified source versions: FDA:Singer-2001-08-13:PID-D010228; FederalRegister:2007-07-09:E7-13160.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "G17a": [
+          {
+            "locator": "Package PDF p 50 header and p 64/printed p 15 grepafloxacin paragraph",
+            "source_id": "FDA:Singer-2001-08-13:PID-D010228"
+          }
+        ],
+        "G17b": [
+          {
+            "locator": "PDF p 1, FR 72(130)p 37244",
+            "source_id": "FederalRegister:2007-07-09:E7-13160"
+          }
+        ],
+        "G17c": [
+          {
+            "locator": "Safety-rationale and effective-date paragraphs",
+            "source_id": "FederalRegister:2007-07-09:E7-13160"
+          }
+        ]
+      },
+      "required_facets": [
+        "G17a",
+        "G17b",
+        "G17c"
+      ],
+      "required_sources": [
+        "FDA:Singer-2001-08-13:PID-D010228",
+        "FederalRegister:2007-07-09:E7-13160"
+      ],
+      "source_rationales": {
+        "FDA:Singer-2001-08-13:PID-D010228": "Singer’s August 13, 2001 memorandum retrospectively reports sponsor removal in October 1999, attributed to cardiac toxicity, while noting the original licence-holder disputed cardiotoxicity and sought return. The later 2007 FDA notice records the formal QT/repolarization/TdP rationale.",
+        "FederalRegister:2007-07-09:E7-13160": "Corrected 2007 notice: sponsor request March 5, 2003; FDA acknowledgment June 20, 2003; FDA determination January 12, 2007; sponsor concurrence March 20, 2007; correction published/effective July 9, 2007 following June 14 notice. | Preserve FDA’s repolarization/QTc/TdP safety rationale and distinguish sponsor market removal from formal approval withdrawal."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "G17a",
+        "description": "Singer’s August 13, 2001 memorandum retrospectively reports sponsor removal in October 1999, attributed to cardiac toxicity, while noting the original licence-holder disputed cardiotoxicity and sought return. The later 2007 FDA notice records the formal QT/repolarization/TdP rationale.",
+        "source_id": "FDA:Singer-2001-08-13:PID-D010228",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "Package PDF p 50 header and p 64/printed p 15 grepafloxacin paragraph",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026.",
+        "support": "Singer’s August 13, 2001 memorandum retrospectively reports sponsor removal in October 1999, attributed to cardiac toxicity, while noting the original licence-holder disputed cardiotoxicity and sought return. The later 2007 FDA notice records the formal QT/repolarization/TdP rationale.",
+        "limits": ""
+      },
+      {
+        "id": "G17b",
+        "description": "Corrected 2007 notice: sponsor request March 5, 2003; FDA acknowledgment June 20, 2003; FDA determination January 12, 2007; sponsor concurrence March 20, 2007; correction published/effective July 9, 2007 following June 14 notice.",
+        "source_id": "FederalRegister:2007-07-09:E7-13160",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2007-07-09/pdf/E7-13160.pdf",
+        "locator": "PDF p 1, FR 72(130)p 37244",
+        "access_depth": "Exact adopted official PDF re-fetched and complete relevant corrected notice read on 31 October 2026.",
+        "support": "Corrected 2007 notice: sponsor request March 5, 2003; FDA acknowledgment June 20, 2003; FDA determination January 12, 2007; sponsor concurrence March 20, 2007; correction published/effective July 9, 2007 following June 14 notice.",
+        "limits": ""
+      },
+      {
+        "id": "G17c",
+        "description": "Preserve FDA’s repolarization/QTc/TdP safety rationale and distinguish sponsor market removal from formal approval withdrawal.",
+        "source_id": "FederalRegister:2007-07-09:E7-13160",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2007-07-09/pdf/E7-13160.pdf",
+        "locator": "Safety-rationale and effective-date paragraphs",
+        "access_depth": "Exact adopted official PDF re-fetched and complete relevant corrected notice read on 31 October 2026.",
+        "support": "Preserve FDA’s repolarization/QTc/TdP safety rationale and distinguish sponsor market removal from formal approval withdrawal.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 18,
+    "case": "case-1",
+    "family": "grepafloxacin",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat QT-related findings and precautions were already recorded in the August 1999 RAXAR label, and how do they differ from the categorized postmarketing arrhythmia evidence in the FDA’s 13 August 2001 review? What can neither source establish about incidence or individual risk?\n\nIdentified source versions: FDA:RAXAR-RL-740:1999-08; FDA:Singer-2001-08-13:PID-D010228.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "G18a": [
+          {
+            "locator": "PDF pp 11–12/printed pp 10–11, lines 276–283 and 300–309; revision PDF p 24",
+            "source_id": "FDA:RAXAR-RL-740:1999-08"
+          }
+        ],
+        "G18b": [
+          {
+            "locator": "PDF pp 64–65/printed pp 15–16; general limitations pp 53–54",
+            "source_id": "FDA:Singer-2001-08-13:PID-D010228"
+          }
+        ]
+      },
+      "required_facets": [
+        "G18a",
+        "G18b"
+      ],
+      "required_sources": [
+        "FDA:RAXAR-RL-740:1999-08",
+        "FDA:Singer-2001-08-13:PID-D010228"
+      ],
+      "source_rationales": {
+        "FDA:RAXAR-RL-740:1999-08": "August 1999 RL-740 label: QTc prolongation observed in healthy volunteers; known QTc prolongation and hepatic failure contraindicated. Concomitant QT/TdP-active drugs contraindicated unless appropriate cardiac monitoring is assured; outpatient warning preserves that qualification. Use is not recommended with ongoing hypokalaemia, significant bradycardia, heart failure, myocardial ischaemia or atrial fibrillation.",
+        "FDA:Singer-2001-08-13:PID-D010228": "Singer’s later table categorizes selected arrhythmia reports after duplicate/miscoding exclusions. Report counts differ from the label’s volunteer endpoint and do not establish incidence or individual risk."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "G18a",
+        "description": "August 1999 RL-740 label: QTc prolongation observed in healthy volunteers; known QTc prolongation and hepatic failure contraindicated. Concomitant QT/TdP-active drugs contraindicated unless appropriate cardiac monitoring is assured; outpatient warning preserves that qualification. Use is not recommended with ongoing hypokalaemia, significant bradycardia, heart failure, myocardial ischaemia or atrial fibrillation.",
+        "source_id": "FDA:RAXAR-RL-740:1999-08",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/98/20-695S003_Raxar_Prntlbl.pdf",
+        "locator": "PDF pp 11–12/printed pp 10–11, lines 276–283 and 300–309; revision PDF p 24",
+        "access_depth": "Exact adopted PDF re-fetched; pp 11–12 and revision p 24 inspected; p 11 visually checked on 31 October 2026.",
+        "support": "August 1999 RL-740 label: QTc prolongation observed in healthy volunteers; known QTc prolongation and hepatic failure contraindicated. Concomitant QT/TdP-active drugs contraindicated unless appropriate cardiac monitoring is assured; outpatient warning preserves that qualification. Use is not recommended with ongoing hypokalaemia, significant bradycardia, heart failure, myocardial ischaemia or atrial fibrillation.",
+        "limits": ""
+      },
+      {
+        "id": "G18b",
+        "description": "Singer’s later table categorizes selected arrhythmia reports after duplicate/miscoding exclusions. Report counts differ from the label’s volunteer endpoint and do not establish incidence or individual risk.",
+        "source_id": "FDA:Singer-2001-08-13:PID-D010228",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF pp 64–65/printed pp 15–16; general limitations pp 53–54",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026.",
+        "support": "Singer’s later table categorizes selected arrhythmia reports after duplicate/miscoding exclusions. Report counts differ from the label’s volunteer endpoint and do not establish incidence or individual risk.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 19,
+    "case": "case-1",
+    "family": "grepafloxacin",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nIn Table 6 of Sarah J. Singer’s FDA postmarketing safety review dated 13 August 2001, what grepafloxacin-associated ventricular-arrhythmia and cardiac-arrest reports were counted, how were cases selected and categorized, and why do these data not establish patient-level dose risk, incidence, or relative drug safety?\n\nIdentified source versions: FDA:Singer-2001-08-13:PID-D010228:Table-6.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "G19a": [
+          {
+            "locator": "PDF p 64/printed p 15, Table 6",
+            "source_id": "FDA:Singer-2001-08-13:PID-D010228"
+          }
+        ],
+        "G19b": [
+          {
+            "locator": "PDF p 64, methods immediately before Table 6",
+            "source_id": "FDA:Singer-2001-08-13:PID-D010228"
+          }
+        ],
+        "G19c": [
+          {
+            "locator": "PDF pp 64–65; supporting reporting caveats pp 53–54",
+            "source_id": "FDA:Singer-2001-08-13:PID-D010228"
+          }
+        ]
+      },
+      "required_facets": [
+        "G19a",
+        "G19b",
+        "G19c"
+      ],
+      "required_sources": [
+        "FDA:Singer-2001-08-13:PID-D010228"
+      ],
+      "source_rationales": {
+        "FDA:Singer-2001-08-13:PID-D010228": "Table 6 grepafloxacin totals: TdP 2, sudden death 1, cardiac arrest 3, VF 0, VT 3, unspecified ventricular arrhythmia 0, PVC 2; 11 total (5 domestic, 6 foreign). The image corrects OCR 41 to 11. | Duplicates, miscoding and arrests attributed to underlying disease were excluded; one hierarchical category per case. Reports are not 11 deaths or 11 proven causal events. | Individual doses, ages, concentrations and co-medications are absent; denominator redacted. Coding, publicity and incompatible denominators prevent incidence/relative-safety estimates."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "G19a",
+        "description": "Table 6 grepafloxacin totals: TdP 2, sudden death 1, cardiac arrest 3, VF 0, VT 3, unspecified ventricular arrhythmia 0, PVC 2; 11 total (5 domestic, 6 foreign). The image corrects OCR 41 to 11.",
+        "source_id": "FDA:Singer-2001-08-13:PID-D010228",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF p 64/printed p 15, Table 6",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026.",
+        "support": "Table 6 grepafloxacin totals: TdP 2, sudden death 1, cardiac arrest 3, VF 0, VT 3, unspecified ventricular arrhythmia 0, PVC 2; 11 total (5 domestic, 6 foreign). The image corrects OCR 41 to 11.",
+        "limits": ""
+      },
+      {
+        "id": "G19b",
+        "description": "Duplicates, miscoding and arrests attributed to underlying disease were excluded; one hierarchical category per case. Reports are not 11 deaths or 11 proven causal events.",
+        "source_id": "FDA:Singer-2001-08-13:PID-D010228",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF p 64, methods immediately before Table 6",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026.",
+        "support": "Duplicates, miscoding and arrests attributed to underlying disease were excluded; one hierarchical category per case. Reports are not 11 deaths or 11 proven causal events.",
+        "limits": ""
+      },
+      {
+        "id": "G19c",
+        "description": "Individual doses, ages, concentrations and co-medications are absent; denominator redacted. Coding, publicity and incompatible denominators prevent incidence/relative-safety estimates.",
+        "source_id": "FDA:Singer-2001-08-13:PID-D010228",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021061s010_s016_Tequin_AdminCorres.pdf",
+        "locator": "PDF pp 64–65; supporting reporting caveats pp 53–54",
+        "access_depth": "Exact adopted PDF re-fetched; p 50 header and pp 64–65 read, p 64 table and narrative visually checked on 31 October 2026.",
+        "support": "Individual doses, ages, concentrations and co-medications are absent; denominator redacted. Coding, publicity and incompatible denominators prevent incidence/relative-safety estimates.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 20,
+    "case": "case-1",
+    "family": "grepafloxacin",
+    "jurisdiction": "International preclinical experiments; no human US clinical population implied.",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did primary grepafloxacin electrophysiology studies find about potassium-current effects and experimental proarrhythmia, with what assay conditions and translational limits?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/s0014-2999(00)00693-2": "PMID:11040340"
+      },
+      "facet_source_map": {
+        "G20a": [
+          {
+            "locator": "Complete author abstract",
+            "source_id": "PMID:11040340"
+          }
+        ],
+        "G20b": [
+          {
+            "locator": "Publisher Cellular Electrophysiology excerpt; Abstract potency results",
+            "source_id": "PMID:11181910"
+          }
+        ],
+        "G20c": [
+          {
+            "locator": "Author abstract, rabbit outcomes",
+            "source_id": "PMID:11181910"
+          }
+        ],
+        "G20d": [
+          {
+            "locator": "Publication date, abstract and publisher Discussion excerpt",
+            "source_id": "PMID:11181910"
+          }
+        ]
+      },
+      "required_facets": [
+        "G20a",
+        "G20b",
+        "G20c",
+        "G20d"
+      ],
+      "required_sources": [
+        "PMID:11040340",
+        "PMID:11181910"
+      ],
+      "source_rationales": {
+        "PMID:11040340": "2000 expressed HERG study: stably transfected CHO cells, patch clamp, outward current at −40 mV; grepafloxacin EC50 37.5±3.3 μg/mL; washout reversible.",
+        "PMID:11181910": "2001 IKr assay used mouse atrial tumour AT-1 cells under whole-cell voltage clamp; grepafloxacin IC50 27.2±11.6 μM. Separate this from expressed HERG and rabbit experiments. | In the rabbit model no tested drug caused TdP during 30 minutes; extended 60 minute arrhythmias were reported for sparfloxacin. This does not show grepafloxacin free of human proarrhythmic risk. | Both papers followed 1999 withdrawal. Potency depends on preparation/protocol and is not a direct cross-drug clinical-risk ranking."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "G20a",
+        "description": "2000 expressed HERG study: stably transfected CHO cells, patch clamp, outward current at −40 mV; grepafloxacin EC50 37.5±3.3 μg/mL; washout reversible.",
+        "source_id": "PMID:11040340",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11040340/",
+        "locator": "Complete author abstract",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "2000 expressed HERG study: stably transfected CHO cells, patch clamp, outward current at −40 mV; grepafloxacin EC50 37.5±3.3 μg/mL; washout reversible.",
+        "limits": "Preserve mass units; do not silently convert to μM."
+      },
+      {
+        "id": "G20b",
+        "description": "2001 IKr assay used mouse atrial tumour AT-1 cells under whole-cell voltage clamp; grepafloxacin IC50 27.2±11.6 μM. Separate this from expressed HERG and rabbit experiments.",
+        "source_id": "PMID:11181910",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524388202",
+        "locator": "Publisher Cellular Electrophysiology excerpt; Abstract potency results",
+        "access_depth": "Primary abstract plus publisher Methods excerpt inspected",
+        "support": "2001 IKr assay used mouse atrial tumour AT-1 cells under whole-cell voltage clamp; grepafloxacin IC50 27.2±11.6 μM. Separate this from expressed HERG and rabbit experiments.",
+        "limits": ""
+      },
+      {
+        "id": "G20c",
+        "description": "In the rabbit model no tested drug caused TdP during 30 minutes; extended 60 minute arrhythmias were reported for sparfloxacin. This does not show grepafloxacin free of human proarrhythmic risk.",
+        "source_id": "PMID:11181910",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11181910/",
+        "locator": "Author abstract, rabbit outcomes",
+        "access_depth": "Primary author abstract inspected in Europe PMC indexed record",
+        "support": "In the rabbit model no tested drug caused TdP during 30 minutes; extended 60 minute arrhythmias were reported for sparfloxacin. This does not show grepafloxacin free of human proarrhythmic risk.",
+        "limits": ""
+      },
+      {
+        "id": "G20d",
+        "description": "Both papers followed 1999 withdrawal. Potency depends on preparation/protocol and is not a direct cross-drug clinical-risk ranking.",
+        "source_id": "PMID:11181910",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11181910/",
+        "locator": "Publication date, abstract and publisher Discussion excerpt",
+        "access_depth": "Primary record and inspected excerpts",
+        "support": "Both papers followed 1999 withdrawal. Potency depends on preparation/protocol and is not a direct cross-drug clinical-risk ranking.",
+        "limits": ""
+      }
+    ]
+  },
+  {
+    "question_no": 21,
+    "case": "case-2",
+    "family": "fluoroquinolones",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nIn the US, how does QT-related evidence compare for systemic moxifloxacin, levofloxacin and ciprofloxacin in adults, and what does it establish for patients already taking other QT-prolonging medicines?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": true,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/s0009-9236(03)00009-2": "PMID:12709719",
+        "DOI:10.1111/j.1542-474X.2006.00082.x": "PMID:16472283",
+        "DOI:10.1128/AAC.00958-12": "PMID:23229485",
+        "DOI:10.1136/bmj.i843": "PMID:26920666",
+        "DOI:10.1136/bmjopen-2017-020974": "PMID:30269062",
+        "PMCID:PMC3591877": "PMID:23229485",
+        "PMCID:PMC4770814": "PMID:26920666",
+        "PMCID:PMC6169761": "PMID:30269062",
+        "PMCID:PMC6932383": "PMID:16472283"
+      },
+      "facet_source_map": {
+        "FQ-CoMedApplicability": [
+          {
+            "locator": "Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).",
+            "source_id": "PMID:30269062"
+          }
+        ],
+        "FQ-Events": [
+          {
+            "locator": "Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).",
+            "source_id": "PMID:30269062"
+          },
+          {
+            "locator": "Full text: Methods, Study cohort (sec5), Follow-up and outcome (sec8); Results, Cohort (sec12), Main results (sec13); Limitations (sec17).",
+            "source_id": "PMID:26920666"
+          }
+        ],
+        "FQ-Interaction": [
+          {
+            "locator": "Abstract paragraphs 2–4: methods, results and risk factors.",
+            "source_id": "PMID:23229485"
+          }
+        ],
+        "FQ-Labels": [
+          {
+            "locator": "§5.6 (sec_6990767177), §7.5 (sec_7880738376)",
+            "source_id": "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1"
+          },
+          {
+            "locator": "§5.11 (ID253); §8.5 geriatric QT caution",
+            "source_id": "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1"
+          },
+          {
+            "locator": "§5.12 (LINK_0df637d7-f34a-4d3b-9486-604abbe2bc35); §7 QT-drug interaction row",
+            "source_id": "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+          }
+        ],
+        "FQ-QTc": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:12709719"
+          },
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          }
+        ],
+        "FQ-Uncertainty": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:12709719"
+          },
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          },
+          {
+            "locator": "Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).",
+            "source_id": "PMID:30269062"
+          },
+          {
+            "locator": "Abstract paragraphs 2–4: methods, results and risk factors.",
+            "source_id": "PMID:23229485"
+          }
+        ]
+      },
+      "required_facets": [
+        "FQ-QTc",
+        "FQ-Events",
+        "FQ-CoMedApplicability",
+        "FQ-Interaction",
+        "FQ-Labels",
+        "FQ-Uncertainty"
+      ],
+      "required_sources": [
+        "PMID:12709719",
+        "PMID:16472283",
+        "PMID:30269062",
+        "PMID:26920666",
+        "PMID:23229485",
+        "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+        "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+        "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+      ],
+      "source_rationales": {
+        "PMID:12709719": "Compare the three drugs’ measured QTc effects within each regimen; keep dose, population and correction/time basis. | Do not infer protection, rare-event equivalence or personalized drug choice from the surrogate studies.",
+        "PMID:16472283": "Compare the three drugs’ measured QTc effects within each regimen; keep dose, population and correction/time basis. | Do not infer protection, rare-event equivalence or personalized drug choice from the surrogate studies.",
+        "PMID:23229485": "Use actual combination evidence as QTc findings, with patient factors, not TdP incidence. | Do not infer protection, rare-event equivalence or personalized drug choice from the surrogate studies.",
+        "PMID:26920666": "Distinguish positive and null observational clinical-event evidence and comparators; no universal causal ranking.",
+        "PMID:30269062": "Distinguish positive and null observational clinical-event evidence and comparators; no universal causal ranking. | Explain the QT-active co-medication exclusion and the limits of extrapolation. | Do not infer protection, rare-event equivalence or personalized drug choice from the surrogate studies.",
+        "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1": "Separate each selected US label’s wording and avoid-use classes.",
+        "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1": "Separate each selected US label’s wording and avoid-use classes.",
+        "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11": "Separate each selected US label’s wording and avoid-use classes."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "FQ-QTc",
+        "description": "Compare the three drugs’ measured QTc effects within each regimen; keep dose, population and correction/time basis.",
+        "source_ids": [
+          "PMID:12709719",
+          "PMID:16472283"
+        ]
+      },
+      {
+        "id": "FQ-Events",
+        "description": "Distinguish positive and null observational clinical-event evidence and comparators; no universal causal ranking.",
+        "source_ids": [
+          "PMID:30269062",
+          "PMID:26920666"
+        ]
+      },
+      {
+        "id": "FQ-CoMedApplicability",
+        "description": "Explain the QT-active co-medication exclusion and the limits of extrapolation.",
+        "source_ids": [
+          "PMID:30269062"
+        ]
+      },
+      {
+        "id": "FQ-Interaction",
+        "description": "Use actual combination evidence as QTc findings, with patient factors, not TdP incidence.",
+        "source_ids": [
+          "PMID:23229485"
+        ]
+      },
+      {
+        "id": "FQ-Labels",
+        "description": "Separate each selected US label’s wording and avoid-use classes.",
+        "source_ids": [
+          "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+          "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+          "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+        ]
+      },
+      {
+        "id": "FQ-Uncertainty",
+        "description": "Do not infer protection, rare-event equivalence or personalized drug choice from the surrogate studies.",
+        "source_ids": [
+          "PMID:12709719",
+          "PMID:16472283",
+          "PMID:30269062",
+          "PMID:23229485"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 22,
+    "case": "case-2",
+    "family": "fluoroquinolones",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow do Noel et al.'s single-dose and Tsikouris et al.'s seven-day fluoroquinolone studies compare in regimens, populations, QTc results and limitations?\n\nIdentified source versions: PMID:12709719; PMID:16472283.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/s0009-9236(03)00009-2": "PMID:12709719",
+        "DOI:10.1111/j.1542-474X.2006.00082.x": "PMID:16472283",
+        "PMCID:PMC6932383": "PMID:16472283"
+      },
+      "facet_source_map": {
+        "Design": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:12709719"
+          },
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          }
+        ],
+        "DosePopulation": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:12709719"
+          },
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          }
+        ],
+        "Limits": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:12709719"
+          },
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          }
+        ],
+        "QTcResult": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:12709719"
+          },
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          }
+        ]
+      },
+      "required_facets": [
+        "Design",
+        "DosePopulation",
+        "QTcResult",
+        "Limits"
+      ],
+      "required_sources": [
+        "PMID:12709719",
+        "PMID:16472283"
+      ],
+      "source_rationales": {
+        "PMID:12709719": "Contrast high-single-dose placebo crossover with seven-day open-label crossover. | Retain each drug/regimen and healthy-volunteer population. | Explain relative effects and what the reported ranges/time points mean. | Rare-event safety and co-medication risk are not estimated.",
+        "PMID:16472283": "Contrast high-single-dose placebo crossover with seven-day open-label crossover. | Retain each drug/regimen and healthy-volunteer population. | Explain relative effects and what the reported ranges/time points mean. | Rare-event safety and co-medication risk are not estimated."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Design",
+        "description": "Contrast high-single-dose placebo crossover with seven-day open-label crossover.",
+        "source_ids": [
+          "PMID:12709719",
+          "PMID:16472283"
+        ]
+      },
+      {
+        "id": "DosePopulation",
+        "description": "Retain each drug/regimen and healthy-volunteer population.",
+        "source_ids": [
+          "PMID:12709719",
+          "PMID:16472283"
+        ]
+      },
+      {
+        "id": "QTcResult",
+        "description": "Explain relative effects and what the reported ranges/time points mean.",
+        "source_ids": [
+          "PMID:12709719",
+          "PMID:16472283"
+        ]
+      },
+      {
+        "id": "Limits",
+        "description": "Rare-event safety and co-medication risk are not estimated.",
+        "source_ids": [
+          "PMID:12709719",
+          "PMID:16472283"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 23,
+    "case": "case-2",
+    "family": "fluoroquinolones",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow do the frozen US oral-tablet labels for moxifloxacin, levofloxacin and ciprofloxacin address other QT-prolonging medicines, and what product/version supports each statement?\n\nIdentified source versions: SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1; SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1; SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "Inference": [
+          {
+            "locator": "§5.6 (sec_6990767177), §7.5 (sec_7880738376)",
+            "source_id": "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1"
+          },
+          {
+            "locator": "§5.11 (ID253); §8.5 geriatric QT caution",
+            "source_id": "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1"
+          },
+          {
+            "locator": "§5.12 (LINK_0df637d7-f34a-4d3b-9486-604abbe2bc35); §7 QT-drug interaction row",
+            "source_id": "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+          }
+        ],
+        "Versions": [
+          {
+            "locator": "§5.6 (sec_6990767177), §7.5 (sec_7880738376)",
+            "source_id": "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1"
+          },
+          {
+            "locator": "§5.11 (ID253); §8.5 geriatric QT caution",
+            "source_id": "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1"
+          },
+          {
+            "locator": "§5.12 (LINK_0df637d7-f34a-4d3b-9486-604abbe2bc35); §7 QT-drug interaction row",
+            "source_id": "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+          }
+        ],
+        "Wording": [
+          {
+            "locator": "§5.6 (sec_6990767177), §7.5 (sec_7880738376)",
+            "source_id": "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1"
+          },
+          {
+            "locator": "§5.11 (ID253); §8.5 geriatric QT caution",
+            "source_id": "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1"
+          },
+          {
+            "locator": "§5.12 (LINK_0df637d7-f34a-4d3b-9486-604abbe2bc35); §7 QT-drug interaction row",
+            "source_id": "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+          }
+        ]
+      },
+      "required_facets": [
+        "Versions",
+        "Wording",
+        "Inference"
+      ],
+      "required_sources": [
+        "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+        "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+        "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+      ],
+      "source_rationales": {
+        "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1": "Identify all three exact tablet versions. | Compare specified QT-drug classes, patient risks and drug-specific avoid/caution language. | Separate warning/avoid-use text from formal contraindication and from incidence estimates.",
+        "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1": "Identify all three exact tablet versions. | Compare specified QT-drug classes, patient risks and drug-specific avoid/caution language. | Separate warning/avoid-use text from formal contraindication and from incidence estimates.",
+        "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11": "Identify all three exact tablet versions. | Compare specified QT-drug classes, patient risks and drug-specific avoid/caution language. | Separate warning/avoid-use text from formal contraindication and from incidence estimates."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Versions",
+        "description": "Identify all three exact tablet versions.",
+        "source_ids": [
+          "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+          "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+          "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+        ]
+      },
+      {
+        "id": "Wording",
+        "description": "Compare specified QT-drug classes, patient risks and drug-specific avoid/caution language.",
+        "source_ids": [
+          "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+          "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+          "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+        ]
+      },
+      {
+        "id": "Inference",
+        "description": "Separate warning/avoid-use text from formal contraindication and from incidence estimates.",
+        "source_ids": [
+          "SPL:656f582c-ecba-4ec8-9420-9562114d889b:v1",
+          "SPL:b9dc8bf3-97d9-4d1c-9a68-3ae553acdada:v1",
+          "SPL:c08b37c3-5f01-47ed-9508-02813bbd008b:v11"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 24,
+    "case": "case-2",
+    "family": "fluoroquinolones",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow do the QTc studies, elderly pneumonia trial and observational event cohorts differ in what they can establish about fluoroquinolone arrhythmia risk in patients with baseline risk factors or QT-active co-medication?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1111/j.1542-474X.2006.00082.x": "PMID:16472283",
+        "DOI:10.1128/AAC.00958-12": "PMID:23229485",
+        "DOI:10.1136/bmj.i843": "PMID:26920666",
+        "DOI:10.1136/bmjopen-2017-020974": "PMID:30269062",
+        "DOI:10.1378/chest.128.5.3398": "PMID:16304291",
+        "PMCID:PMC3591877": "PMID:23229485",
+        "PMCID:PMC4770814": "PMID:26920666",
+        "PMCID:PMC6169761": "PMID:30269062",
+        "PMCID:PMC6932383": "PMID:16472283"
+      },
+      "facet_source_map": {
+        "Applicability": [
+          {
+            "locator": "Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).",
+            "source_id": "PMID:30269062"
+          },
+          {
+            "locator": "Abstract paragraphs 2–4: methods, results and risk factors.",
+            "source_id": "PMID:23229485"
+          }
+        ],
+        "Cohorts": [
+          {
+            "locator": "Full text: Methods, Inclusion criteria/exposures (s2c), Exclusion criteria (s2d), Outcome (s2e); Results (s3b), Table 2; Limitations (s4d).",
+            "source_id": "PMID:30269062"
+          },
+          {
+            "locator": "Full text: Methods, Study cohort (sec5), Follow-up and outcome (sec8); Results, Cohort (sec12), Main results (sec13); Limitations (sec17).",
+            "source_id": "PMID:26920666"
+          }
+        ],
+        "Surrogate": [
+          {
+            "locator": "Abstract > Methods; Results and Conclusions",
+            "source_id": "PMID:16472283"
+          }
+        ],
+        "Trial": [
+          {
+            "locator": "Abstract > Design and setting; Patients; Interventions; Main outcome measures; Results",
+            "source_id": "PMID:16304291"
+          }
+        ]
+      },
+      "required_facets": [
+        "Surrogate",
+        "Trial",
+        "Cohorts",
+        "Applicability"
+      ],
+      "required_sources": [
+        "PMID:16472283",
+        "PMID:16304291",
+        "PMID:30269062",
+        "PMID:26920666",
+        "PMID:23229485"
+      ],
+      "source_rationales": {
+        "PMID:16304291": "Distinguish the elderly pneumonia trial’s randomized Holter composite and QTcF outcomes, and retain its two-drug scope.",
+        "PMID:16472283": "Healthy QTc studies measure a surrogate in selected subjects.",
+        "PMID:23229485": "Account for exclusions and the distinct combination-therapy population.",
+        "PMID:26920666": "Compare positive/null active-comparator cohorts without pooling causal effects.",
+        "PMID:30269062": "Compare positive/null active-comparator cohorts without pooling causal effects. | Account for exclusions and the distinct combination-therapy population."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Surrogate",
+        "description": "Healthy QTc studies measure a surrogate in selected subjects.",
+        "source_ids": [
+          "PMID:16472283"
+        ]
+      },
+      {
+        "id": "Trial",
+        "description": "Distinguish the elderly pneumonia trial’s randomized Holter composite and QTcF outcomes, and retain its two-drug scope.",
+        "source_ids": [
+          "PMID:16304291"
+        ]
+      },
+      {
+        "id": "Cohorts",
+        "description": "Compare positive/null active-comparator cohorts without pooling causal effects.",
+        "source_ids": [
+          "PMID:30269062",
+          "PMID:26920666"
+        ]
+      },
+      {
+        "id": "Applicability",
+        "description": "Account for exclusions and the distinct combination-therapy population.",
+        "source_ids": [
+          "PMID:30269062",
+          "PMID:23229485"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 25,
+    "case": "case-2",
+    "family": "macrolides",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did the Tennessee Medicaid azithromycin study report about cardiovascular death versus its comparators, and how did baseline risk and absolute risk affect interpretation?\n\nIdentified source versions: PMID:22591294.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1056/NEJMoa1003833": "PMID:22591294",
+        "PMCID:PMC3374857": "PMID:22591294"
+      },
+      "facet_source_map": {
+        "Limits": [
+          {
+            "locator": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+            "source_id": "PMID:22591294"
+          }
+        ],
+        "Population": [
+          {
+            "locator": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+            "source_id": "PMID:22591294"
+          }
+        ],
+        "Risk": [
+          {
+            "locator": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+            "source_id": "PMID:22591294"
+          }
+        ]
+      },
+      "required_facets": [
+        "Population",
+        "Risk",
+        "Limits"
+      ],
+      "required_sources": [
+        "PMID:22591294"
+      ],
+      "source_rationales": {
+        "PMID:22591294": "Identify eligibility, prescription-course denominator and five-day comparisons. | Report relative association and absolute excess by baseline-risk stratum. | Preserve residual indication/health confounding and outcome scope."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Population",
+        "description": "Identify eligibility, prescription-course denominator and five-day comparisons.",
+        "source_ids": [
+          "PMID:22591294"
+        ]
+      },
+      {
+        "id": "Risk",
+        "description": "Report relative association and absolute excess by baseline-risk stratum.",
+        "source_ids": [
+          "PMID:22591294"
+        ]
+      },
+      {
+        "id": "Limits",
+        "description": "Preserve residual indication/health confounding and outcome scope.",
+        "source_ids": [
+          "PMID:22591294"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 26,
+    "case": "case-2",
+    "family": "macrolides",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow do the cardiovascular-death findings from the US Tennessee Medicaid and Danish azithromycin studies compare, and how do differences in populations, comparators and study design limit their interpretation?\n\nIdentified source versions: PMID:22591294; PMID:23635050.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1056/NEJMoa1003833": "PMID:22591294",
+        "DOI:10.1056/NEJMoa1300799": "PMID:23635050",
+        "PMCID:PMC3374857": "PMID:22591294"
+      },
+      "facet_source_map": {
+        "Comparators": [
+          {
+            "locator": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+            "source_id": "PMID:22591294"
+          },
+          {
+            "locator": "Abstract > Methods; Results; Conclusions",
+            "source_id": "PMID:23635050"
+          }
+        ],
+        "Interpretation": [
+          {
+            "locator": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+            "source_id": "PMID:22591294"
+          },
+          {
+            "locator": "Abstract > Methods; Results; Conclusions",
+            "source_id": "PMID:23635050"
+          }
+        ],
+        "Populations": [
+          {
+            "locator": "Full text: METHODS, eligibility; RESULTS, cardiovascular death, Table 2 and Figure 3; DISCUSSION, confounding. NCBI BioC paragraph offsets: 4414, 11981, 15431, 17491 and 18596.",
+            "source_id": "PMID:22591294"
+          },
+          {
+            "locator": "Abstract > Methods; Results; Conclusions",
+            "source_id": "PMID:23635050"
+          }
+        ]
+      },
+      "required_facets": [
+        "Populations",
+        "Comparators",
+        "Interpretation"
+      ],
+      "required_sources": [
+        "PMID:22591294",
+        "PMID:23635050"
+      ],
+      "source_rationales": {
+        "PMID:22591294": "Distinguish Tennessee Medicaid eligibility from the Danish general-population cohort aged 18–64 years. | Keep no-antibiotic and active-antibiotic contrasts separate. | Compare effect estimates with uncertainty, not identical conflicting replications or pooled causal proof.",
+        "PMID:23635050": "Distinguish Tennessee Medicaid eligibility from the Danish general-population cohort aged 18–64 years. | Keep no-antibiotic and active-antibiotic contrasts separate. | Compare effect estimates with uncertainty, not identical conflicting replications or pooled causal proof."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Populations",
+        "description": "Distinguish Tennessee Medicaid eligibility from the Danish general-population cohort aged 18–64 years.",
+        "source_ids": [
+          "PMID:22591294",
+          "PMID:23635050"
+        ]
+      },
+      {
+        "id": "Comparators",
+        "description": "Keep no-antibiotic and active-antibiotic contrasts separate.",
+        "source_ids": [
+          "PMID:22591294",
+          "PMID:23635050"
+        ]
+      },
+      {
+        "id": "Interpretation",
+        "description": "Compare effect estimates with uncertainty, not identical conflicting replications or pooled causal proof.",
+        "source_ids": [
+          "PMID:22591294",
+          "PMID:23635050"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 27,
+    "case": "case-2",
+    "family": "macrolides",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nIn the US veterans cohort, what associations with serious arrhythmia and death were reported for azithromycin and levofloxacin relative to amoxicillin, and what prevents a direct causal ranking of the two study drugs?\n\nIdentified source versions: PMID:24615307.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1370/afm.1601": "PMID:24615307",
+        "PMCID:PMC3948758": "PMID:24615307"
+      },
+      "facet_source_map": {
+        "Design": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:24615307"
+          }
+        ],
+        "Estimates": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:24615307"
+          }
+        ],
+        "Inference": [
+          {
+            "locator": "Abstract > METHODS; RESULTS; CONCLUSIONS",
+            "source_id": "PMID:24615307"
+          }
+        ]
+      },
+      "required_facets": [
+        "Design",
+        "Estimates",
+        "Inference"
+      ],
+      "required_sources": [
+        "PMID:24615307"
+      ],
+      "source_rationales": {
+        "PMID:24615307": "US veterans outpatient prescriptions and different treatment-duration patterns. | Report both endpoints and both time windows against amoxicillin. | Do not turn common-comparator associations into a causal head-to-head ranking or relabel all-cause death as cardiovascular death."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Design",
+        "description": "US veterans outpatient prescriptions and different treatment-duration patterns.",
+        "source_ids": [
+          "PMID:24615307"
+        ]
+      },
+      {
+        "id": "Estimates",
+        "description": "Report both endpoints and both time windows against amoxicillin.",
+        "source_ids": [
+          "PMID:24615307"
+        ]
+      },
+      {
+        "id": "Inference",
+        "description": "Do not turn common-comparator associations into a causal head-to-head ranking or relabel all-cause death as cardiovascular death.",
+        "source_ids": [
+          "PMID:24615307"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 28,
+    "case": "case-2",
+    "family": "macrolides",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nUsing the selected US oral-tablet label versions for azithromycin, immediate-release clarithromycin and erythromycin base, how do the labels address pre-existing QT risk and concomitant QT-prolonging medicines? Distinguish risk-benefit cautions, avoidance recommendations and named contraindications, and identify the relevant product and version.\n\nIdentified source versions: SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49; SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2; SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "Identity": [
+          {
+            "locator": "§5.4 (S5.4)",
+            "source_id": "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49"
+          },
+          {
+            "locator": "§4.2 (Section_4.2), §5.2 (Section_5.2), §7 named-QT interaction rows",
+            "source_id": "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2"
+          },
+          {
+            "locator": "WARNINGS/QT Prolongation L39d221b7-0bcb-4a75-9aba-c33f378f85e5; CONTRAINDICATIONS L618032fe-09b2-42b5-9a7b-66fb78ecbaf7",
+            "source_id": "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+          }
+        ],
+        "RiskFactors": [
+          {
+            "locator": "§5.4 (S5.4)",
+            "source_id": "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49"
+          },
+          {
+            "locator": "§4.2 (Section_4.2), §5.2 (Section_5.2), §7 named-QT interaction rows",
+            "source_id": "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2"
+          },
+          {
+            "locator": "WARNINGS/QT Prolongation L39d221b7-0bcb-4a75-9aba-c33f378f85e5; CONTRAINDICATIONS L618032fe-09b2-42b5-9a7b-66fb78ecbaf7",
+            "source_id": "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+          }
+        ],
+        "Wording": [
+          {
+            "locator": "§5.4 (S5.4)",
+            "source_id": "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49"
+          },
+          {
+            "locator": "§4.2 (Section_4.2), §5.2 (Section_5.2), §7 named-QT interaction rows",
+            "source_id": "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2"
+          },
+          {
+            "locator": "WARNINGS/QT Prolongation L39d221b7-0bcb-4a75-9aba-c33f378f85e5; CONTRAINDICATIONS L618032fe-09b2-42b5-9a7b-66fb78ecbaf7",
+            "source_id": "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+          }
+        ]
+      },
+      "required_facets": [
+        "Identity",
+        "Wording",
+        "RiskFactors"
+      ],
+      "required_sources": [
+        "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49",
+        "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2",
+        "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+      ],
+      "source_rationales": {
+        "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2": "Use the selected versions of Pfizer Zithromax oral tablets, Solaris immediate-release clarithromycin tablets and Torrent erythromycin-base tablets. | Separate risk-benefit caution, avoidance and named contraindications. | Map QT-active medicines and proarrhythmic patient factors drug by drug.",
+        "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11": "Use the selected versions of Pfizer Zithromax oral tablets, Solaris immediate-release clarithromycin tablets and Torrent erythromycin-base tablets. | Separate risk-benefit caution, avoidance and named contraindications. | Map QT-active medicines and proarrhythmic patient factors drug by drug.",
+        "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49": "Use the selected versions of Pfizer Zithromax oral tablets, Solaris immediate-release clarithromycin tablets and Torrent erythromycin-base tablets. | Separate risk-benefit caution, avoidance and named contraindications. | Map QT-active medicines and proarrhythmic patient factors drug by drug."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Identity",
+        "description": "Use the selected versions of Pfizer Zithromax oral tablets, Solaris immediate-release clarithromycin tablets and Torrent erythromycin-base tablets.",
+        "source_ids": [
+          "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49",
+          "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2",
+          "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+        ]
+      },
+      {
+        "id": "Wording",
+        "description": "Separate risk-benefit caution, avoidance and named contraindications.",
+        "source_ids": [
+          "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49",
+          "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2",
+          "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+        ]
+      },
+      {
+        "id": "RiskFactors",
+        "description": "Map QT-active medicines and proarrhythmic patient factors drug by drug.",
+        "source_ids": [
+          "SPL:db52b91e-79f7-4cc1-9564-f2eee8e31c45:v49",
+          "SPL:4d42821d-ce7a-7d64-e063-6294a90a0875:v2",
+          "SPL:933049f6-61b9-4ed5-b6b7-60c5037e2115:v11"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 29,
+    "case": "case-2",
+    "family": "antidepressants",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat do the primary QT evidence and frozen US oral-tablet labels show about dose and QTc for citalopram and escitalopram?\n\nIdentified source versions: SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5; SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1136/bmj.f288": "PMID:23360890",
+        "PMCID:PMC3558546": "PMID:23360890"
+      },
+      "facet_source_map": {
+        "Compare": [
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          },
+          {
+            "locator": "§6.1/ECG Changes, ID59 (not ID26); §7 ID71 only as relevant",
+            "source_id": "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3"
+          }
+        ],
+        "Controlled": [
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          },
+          {
+            "locator": "§6.1/ECG Changes, ID59 (not ID26); §7 ID71 only as relevant",
+            "source_id": "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3"
+          }
+        ],
+        "Observed": [
+          {
+            "locator": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+            "source_id": "PMID:23360890"
+          }
+        ]
+      },
+      "required_facets": [
+        "Observed",
+        "Controlled",
+        "Compare"
+      ],
+      "required_sources": [
+        "PMID:23360890",
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5",
+        "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3"
+      ],
+      "source_rationales": {
+        "PMID:23360890": "Separate EHR dose association and within-person citalopram results from controlled label trials.",
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5": "Identify each label’s healthy-subject study and measured versus modeled doses. | Preserve QTcNi versus QTcF and do not infer equivalent-dose clinical risk across separate trials.",
+        "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3": "Identify each label’s healthy-subject study and measured versus modeled doses. | Preserve QTcNi versus QTcF and do not infer equivalent-dose clinical risk across separate trials."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Observed",
+        "description": "Separate EHR dose association and within-person citalopram results from controlled label trials.",
+        "source_ids": [
+          "PMID:23360890"
+        ]
+      },
+      {
+        "id": "Controlled",
+        "description": "Identify each label’s healthy-subject study and measured versus modeled doses.",
+        "source_ids": [
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5",
+          "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3"
+        ]
+      },
+      {
+        "id": "Compare",
+        "description": "Preserve QTcNi versus QTcF and do not infer equivalent-dose clinical risk across separate trials.",
+        "source_ids": [
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5",
+          "SPL:ccbe97b5-da68-4fff-929a-240dd705fe6f:v3"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 30,
+    "case": "case-2",
+    "family": "antidepressants",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did Castro et al.'s electronic-health-record study find about antidepressant dose and QTc, and what limitations follow from its design and patient selection?\n\nIdentified source versions: PMID:23360890.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1136/bmj.f288": "PMID:23360890",
+        "PMCID:PMC3558546": "PMID:23360890"
+      },
+      "facet_source_map": {
+        "Limits": [
+          {
+            "locator": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+            "source_id": "PMID:23360890"
+          }
+        ],
+        "Results": [
+          {
+            "locator": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+            "source_id": "PMID:23360890"
+          }
+        ],
+        "Selection": [
+          {
+            "locator": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+            "source_id": "PMID:23360890"
+          }
+        ]
+      },
+      "required_facets": [
+        "Selection",
+        "Results",
+        "Limits"
+      ],
+      "required_sources": [
+        "PMID:23360890"
+      ],
+      "source_rationales": {
+        "PMID:23360890": "Identify ECG-window selection and nonrandom treatment/dose. | Separate adjusted cross-sectional drug-dose effects and within-patient changes. | Explain ECG ascertainment, confounding and surrogate endpoint."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Selection",
+        "description": "Identify ECG-window selection and nonrandom treatment/dose.",
+        "source_ids": [
+          "PMID:23360890"
+        ]
+      },
+      {
+        "id": "Results",
+        "description": "Separate adjusted cross-sectional drug-dose effects and within-patient changes.",
+        "source_ids": [
+          "PMID:23360890"
+        ]
+      },
+      {
+        "id": "Limits",
+        "description": "Explain ECG ascertainment, confounding and surrogate endpoint.",
+        "source_ids": [
+          "PMID:23360890"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 31,
+    "case": "case-2",
+    "family": "antidepressants",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat does the frozen US citalopram tablet label specify for age, hepatic impairment and concomitant medicines that change exposure or QT risk, and how does that differ from the 30 mg-only capsule product?\n\nIdentified source versions: SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5; FDA:citalopram-capsule-2023:215428s002.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "Capsules": [
+          {
+            "locator": "FDA PDF: section 2.1, page 3, opening dose/product paragraph; section 5.2, page 5, CYP2C19/hepatic/age risk-group paragraph; section 8.6, page 16, first two sentences.",
+            "source_id": "FDA:citalopram-capsule-2023:215428s002"
+          }
+        ],
+        "RegulatoryScope": [
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          },
+          {
+            "locator": "FDA PDF: section 2.1, page 3, opening dose/product paragraph; section 5.2, page 5, CYP2C19/hepatic/age risk-group paragraph; section 8.6, page 16, first two sentences.",
+            "source_id": "FDA:citalopram-capsule-2023:215428s002"
+          }
+        ],
+        "Tablets": [
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          }
+        ]
+      },
+      "required_facets": [
+        "Tablets",
+        "Capsules",
+        "RegulatoryScope"
+      ],
+      "required_sources": [
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5",
+        "FDA:citalopram-capsule-2023:215428s002"
+      ],
+      "source_rationales": {
+        "FDA:citalopram-capsule-2023:215428s002": "Contrast the 30 mg-only capsule’s formulation and risk-group restrictions with the tablet label, retaining the dated product context. | Do not apply one formulation’s practical dose restriction universally.",
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5": "Specify age/hepatic/CYP2C19 population limits and QT precautions. | Do not apply one formulation’s practical dose restriction universally."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Tablets",
+        "description": "Specify age/hepatic/CYP2C19 population limits and QT precautions.",
+        "source_ids": [
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+        ]
+      },
+      {
+        "id": "Capsules",
+        "description": "Contrast the 30 mg-only capsule’s formulation and risk-group restrictions with the tablet label, retaining the dated product context.",
+        "source_ids": [
+          "FDA:citalopram-capsule-2023:215428s002"
+        ]
+      },
+      {
+        "id": "RegulatoryScope",
+        "description": "Do not apply one formulation’s practical dose restriction universally.",
+        "source_ids": [
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5",
+          "FDA:citalopram-capsule-2023:215428s002"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 32,
+    "case": "case-2",
+    "family": "antidepressants",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat does the available citalopram dose–QTc evidence establish, and what does it not allow us to estimate about an individual patient's torsades risk?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1136/bmj.f288": "PMID:23360890",
+        "PMCID:PMC3558546": "PMID:23360890"
+      },
+      "facet_source_map": {
+        "ClinicalLimit": [
+          {
+            "locator": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+            "source_id": "PMID:23360890"
+          },
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          }
+        ],
+        "Evidence": [
+          {
+            "locator": "Full text: Methods (sec3–4); Results (sec5) and Tables 2–4; Strengths and limitations (sec10).",
+            "source_id": "PMID:23360890"
+          },
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          }
+        ],
+        "RiskContext": [
+          {
+            "locator": "§2.3 Section_2.3; §2.4 Section_2.4; §5.2 Section_5.2; §12.2 Section_12.2/Cardiac Electrophysiology; §7",
+            "source_id": "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+          }
+        ]
+      },
+      "required_facets": [
+        "Evidence",
+        "ClinicalLimit",
+        "RiskContext"
+      ],
+      "required_sources": [
+        "PMID:23360890",
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+      ],
+      "source_rationales": {
+        "PMID:23360890": "Distinguish controlled exposure/QTc and EHR associations. | Postmarketing TdP reports and QTc shifts do not give a patient-specific probability.",
+        "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5": "Distinguish controlled exposure/QTc and EHR associations. | Postmarketing TdP reports and QTc shifts do not give a patient-specific probability. | Use the selected label’s risk modifiers/monitoring boundaries."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Evidence",
+        "description": "Distinguish controlled exposure/QTc and EHR associations.",
+        "source_ids": [
+          "PMID:23360890",
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+        ]
+      },
+      {
+        "id": "ClinicalLimit",
+        "description": "Postmarketing TdP reports and QTc shifts do not give a patient-specific probability.",
+        "source_ids": [
+          "PMID:23360890",
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+        ]
+      },
+      {
+        "id": "RiskContext",
+        "description": "Use the selected label’s risk modifiers/monitoring boundaries.",
+        "source_ids": [
+          "SPL:625a78b2-4751-4ca5-91b6-7c85fd9f8c2e:v5"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 33,
+    "case": "case-2",
+    "family": "antipsychotics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did Harrigan et al.'s randomized six-antipsychotic study find about QTc at the tested doses, with and without metabolic inhibition, and what limits extrapolation?\n\nIdentified source versions: PMID:14709949.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1097/01.jcp.0000104913.75206.62": "PMID:14709949"
+      },
+      "facet_source_map": {
+        "Comparison": [
+          {
+            "locator": "Abstract sentences describing regimens, estimated-Cmax ECGs, metabolic inhibition and results",
+            "source_id": "PMID:14709949"
+          }
+        ],
+        "Limits": [
+          {
+            "locator": "Abstract sentences describing regimens, estimated-Cmax ECGs, metabolic inhibition and results",
+            "source_id": "PMID:14709949"
+          }
+        ],
+        "Regimens": [
+          {
+            "locator": "Abstract sentences describing regimens, estimated-Cmax ECGs, metabolic inhibition and results",
+            "source_id": "PMID:14709949"
+          }
+        ]
+      },
+      "required_facets": [
+        "Regimens",
+        "Comparison",
+        "Limits"
+      ],
+      "required_sources": [
+        "PMID:14709949"
+      ],
+      "source_rationales": {
+        "PMID:14709949": "Identify six agents and tested daily regimens. | Describe estimated-peak steady-state ECGs with/without metabolic inhibition and qualitative findings. | Limit inference to studied exposures/population; no global clinical safety ordering."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Regimens",
+        "description": "Identify six agents and tested daily regimens.",
+        "source_ids": [
+          "PMID:14709949"
+        ]
+      },
+      {
+        "id": "Comparison",
+        "description": "Describe estimated-peak steady-state ECGs with/without metabolic inhibition and qualitative findings.",
+        "source_ids": [
+          "PMID:14709949"
+        ]
+      },
+      {
+        "id": "Limits",
+        "description": "Limit inference to studied exposures/population; no global clinical safety ordering.",
+        "source_ids": [
+          "PMID:14709949"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 34,
+    "case": "case-2",
+    "family": "antipsychotics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did the randomized high-dose intramuscular ziprasidone–haloperidol study observe about QTc, and which between-drug conclusions did its analysis actually test?\n\nIdentified source versions: PMID:20399985.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/j.clinthera.2010.03.003": "PMID:20399985"
+      },
+      "facet_source_map": {
+        "Analysis": [
+          {
+            "locator": "Abstract > Methods; Results; statement No between-group hypothesis tests",
+            "source_id": "PMID:20399985"
+          }
+        ],
+        "Endpoint": [
+          {
+            "locator": "Abstract > Methods; Results; statement No between-group hypothesis tests",
+            "source_id": "PMID:20399985"
+          }
+        ],
+        "Regimen": [
+          {
+            "locator": "Abstract > Methods; Results; statement No between-group hypothesis tests",
+            "source_id": "PMID:20399985"
+          }
+        ]
+      },
+      "required_facets": [
+        "Regimen",
+        "Endpoint",
+        "Analysis"
+      ],
+      "required_sources": [
+        "PMID:20399985"
+      ],
+      "source_rationales": {
+        "PMID:20399985": "Identify two high-dose IM injections and timing. | Describe QTc change at the time of peak drug concentration, including uncertainty. | State no between-group hypothesis testing; do not infer superiority/equivalence."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Regimen",
+        "description": "Identify two high-dose IM injections and timing.",
+        "source_ids": [
+          "PMID:20399985"
+        ]
+      },
+      {
+        "id": "Endpoint",
+        "description": "Describe QTc change at the time of peak drug concentration, including uncertainty.",
+        "source_ids": [
+          "PMID:20399985"
+        ]
+      },
+      {
+        "id": "Analysis",
+        "description": "State no between-group hypothesis testing; do not infer superiority/equivalence.",
+        "source_ids": [
+          "PMID:20399985"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 35,
+    "case": "case-2",
+    "family": "antipsychotics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nIn the ICU delirium trial's secondary QTc analysis, what was observed with intravenous haloperidol or ziprasidone versus placebo under its eligibility and monitoring protocol?\n\nIdentified source versions: PMID:38252439.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1001/jamanetworkopen.2023.52034": "PMID:38252439",
+        "PMCID:PMC10804270": "PMID:38252439"
+      },
+      "facet_source_map": {
+        "Eligibility": [
+          {
+            "locator": "Full text: Procedures (H2-2-ZOI231524); Outcomes (H2-3); Results and Table 1; Strengths and Limitations (H2-5).",
+            "source_id": "PMID:38252439"
+          }
+        ],
+        "Findings": [
+          {
+            "locator": "Full text: Procedures (H2-2-ZOI231524); Outcomes (H2-3); Results and Table 1; Strengths and Limitations (H2-5).",
+            "source_id": "PMID:38252439"
+          }
+        ],
+        "Limits": [
+          {
+            "locator": "Full text: Procedures (H2-2-ZOI231524); Outcomes (H2-3); Results and Table 1; Strengths and Limitations (H2-5).",
+            "source_id": "PMID:38252439"
+          }
+        ],
+        "Protocol": [
+          {
+            "locator": "Full text: Procedures (H2-2-ZOI231524); Outcomes (H2-3); Results and Table 1; Strengths and Limitations (H2-5).",
+            "source_id": "PMID:38252439"
+          }
+        ]
+      },
+      "required_facets": [
+        "Eligibility",
+        "Protocol",
+        "Findings",
+        "Limits"
+      ],
+      "required_sources": [
+        "PMID:38252439"
+      ],
+      "source_rationales": {
+        "PMID:38252439": "Retain the change in the QTc eligibility threshold and the selected ICU population with delirium. | Identify the intravenous regimens, predose monitoring, and dose-holding and restart rules. | Separate next-day QTc findings from arrhythmia events and investigator attribution. | Acknowledge absent co-medication/electrolyte recording and no inference beyond monitored eligibility."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Eligibility",
+        "description": "Retain the change in the QTc eligibility threshold and the selected ICU population with delirium.",
+        "source_ids": [
+          "PMID:38252439"
+        ]
+      },
+      {
+        "id": "Protocol",
+        "description": "Identify the intravenous regimens, predose monitoring, and dose-holding and restart rules.",
+        "source_ids": [
+          "PMID:38252439"
+        ]
+      },
+      {
+        "id": "Findings",
+        "description": "Separate next-day QTc findings from arrhythmia events and investigator attribution.",
+        "source_ids": [
+          "PMID:38252439"
+        ]
+      },
+      {
+        "id": "Limits",
+        "description": "Acknowledge absent co-medication/electrolyte recording and no inference beyond monitored eligibility.",
+        "source_ids": [
+          "PMID:38252439"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 36,
+    "case": "case-2",
+    "family": "antipsychotics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow do the selected US labels for oral and intramuscular ziprasidone and for oral and short-acting intramuscular haloperidol distinguish QT-related contraindications, warnings and interactions? What do they state about intravenous administration?\n\nIdentified source versions: SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50; SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3; SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "IV": [
+          {
+            "locator": "§4.1 ID_a2cd60c9-be90-4954-a686-9caf65a77a2d; §5.3 ID_d96593ad-8c29-4849-8ec0-6a75e32c0045; §7.3 ID_086f1eae-28cf-4c75-99f5-442620e80d00; §2.4 IM-only ID_0a94f7d3-80f7-46b2-b777-a9ad0759dd8f",
+            "source_id": "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50"
+          },
+          {
+            "locator": "WARNINGS/Cardiovascular Effects s10; Drug Interactions s25, pharmacodynamic QT/electrolyte subsection only",
+            "source_id": "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+          }
+        ],
+        "Products": [
+          {
+            "locator": "§4.1 ID_a2cd60c9-be90-4954-a686-9caf65a77a2d; §5.3 ID_d96593ad-8c29-4849-8ec0-6a75e32c0045; §7.3 ID_086f1eae-28cf-4c75-99f5-442620e80d00; §2.4 IM-only ID_0a94f7d3-80f7-46b2-b777-a9ad0759dd8f",
+            "source_id": "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50"
+          },
+          {
+            "locator": "WARNINGS Section_5 > Cardiovascular Effects only",
+            "source_id": "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3"
+          },
+          {
+            "locator": "WARNINGS/Cardiovascular Effects s10; Drug Interactions s25, pharmacodynamic QT/electrolyte subsection only",
+            "source_id": "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+          }
+        ],
+        "QTLanguage": [
+          {
+            "locator": "§4.1 ID_a2cd60c9-be90-4954-a686-9caf65a77a2d; §5.3 ID_d96593ad-8c29-4849-8ec0-6a75e32c0045; §7.3 ID_086f1eae-28cf-4c75-99f5-442620e80d00; §2.4 IM-only ID_0a94f7d3-80f7-46b2-b777-a9ad0759dd8f",
+            "source_id": "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50"
+          },
+          {
+            "locator": "WARNINGS Section_5 > Cardiovascular Effects only",
+            "source_id": "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3"
+          },
+          {
+            "locator": "WARNINGS/Cardiovascular Effects s10; Drug Interactions s25, pharmacodynamic QT/electrolyte subsection only",
+            "source_id": "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+          }
+        ]
+      },
+      "required_facets": [
+        "Products",
+        "QTLanguage",
+        "IV"
+      ],
+      "required_sources": [
+        "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50",
+        "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3",
+        "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+      ],
+      "source_rationales": {
+        "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3": "Use oral and intramuscular Geodon, and oral and short-acting haloperidol lactate intramuscular products. Haloperidol decanoate is outside this comparison. | Separate contraindications, QT warnings and pharmacodynamic interactions.",
+        "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50": "Use oral and intramuscular Geodon, and oral and short-acting haloperidol lactate intramuscular products. Haloperidol decanoate is outside this comparison. | Separate contraindications, QT warnings and pharmacodynamic interactions. | State that intramuscular Geodon must not be administered intravenously; intravenous haloperidol is not approved, and its warning describes monitoring if that route is used.",
+        "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12": "Use oral and intramuscular Geodon, and oral and short-acting haloperidol lactate intramuscular products. Haloperidol decanoate is outside this comparison. | Separate contraindications, QT warnings and pharmacodynamic interactions. | State that intramuscular Geodon must not be administered intravenously; intravenous haloperidol is not approved, and its warning describes monitoring if that route is used."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Products",
+        "description": "Use oral and intramuscular Geodon, and oral and short-acting haloperidol lactate intramuscular products. Haloperidol decanoate is outside this comparison.",
+        "source_ids": [
+          "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50",
+          "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3",
+          "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+        ]
+      },
+      {
+        "id": "QTLanguage",
+        "description": "Separate contraindications, QT warnings and pharmacodynamic interactions.",
+        "source_ids": [
+          "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50",
+          "SPL:31e33656-2f53-49e6-9816-261ea2e6961a:v3",
+          "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+        ]
+      },
+      {
+        "id": "IV",
+        "description": "State that intramuscular Geodon must not be administered intravenously; intravenous haloperidol is not approved, and its warning describes monitoring if that route is used.",
+        "source_ids": [
+          "SPL:8326928a-2cb6-4f7f-9712-03a425a14c37:v50",
+          "SPL:b1ad2abd-a9d6-44e3-957b-36a73260f4f5:v12"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 37,
+    "case": "case-2",
+    "family": "antiarrhythmics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhat did the primary comparison of amiodarone, sematilide and sotalol report about QT/QTc and QT dispersion, and which clinical proarrhythmia conclusions are not established by those reported measures?\n\nIdentified source versions: PMID:7526675.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/0002-9149(94)90582-7": "PMID:7526675"
+      },
+      "facet_source_map": {
+        "Boundary": [
+          {
+            "locator": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+            "source_id": "PMID:7526675"
+          }
+        ],
+        "Design": [
+          {
+            "locator": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+            "source_id": "PMID:7526675"
+          }
+        ],
+        "Measures": [
+          {
+            "locator": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+            "source_id": "PMID:7526675"
+          }
+        ]
+      },
+      "required_facets": [
+        "Design",
+        "Measures",
+        "Boundary"
+      ],
+      "required_sources": [
+        "PMID:7526675"
+      ],
+      "source_rationales": {
+        "PMID:7526675": "Identify the three 26-patient before-and-after groups and the cardiac-disease setting. | Distinguish interval length from between-lead dispersion and qualitative drug effects. | Dispersion findings do not establish comparative clinical TdP incidence."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Design",
+        "description": "Identify the three 26-patient before-and-after groups and the cardiac-disease setting.",
+        "source_ids": [
+          "PMID:7526675"
+        ]
+      },
+      {
+        "id": "Measures",
+        "description": "Distinguish interval length from between-lead dispersion and qualitative drug effects.",
+        "source_ids": [
+          "PMID:7526675"
+        ]
+      },
+      {
+        "id": "Boundary",
+        "description": "Dispersion findings do not establish comparative clinical TdP incidence.",
+        "source_ids": [
+          "PMID:7526675"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 38,
+    "case": "case-2",
+    "family": "antiarrhythmics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhy are QTc lengthening and dispersion alone insufficient to establish the comparative clinical proarrhythmia risk of amiodarone and sotalol?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/0002-9149(94)90582-7": "PMID:7526675"
+      },
+      "facet_source_map": {
+        "DrugSpecific": [
+          {
+            "locator": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+            "source_id": "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+          },
+          {
+            "locator": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs",
+            "source_id": "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+          }
+        ],
+        "Inference": [
+          {
+            "locator": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+            "source_id": "PMID:7526675"
+          },
+          {
+            "locator": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+            "source_id": "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+          },
+          {
+            "locator": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs",
+            "source_id": "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+          }
+        ],
+        "Surrogate": [
+          {
+            "locator": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+            "source_id": "PMID:7526675"
+          }
+        ]
+      },
+      "required_facets": [
+        "Surrogate",
+        "DrugSpecific",
+        "Inference"
+      ],
+      "required_sources": [
+        "PMID:7526675",
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+      ],
+      "source_rationales": {
+        "PMID:7526675": "QTc/dispersion measure electrophysiology, not a comparative clinical-event rate. | The available sources do not provide a matched denominator, population and time window for a causal comparative clinical-risk estimate.",
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": "Labels establish distinct risks and precautions, not a matched safety comparison. | The available sources do not provide a matched denominator, population and time window for a causal comparative clinical-risk estimate.",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": "Labels establish distinct risks and precautions, not a matched safety comparison. | The available sources do not provide a matched denominator, population and time window for a causal comparative clinical-risk estimate."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Surrogate",
+        "description": "QTc/dispersion measure electrophysiology, not a comparative clinical-event rate.",
+        "source_ids": [
+          "PMID:7526675"
+        ]
+      },
+      {
+        "id": "DrugSpecific",
+        "description": "Labels establish distinct risks and precautions, not a matched safety comparison.",
+        "source_ids": [
+          "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+          "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+        ]
+      },
+      {
+        "id": "Inference",
+        "description": "The available sources do not provide a matched denominator, population and time window for a causal comparative clinical-risk estimate.",
+        "source_ids": [
+          "PMID:7526675",
+          "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+          "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 39,
+    "case": "case-2",
+    "family": "antiarrhythmics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nHow do frozen US oral sotalol and amiodarone labels address coadministration with QT-prolonging medicines and other antiarrhythmics?\n\nIdentified source versions: SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6; SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1.",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {},
+      "facet_source_map": {
+        "Amiodarone": [
+          {
+            "locator": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs",
+            "source_id": "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+          }
+        ],
+        "Compare": [
+          {
+            "locator": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+            "source_id": "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+          },
+          {
+            "locator": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs",
+            "source_id": "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+          }
+        ],
+        "Sotalol": [
+          {
+            "locator": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+            "source_id": "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+          }
+        ]
+      },
+      "required_facets": [
+        "Sotalol",
+        "Amiodarone",
+        "Compare"
+      ],
+      "required_sources": [
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+      ],
+      "source_rationales": {
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": "Retain the avoidance of QT-prolonging medicines and the language on class I or III washout and concomitant treatment. | Distinguish general avoidance recommendations from wording that reserves particular combinations for selected, monitored circumstances.",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": "Retain the avoidance of QT-prolonging medicines, persistence of interactions and distinct antiarrhythmic interaction wording. | Distinguish general avoidance recommendations from wording that reserves particular combinations for selected, monitored circumstances."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "Sotalol",
+        "description": "Retain the avoidance of QT-prolonging medicines and the language on class I or III washout and concomitant treatment.",
+        "source_ids": [
+          "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+        ]
+      },
+      {
+        "id": "Amiodarone",
+        "description": "Retain the avoidance of QT-prolonging medicines, persistence of interactions and distinct antiarrhythmic interaction wording.",
+        "source_ids": [
+          "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+        ]
+      },
+      {
+        "id": "Compare",
+        "description": "Distinguish general avoidance recommendations from wording that reserves particular combinations for selected, monitored circumstances.",
+        "source_ids": [
+          "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+          "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "question_no": 40,
+    "case": "case-2",
+    "family": "antiarrhythmics",
+    "jurisdiction": "United States",
+    "prompt": "Use evidence publicly available by 29 October 2026, 23:59 Europe/Berlin. State relevant jurisdiction, population, dose/route and outcome; distinguish findings from uncertainty; cite identifiable primary sources and applicable regulator records.\n\nBe concise and complete. Use at most 1,000 words, excluding the bibliography.\n\nWhich patient, exposure and co-medication factors materially change interpretation of QT and arrhythmia evidence for sotalol versus amiodarone, according to their labels and applicable primary studies?",
+    "evidence_cutoff": "2026-10-29",
+    "featured": false,
+    "contract": {
+      "accepted_equivalences": {
+        "DOI:10.1016/0002-9149(94)90582-7": "PMID:7526675"
+      },
+      "facet_source_map": {
+        "AmiodaroneFactors": [
+          {
+            "locator": "§5.4 ID28; §7 ID57 (QT-prolonging, negative chronotrope, CYP and antiarrhythmic rows); §12.3 renal/hepatic/half-life paragraphs",
+            "source_id": "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+          }
+        ],
+        "SotalolFactors": [
+          {
+            "locator": "§5.1 s7.1; §7.1 s16.1; §2.1 and §2.5 renal dosing as relevant",
+            "source_id": "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+          }
+        ],
+        "StudyContext": [
+          {
+            "locator": "All available original PubMed abstract text; the indexed abstract is explicitly truncated at 250 words.",
+            "source_id": "PMID:7526675"
+          }
+        ]
+      },
+      "required_facets": [
+        "SotalolFactors",
+        "AmiodaroneFactors",
+        "StudyContext"
+      ],
+      "required_sources": [
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1",
+        "PMID:7526675"
+      ],
+      "source_rationales": {
+        "PMID:7526675": "Keep the cardiac-disease and myocardial-infarction subgroup’s surrogate findings separate from prediction of individual clinical events.",
+        "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6": "Map renal clearance, dose, sex, heart rate, electrolytes, ventricular arrhythmia or heart failure, and ECG context specifically to sotalol.",
+        "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1": "Map persistent exposure and interactions, negative chronotropes, electrolyte abnormalities and drug-specific metabolism to amiodarone."
+      }
+    },
+    "accepted_facet_definitions": [
+      {
+        "id": "SotalolFactors",
+        "description": "Map renal clearance, dose, sex, heart rate, electrolytes, ventricular arrhythmia or heart failure, and ECG context specifically to sotalol.",
+        "source_ids": [
+          "SPL:56879738-8662-4f5c-8386-761ab2b5e46f:v6"
+        ]
+      },
+      {
+        "id": "AmiodaroneFactors",
+        "description": "Map persistent exposure and interactions, negative chronotropes, electrolyte abnormalities and drug-specific metabolism to amiodarone.",
+        "source_ids": [
+          "SPL:57f7f2ea-4ca9-4ada-e063-6294a90a492b:v1"
+        ]
+      },
+      {
+        "id": "StudyContext",
+        "description": "Keep the cardiac-disease and myocardial-infarction subgroup’s surrogate findings separate from prediction of individual clinical events.",
+        "source_ids": [
+          "PMID:7526675"
+        ]
+      }
+    ]
+  }
+]

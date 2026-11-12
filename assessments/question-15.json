@@ -1,0 +1,4194 @@
+{
+  "question_no": 15,
+  "source_schema": "deep15.json",
+  "assessment_status": "AI first judgment; heterogeneous schemas; do not pool claim or citation rates",
+  "answers": [
+    {
+      "answer_id": "Q15-M2-direct",
+      "view": "displayed",
+      "text_sha256": "26bfac69080b1b4764e35e0e837b2253366debff28204b6517c6e0290c2022b3",
+      "answer_judgment": "Substitutes parent accumulation for measured combined analyte and gives no 15.85 measurement. Recognizes cimetidine but attributes vasospasm to repolarization without evidence, despite later hedging.",
+      "facets": [
+        "I",
+        "P",
+        "I"
+      ],
+      "confidence": 89,
+      "assertions": [
+        {
+          "start": 0,
+          "end": 47,
+          "text": "**Astemizole/Cimetidine Report (PMID 9583453)**",
+          "unit": 0,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 49,
+          "end": 260,
+          "text": "**Relevant jurisdiction:** The report originates from a clinical/pharmacovigilance context in a jurisdiction where astemizole was marketed (e.g., European countries or the United States) prior to its withdrawal.",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 261,
+          "end": 361,
+          "text": "Astemizole was withdrawn from the European market in 1999 and from the US market in 1999 by the FDA.",
+          "unit": 2,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 363,
+          "end": 503,
+          "text": "**Measured exposure:** The report describes oral administration of astemizole, with cimetidine co-administered as an H₂-receptor antagonist.",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 504,
+          "end": 644,
+          "text": "Cimetidine inhibits CYP3A4, the primary hepatic enzyme responsible for metabolizing astemizole to its active metabolite desmethylastemizole.",
+          "unit": 4,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 645,
+          "end": 736,
+          "text": "This inhibition leads to substantially elevated plasma concentrations of parent astemizole.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 737,
+          "end": 850,
+          "text": "The report documents measured plasma levels consistent with supratherapeutic accumulation due to the interaction.",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 852,
+          "end": 970,
+          "text": "**Patient circumstances and outcome:** The patient presented with vasospastic angina and other cardiac manifestations.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 971,
+          "end": 1139,
+          "text": "Vasospastic angina in this context is interpreted as a consequence of QT prolongation and myocardial repolarization abnormalities induced by elevated astemizole levels.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1140,
+          "end": 1285,
+          "text": "Additional patient circumstances described in the report include the clinical presentation, concurrent medications, and relevant medical history.",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1286,
+          "end": 1366,
+          "text": "The outcome involved cardiac adverse events consistent with astemizole toxicity.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1413,
+          "end": 1651,
+          "text": "- **Established:** The pharmacokinetic interaction (CYP3A4 inhibition by cimetidine → increased astemizole exposure) is mechanistically well understood and supported by multiple independent reports and regulatory reviews (e.g., EMA, FDA).",
+          "unit": 11,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1652,
+          "end": 1830,
+          "text": "- **Established:** QT prolongation and torsades de pointes risk from elevated astemizole is a known class effect documented in regulatory records and post-marketing surveillance.",
+          "unit": 12,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1831,
+          "end": 2089,
+          "text": "- **Uncertain:** The precise contribution of vasospastic angina specifically—whether it is a direct manifestation of astemizole-induced QT prolongation, a separate coronary phenomenon, or multifactorial—remains difficult to isolate from a single case report.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2090,
+          "end": 2334,
+          "text": "- **Uncertain:** Individual susceptibility factors (e.g., baseline QT interval, electrolyte disturbances, genetic polymorphisms in CYP3A4 or hERG channel) that may have modulated the outcome are often incompletely characterized in such reports.",
+          "unit": 14,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2335,
+          "end": 2552,
+          "text": "- **Uncertain:** Whether the specific plasma concentration–response relationship described in PMID 9583453 generalizes to other patients or represents an idiosyncratic reaction cannot be determined from a single case.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 2554,
+          "end": 2749,
+          "text": "**Regulatory context:** The FDA and EMA both received and reviewed post-marketing reports of astemizole–CYP3A4 inhibitor interactions, which contributed to the worldwide withdrawal of astemizole.",
+          "unit": 16,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:9583453",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 32,
+              "end": 44,
+              "text": "PMID 9583453"
+            },
+            {
+              "start": 2429,
+              "end": 2441,
+              "text": "PMID 9583453"
+            },
+            {
+              "start": 2772,
+              "end": 2784,
+              "text": "PMID 9583453"
+            }
+          ],
+          "use_status": "proposed_relevant_contribution",
+          "registry_verification": {
+            "title": "Astemizole-induced torsades de pointes in a patient with vasospastic angina",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+            "ref": "turn275view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. PMID 9583453 — Primary case report on astemizole/cimetidine interaction (published 1998).",
+          "start": 2769,
+          "end": 2861
+        },
+        {
+          "text": "2. FDA Withdrawal Notification for Astemizole (1999).",
+          "start": 2862,
+          "end": 2915
+        },
+        {
+          "text": "3. EMA/CHMP Assessment Report for Astemizole (withdrawal assessment).",
+          "start": 2916,
+          "end": 2985
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "unsupported": 4,
+        "supported": 5,
+        "contradicted": 1
+      },
+      "unresolved_scope_or_attribution": 6,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [
+        "PMID:9583453"
+      ],
+      "recall_point_proposed": 1.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 0,
+          "end": 47,
+          "text": "**Astemizole/Cimetidine Report (PMID 9583453)**",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 2335,
+          "end": 2552,
+          "text": "- **Uncertain:** Whether the specific plasma concentration–response relationship described in PMID 9583453 generalizes to other patients or represents an idiosyncratic reaction cannot be determined from a single case.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "1. PMID 9583453 — Primary case report on astemizole/cimetidine interaction (published 1998).",
+          "start": 2769,
+          "end": 2861,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "2. FDA Withdrawal Notification for Astemizole (1999).",
+          "start": 2862,
+          "end": 2915,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "3. EMA/CHMP Assessment Report for Astemizole (withdrawal assessment).",
+          "start": 2916,
+          "end": 2985,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q15-M6-direct",
+      "view": "displayed",
+      "text_sha256": "e5fc1e9d0e7fcb6a43bbc1820ab56bd97dbad1b013f2d64fc5c061cf47805713",
+      "answer_judgment": "Invents multiple patients, 30 mg/day and rechallenge; confuses provocation of spasm with causal drug rechallenge.",
+      "facets": [
+        "I",
+        "I",
+        "I"
+      ],
+      "confidence": 96,
+      "assertions": [
+        {
+          "start": 86,
+          "end": 164,
+          "text": "**Jurisdiction:** Not specified (likely U.S. or EU, given regulatory context).",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 165,
+          "end": 266,
+          "text": "**Population:** Case reports (n=1–5) in patients with vasospastic angina (VSA) or coronary vasospasm.",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 267,
+          "end": 386,
+          "text": "**Dose/Route:** Astemizole (H1-antihistamine) 10–30 mg/day orally; cimetidine (H2-antihistamine) 400–800 mg/day orally.",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 387,
+          "end": 478,
+          "text": "**Outcome:** Coronary vasospasm, angina, or cardiac events (e.g., chest pain, ECG changes).",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 552,
+          "end": 653,
+          "text": "- Astemizole is metabolized by **CYP3A4** (hepatic enzyme), and cimetidine is a **CYP3A4 inhibitor**.",
+          "unit": 4,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 657,
+          "end": 808,
+          "text": "- Co-administration may **increase astemizole plasma levels** (up to 3–5x), prolonging QT interval and risking arrhythmias (e.g., torsades de pointes).",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 812,
+          "end": 968,
+          "text": "- **Primary source:** *Drug Metabolism and Disposition* (1998) reports cimetidine’s inhibition of astemizole metabolism in vitro and in vivo (PMID:9583453).",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1112,
+          "end": 1257,
+          "text": "- **Patient 1:** 45-year-old male with VSA; astemizole (30 mg/day) + cimetidine (800 mg/day) → recurrent chest pain, ST-segment elevation on ECG.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1258,
+          "end": 1318,
+          "text": "Symptoms resolved after drug discontinuation (PMID:9583453).",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1324,
+          "end": 1435,
+          "text": "- **Patient 2:** 52-year-old female with VSA; astemizole (10 mg/day) alone → angina and transient ST elevation.",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1436,
+          "end": 1483,
+          "text": "Rechallenge confirmed causality (PMID:9583453).",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1487,
+          "end": 1636,
+          "text": "- **Mechanism:** Astemizole may **prolong cardiac repolarization** (via hERG channel blockade), predisposing to vasospasm in susceptible individuals.",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1670,
+          "end": 1844,
+          "text": "- **Risk factors:** Pre-existing coronary artery disease (CAD), electrolyte imbalances (e.g., hypokalemia), or concurrent QT-prolonging drugs (e.g., macrolides, antifungals).",
+          "unit": 12,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1848,
+          "end": 1977,
+          "text": "- **Dose dependency:** Higher astemizole doses (>10 mg/day) or cimetidine co-therapy increased adverse event risk (PMID:9583453).",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2053,
+          "end": 2213,
+          "text": "- **Plausible but not definitive:** The report describes **temporal associations** (symptoms after drug initiation, resolution after discontinuation) but lacks:",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2219,
+          "end": 2267,
+          "text": "- **Controlled studies** (no randomized trials).",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2273,
+          "end": 2318,
+          "text": "- **Dose-response data** (small sample size).",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2324,
+          "end": 2368,
+          "text": "- **Rechallenge confirmation** in all cases.",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2372,
+          "end": 2475,
+          "text": "- **Confounding:** Underlying CAD or other vasospastic triggers (e.g., smoking, stress) may contribute.",
+          "unit": 18,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2480,
+          "end": 2513,
+          "text": "**Regulatory Context (Pre-2026)**",
+          "unit": 19,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 2517,
+          "end": 2667,
+          "text": "- **Astemizole:** Withdrawn in the U.S. (1999) and EU (2001) due to **QT prolongation/torsades de pointes** risk (FDA Drug Safety Communication, 1999;",
+          "unit": 20,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2668,
+          "end": 2679,
+          "text": "EMA, 2001).",
+          "unit": 21,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2683,
+          "end": 2777,
+          "text": "- **Cimetidine:** No formal restrictions, but FDA warned about **CYP3A4 interactions** (2006).",
+          "unit": 22,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2809,
+          "end": 2898,
+          "text": "- FDA (1999): [Astemizole Withdrawal](https://www.fda.gov/drugs/drugsafety/ucm142491.htm)",
+          "unit": 23,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "https://www.fda.gov/drugs/drugsafety/ucm142491.htm"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 2904,
+          "end": 3023,
+          "text": "- EMA (2001): [Astemizole Suspension](https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole)",
+          "unit": 24,
+          "scope": "bibliographic_identity",
+          "support_label": null,
+          "confidence": 95,
+          "comparison_source_ids": [],
+          "reason": "Bibliographic claim or identifier; verify identity/use in citation inventory rather than counting as separate medical result.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 95
+        },
+        {
+          "start": 3060,
+          "end": 3127,
+          "text": "- **Vasospasm may be idiopathic** (not drug-induced) in some cases.",
+          "unit": 25,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3131,
+          "end": 3223,
+          "text": "- **Cimetidine’s role is indirect** (via CYP3A4 inhibition) and not independently causative.",
+          "unit": 26,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3249,
+          "end": 3439,
+          "text": "The report suggests **astemizole (alone or with cimetidine) may trigger vasospastic angina in susceptible individuals**, likely via **QT prolongation and CYP3A4-mediated drug interactions**.",
+          "unit": 27,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3440,
+          "end": 3559,
+          "text": "However, **causality remains uncertain** due to limited case data, lack of controls, and potential confounding factors.",
+          "unit": 28,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3560,
+          "end": 3639,
+          "text": "Regulatory actions (withdrawal of astemizole) support the plausibility of harm.",
+          "unit": 29,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:9583453",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 509,
+              "end": 521,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 954,
+              "end": 966,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 1304,
+              "end": 1316,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 1469,
+              "end": 1481,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 1963,
+              "end": 1975,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 3671,
+              "end": 3683,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 3780,
+              "end": 3820,
+              "text": "https://pubmed.ncbi.nlm.nih.gov/9583453/"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Astemizole-induced torsades de pointes in a patient with vasospastic angina",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+            "ref": "turn275view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        },
+        {
+          "canonical": "https://www.fda.gov/drugs/drugsafety/ucm142491.htm",
+          "identity": "unresolved",
+          "occurrences": [
+            {
+              "start": 2847,
+              "end": 2897,
+              "text": "https://www.fda.gov/drugs/drugsafety/ucm142491.htm"
+            },
+            {
+              "start": 3867,
+              "end": 3917,
+              "text": "https://www.fda.gov/drugs/drugsafety/ucm142491.htm"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "identity_confidence": 40
+        },
+        {
+          "canonical": "https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole",
+          "identity": "unresolved",
+          "occurrences": [
+            {
+              "start": 2942,
+              "end": 3022,
+              "text": "https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole"
+            },
+            {
+              "start": 3964,
+              "end": 4044,
+              "text": "https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "identity_confidence": 40
+        },
+        {
+          "canonical": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/017557s028lbl.pdf",
+          "identity": "unresolved",
+          "occurrences": [
+            {
+              "start": 4098,
+              "end": 4173,
+              "text": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/017557s028lbl.pdf"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "identity_confidence": 40
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. **PMID:9583453** – *Drug Metab Dispos.* 1998;26(5):480-485. [Astemizole metabolism and cimetidine interaction](https://pubmed.ncbi.nlm.nih.gov/9583453/).",
+          "start": 3666,
+          "end": 3822
+        },
+        {
+          "text": "2. **FDA (1999)** – [Astemizole Withdrawal](https://www.fda.gov/drugs/drugsafety/ucm142491.htm).",
+          "start": 3823,
+          "end": 3919
+        },
+        {
+          "text": "3. **EMA (2001)** – [Astemizole Suspension](https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole).",
+          "start": 3920,
+          "end": 4046
+        },
+        {
+          "text": "4. **FDA (2006)** – [Cimetidine Drug Interactions](https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/017557s028lbl.pdf).",
+          "start": 4047,
+          "end": 4175
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 8,
+        "unsupported": 10
+      },
+      "unresolved_scope_or_attribution": 9,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 812,
+          "end": 968,
+          "text": "- **Primary source:** *Drug Metabolism and Disposition* (1998) reports cimetidine’s inhibition of astemizole metabolism in vitro and in vivo (PMID:9583453).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 1258,
+          "end": 1318,
+          "text": "Symptoms resolved after drug discontinuation (PMID:9583453).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 1436,
+          "end": 1483,
+          "text": "Rechallenge confirmed causality (PMID:9583453).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 1848,
+          "end": 1977,
+          "text": "- **Dose dependency:** Higher astemizole doses (>10 mg/day) or cimetidine co-therapy increased adverse event risk (PMID:9583453).",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 2809,
+          "end": 2898,
+          "text": "- FDA (1999): [Astemizole Withdrawal](https://www.fda.gov/drugs/drugsafety/ucm142491.htm)",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "https://www.fda.gov/drugs/drugsafety/ucm142491.htm"
+          ]
+        },
+        {
+          "start": 2904,
+          "end": 3023,
+          "text": "- EMA (2001): [Astemizole Suspension](https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole)",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole"
+          ]
+        },
+        {
+          "text": "1. **PMID:9583453** – *Drug Metab Dispos.* 1998;26(5):480-485. [Astemizole metabolism and cimetidine interaction](https://pubmed.ncbi.nlm.nih.gov/9583453/).",
+          "start": 3666,
+          "end": 3822,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "2. **FDA (1999)** – [Astemizole Withdrawal](https://www.fda.gov/drugs/drugsafety/ucm142491.htm).",
+          "start": 3823,
+          "end": 3919,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "https://www.fda.gov/drugs/drugsafety/ucm142491.htm"
+          ]
+        },
+        {
+          "text": "3. **EMA (2001)** – [Astemizole Suspension](https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole).",
+          "start": 3920,
+          "end": 4046,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "https://www.ema.europa.eu/en/medicines/human/withdrawn-authorisations/astemizole"
+          ]
+        },
+        {
+          "text": "4. **FDA (2006)** – [Cimetidine Drug Interactions](https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/017557s028lbl.pdf).",
+          "start": 4047,
+          "end": 4175,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/017557s028lbl.pdf"
+          ]
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q15-M5-direct",
+      "view": "displayed",
+      "text_sha256": "1cca4ebd5acd63ea78aa5baa96cbb7ee88ab890a2cbdf118cfb63375b3be8e28",
+      "answer_judgment": "Invents male coronary disease patient and controlled AUC increase. Single-case generalizability caveat is appropriate but exposure is wrong and cause overclaimed.",
+      "facets": [
+        "I",
+        "I",
+        "P"
+      ],
+      "confidence": 94,
+      "assertions": [
+        {
+          "start": 40,
+          "end": 186,
+          "text": "The report in question, identified by PMID:9583453 (published in *Clinical Pharmacology & Therapeutics*, 1998), originates from the United States.",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 187,
+          "end": 419,
+          "text": "The population consists of a single case report involving an adult male patient with a history of coronary artery disease who was prescribed astemizole for allergic rhinitis and cimetidine for gastroesophageal reflux disease (GERD).",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 464,
+          "end": 611,
+          "text": "The core finding of the report is the demonstration of a significant pharmacokinetic drug-drug interaction (DDI) between astemizole and cimetidine.",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 612,
+          "end": 685,
+          "text": "Astemizole is metabolized primarily by the cytochrome P450 enzyme CYP3A4.",
+          "unit": 3,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 686,
+          "end": 760,
+          "text": "Cimetidine is a known inhibitor of multiple CYP enzymes, including CYP3A4.",
+          "unit": 4,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 762,
+          "end": 889,
+          "text": "In this specific case, the authors measured plasma concentrations of astemizole and its active metabolite, desmethylastemizole.",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 890,
+          "end": 1025,
+          "text": "Prior to the addition of cimetidine, the patient’s steady-state plasma levels of astemizole were within the expected therapeutic range.",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1026,
+          "end": 1249,
+          "text": "Upon co-administration of cimetidine (typically 800–1200 mg/day), there was a marked increase in the area under the concentration-time curve (AUC) and maximum concentration (Cmax) of both astemizole and desmethylastemizole.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1250,
+          "end": 1415,
+          "text": "Specifically, the study reported that cimetidine increased the AUC of astemizole by approximately 2- to 3-fold and significantly prolonged its elimination half-life.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1416,
+          "end": 1542,
+          "text": "This elevated exposure persisted even after discontinuation of cimetidine, indicating slow clearance due to enzyme inhibition.",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1588,
+          "end": 1726,
+          "text": "The patient developed symptoms consistent with vasospastic angina (Prinzmetal’s angina) during the period of elevated astemizole exposure.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 1727,
+          "end": 1813,
+          "text": "The clinical presentation included chest pain at rest, which was relieved by nitrates.",
+          "unit": 11,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1814,
+          "end": 1903,
+          "text": "Electrocardiographic changes typical of coronary vasospasm were observed during episodes.",
+          "unit": 12,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1905,
+          "end": 2081,
+          "text": "The temporal relationship suggests that the supratherapeutic levels of astemizole, resulting from cimetidine-mediated metabolic inhibition, precipitated the vasospastic events.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2082,
+          "end": 2237,
+          "text": "Astemizole has been associated with cardiac adverse effects, primarily QT prolongation and torsades de pointes, due to blockade of hERG potassium channels.",
+          "unit": 14,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2238,
+          "end": 2312,
+          "text": "However, this report highlights a different mechanism: coronary vasospasm.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2313,
+          "end": 2543,
+          "text": "The authors hypothesize that high concentrations of astemizole may have direct vasoconstrictive effects on coronary arteries or exacerbated underlying endothelial dysfunction in a patient with pre-existing coronary artery disease.",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2654,
+          "end": 2818,
+          "text": "**Pre-existing Coronary Artery Disease:** The patient had documented coronary artery disease, making him more susceptible to ischemic events triggered by vasospasm.",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2822,
+          "end": 2979,
+          "text": "**Concomitant Medications:** The patient was also taking other medications, though the report emphasizes that no other strong CYP3A4 inhibitors were present.",
+          "unit": 18,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2980,
+          "end": 3141,
+          "text": "The role of these other drugs in modulating vascular tone or metabolism remains less clearly defined but is considered minimal compared to the cimetidine effect.",
+          "unit": 19,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3145,
+          "end": 3282,
+          "text": "**Dosage Regimen:** The standard dose of astemizole (10 mg daily) was used, but the effective systemic exposure was amplified by the DDI.",
+          "unit": 20,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3333,
+          "end": 3344,
+          "text": "*Findings:*",
+          "unit": 21,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 3345,
+          "end": 3464,
+          "text": "- Cimetidine significantly increases plasma concentrations of astemizole and desmethylastemizole via CYP3A4 inhibition.",
+          "unit": 22,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3465,
+          "end": 3592,
+          "text": "- There is a clear temporal association between elevated astemizole levels and the onset of vasospastic angina in this patient.",
+          "unit": 23,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3593,
+          "end": 3706,
+          "text": "- Discontinuation of cimetidine and/or astemizole led to resolution of symptoms and normalization of drug levels.",
+          "unit": 24,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3708,
+          "end": 3724,
+          "text": "*Uncertainties:*",
+          "unit": 25,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 3725,
+          "end": 3889,
+          "text": "- **Mechanism of Vasospasm:** While the correlation is strong, the exact molecular mechanism by which astemizole induces coronary vasospasm is not fully elucidated.",
+          "unit": 26,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3890,
+          "end": 4069,
+          "text": "It is unclear whether this is a class effect of antihistamines, specific to astemizole’s structure, or dependent on individual susceptibility factors such as endothelial function.",
+          "unit": 27,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 4070,
+          "end": 4221,
+          "text": "- **Generalizability:** As a single-case report, it is uncertain how frequently this interaction leads to vasospastic angina in the broader population.",
+          "unit": 28,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4222,
+          "end": 4314,
+          "text": "Most documented astemizole-related cardiac events involve arrhythmias rather than vasospasm.",
+          "unit": 29,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4315,
+          "end": 4496,
+          "text": "- **Role of Desmethylastemizole:** The relative contribution of the parent compound versus the metabolite to the vasospastic event is not definitively separated; both were elevated.",
+          "unit": 30,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 4497,
+          "end": 4674,
+          "text": "- **Reversibility and Long-term Effects:** The long-term cardiovascular prognosis following such an episode in patients with underlying CAD is not addressed in this single case.",
+          "unit": 31,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 4699,
+          "end": 4800,
+          "text": "At the time of publication (1998), astemizole was still marketed in many countries, including the US.",
+          "unit": 32,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4801,
+          "end": 5008,
+          "text": "However, regulatory agencies worldwide began restricting or withdrawing astemizole in the late 1990s due to risks of fatal arrhythmias when combined with CYP3A4 inhibitors (e.g., ketoconazole, erythromycin).",
+          "unit": 33,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 5009,
+          "end": 5062,
+          "text": "The FDA issued warnings regarding these interactions.",
+          "unit": 34,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 5063,
+          "end": 5297,
+          "text": "By 2026, astemizole is largely withdrawn from global markets due to safety concerns, replaced by safer second-generation antihistamines like loratadine and cetirizine, which do not exhibit the same degree of CYP3A4-dependent toxicity.",
+          "unit": 35,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 5298,
+          "end": 5514,
+          "text": "This report serves as historical evidence supporting the rationale for those regulatory actions, highlighting that DDIs can lead not only to arrhythmias but also to other serious cardiovascular events like vasospasm.",
+          "unit": 36,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:9583453",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 78,
+              "end": 90,
+              "text": "PMID:9583453"
+            },
+            {
+              "start": 5701,
+              "end": 5714,
+              "text": "PMID: 9583453"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Astemizole-induced torsades de pointes in a patient with vasospastic angina",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+            "ref": "turn275view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. Kivistö KT, Neuvonen PJ. \"Pharmacokinetic interaction between astemizole and cimetidine.\" *Clinical Pharmacology & Therapeutics*, vol. 63, no. 5, 1998, pp. 573–578. PMID: 9583453.",
+          "start": 5533,
+          "end": 5715
+        },
+        {
+          "text": "2. U.S. Food and Drug Administration. \"Drug Safety Communication: Withdrawal of Astemizole (Hismanal) from the Market.\" Historical records, 1999.",
+          "start": 5716,
+          "end": 5861
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 8,
+        "unsupported": 12
+      },
+      "unresolved_scope_or_attribution": 15,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 40,
+          "end": 186,
+          "text": "The report in question, identified by PMID:9583453 (published in *Clinical Pharmacology & Therapeutics*, 1998), originates from the United States.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "1. Kivistö KT, Neuvonen PJ. \"Pharmacokinetic interaction between astemizole and cimetidine.\" *Clinical Pharmacology & Therapeutics*, vol. 63, no. 5, 1998, pp. 573–578. PMID: 9583453.",
+          "start": 5533,
+          "end": 5715,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "2. U.S. Food and Drug Administration. \"Drug Safety Communication: Withdrawal of Astemizole (Hismanal) from the Market.\" Historical records, 1999.",
+          "start": 5716,
+          "end": 5861,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q15-M1-direct",
+      "view": "displayed",
+      "text_sha256": "0c9d6e6f652e3a17e6fff1b8f23d202478631d5450c647d41cd9bbb4f8dc06f6",
+      "answer_judgment": "Paper reports measured astemizole plus metabolites. Right caution about vasospasm and cimetidine attribution, but wrong denial of measured exposure and little patient context.",
+      "facets": [
+        "I",
+        "P",
+        "P"
+      ],
+      "confidence": 91,
+      "assertions": [
+        {
+          "start": 0,
+          "end": 33,
+          "text": "**Report summary (PMID 9583453)**",
+          "unit": 0,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 35,
+          "end": 190,
+          "text": "The identified case report describes a patient with measured oral exposure to astemizole and cimetidine who developed vasospastic (Prinzmetal-type) angina.",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 191,
+          "end": 376,
+          "text": "The authors note that astemizole’s established cardiac risk is QT prolongation and torsades de pointes, making coronary vasospasm an atypical presentation and the causal link uncertain.",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 396,
+          "end": 442,
+          "text": "| Item | Description in report | Uncertainty |",
+          "unit": 3,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 489,
+          "end": 599,
+          "text": "| **Population** | Single adult patient; exact age/sex not recalled from abstract | Generalizability limited |",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 600,
+          "end": 705,
+          "text": "| **Exposure** | Oral astemizole + oral cimetidine | Exact dose, timing, and plasma levels not verified |",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 706,
+          "end": 849,
+          "text": "| **Outcome** | Vasospastic angina (chest pain, ST elevation) | Whether event was purely vasospastic or mixed with arrhythmia not fully clear |",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 850,
+          "end": 1120,
+          "text": "| **Causal interpretation** | Possible metabolic interaction (CYP inhibition by cimetidine increasing astemizole levels) vs. underlying variant angina vs. direct drug effect | Direct vasospastic mechanism of astemizole not established; confounding factors not excluded |",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "supported",
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "The scoped, cited original/source identified in this answer supports the assertion at the stated level. See frozen locator map.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "supported",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1145,
+          "end": 1280,
+          "text": "- FDA and EMA records document astemizole withdrawal (1999) due to QT/ventricular arrhythmia risk; cimetidine is a known CYP inhibitor.",
+          "unit": 8,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1281,
+          "end": 1357,
+          "text": "- Jurisdiction: report likely single-center; regulatory relevance is USA/EU.",
+          "unit": 9,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1376,
+          "end": 1683,
+          "text": "The report confirms the clinical occurrence of vasospastic angina in a patient taking both drugs, but causal attribution remains uncertain because vasospasm is not the classic astemizole toxicity, plasma confirmation is lacking, and cimetidine’s role (pharmacokinetic vs. pharmacodynamic) is not definitive.",
+          "unit": 10,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:9583453",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 18,
+              "end": 30,
+              "text": "PMID 9583453"
+            },
+            {
+              "start": 1706,
+              "end": 1718,
+              "text": "PMID 9583453"
+            }
+          ],
+          "use_status": "proposed_relevant_contribution",
+          "registry_verification": {
+            "title": "Astemizole-induced torsades de pointes in a patient with vasospastic angina",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+            "ref": "turn275view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. PMID 9583453. *PubMed*. 1998. (Primary case report; full text not verified in detail.)",
+          "start": 1703,
+          "end": 1792
+        },
+        {
+          "text": "2. FDA. Astemizole (Hismanal) withdrawal. 1999.",
+          "start": 1793,
+          "end": 1840
+        },
+        {
+          "text": "3. EMA. Astemizole withdrawal documentation. 1999.",
+          "start": 1841,
+          "end": 1891
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "unsupported": 2,
+        "supported": 4,
+        "contradicted": 1
+      },
+      "unresolved_scope_or_attribution": 2,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [
+        "PMID:9583453"
+      ],
+      "recall_point_proposed": 1.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 0,
+          "end": 33,
+          "text": "**Report summary (PMID 9583453)**",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "1. PMID 9583453. *PubMed*. 1998. (Primary case report; full text not verified in detail.)",
+          "start": 1703,
+          "end": 1792,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "2. FDA. Astemizole (Hismanal) withdrawal. 1999.",
+          "start": 1793,
+          "end": 1840,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "3. EMA. Astemizole withdrawal documentation. 1999.",
+          "start": 1841,
+          "end": 1891,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q15-M4-direct",
+      "view": "displayed",
+      "text_sha256": "cd4936b51f4db52065c886eef2343ee79ef94d3c5381cb804d9042d5fb719ce9",
+      "answer_judgment": "Wrong journal/country; misses measured combined concentration and actual patient factors, although it appropriately resists causal certainty.",
+      "facets": [
+        "I",
+        "I",
+        "P"
+      ],
+      "confidence": 93,
+      "assertions": [
+        {
+          "start": 0,
+          "end": 251,
+          "text": "**Jurisdiction and population.** The report indexed as PMID 9583453 is a German single-patient case report (Karch et al., *Dtsch Med Wochenschr* 1998) concerning an adult patient with vasospastic angina after combined use of astemizole and cimetidine.",
+          "unit": 0,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 252,
+          "end": 352,
+          "text": "It is a clinical case report, not a controlled study; no population-level incidence can be inferred.",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 354,
+          "end": 624,
+          "text": "**Exposure.** The report describes oral co-administration of astemizole (a second-generation H1 antihistamine, withdrawn in several markets because of QT/torsades risk) and cimetidine (an H2 blocker and inhibitor of cytochrome P450 enzymes, including CYP3A4 and CYP2D6).",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 625,
+          "end": 777,
+          "text": "The clinically relevant mechanism is pharmacokinetic: cimetidine inhibits astemizole metabolism, raising astemizole/norastemizole plasma concentrations.",
+          "unit": 3,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 778,
+          "end": 916,
+          "text": "The report's measured exposure is therefore best described as **therapeutic oral doses with probable metabolic inhibition**, not overdose.",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 917,
+          "end": 1117,
+          "text": "I cannot verify from the abstract alone the exact mg doses, dosing interval, or whether astemizole/norastemizole blood levels were actually assayed; the citation should be checked for those specifics.",
+          "unit": 5,
+          "scope": "operational_not_clinical",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [],
+          "reason": "Operational/model evidence or abstention statement; not used as a clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 1118,
+          "end": 1282,
+          "text": "This distinction matters: \"measured exposure\" in the title/abstract may refer to drug concentrations or to the temporal association, and the two are not equivalent.",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1284,
+          "end": 1433,
+          "text": "**Vasospastic angina and circumstances.** The patient developed vasospastic (Prinzmetal/variant) angina in temporal association with the combination.",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1434,
+          "end": 1576,
+          "text": "The report's implicit causal chain is: cimetidine → inhibited astemizole clearance → elevated astemizole ± norastemizole → coronary vasospasm.",
+          "unit": 8,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1577,
+          "end": 1741,
+          "text": "Astemizole is not classically a coronary vasoconstrictor; its best-established serious effects are QT prolongation, torsades de pointes, and ventricular arrhythmia.",
+          "unit": 9,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1742,
+          "end": 1910,
+          "text": "Vasospastic angina is therefore an atypical presentation, and the report is notable precisely because it extends the suspected toxicity beyond the arrhythmia signature.",
+          "unit": 10,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1946,
+          "end": 2335,
+          "text": "*Findings (as reported):* a temporal association between astemizole/cimetidine co-exposure and vasospastic angina in one patient; a plausible pharmacokinetic interaction; improvement/outcome as described in the case (I cannot confirm from the abstract whether symptoms resolved after withdrawal, whether provocation testing was positive, or whether the patient had prior coronary disease).",
+          "unit": 11,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2337,
+          "end": 2353,
+          "text": "*Uncertainties:*",
+          "unit": 12,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 2357,
+          "end": 2413,
+          "text": "**Causality.** A single case cannot establish causation.",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2414,
+          "end": 2544,
+          "text": "The association may be coincidental, may reflect underlying coronary endothelial dysfunction, or may be an idiosyncratic reaction.",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2545,
+          "end": 2619,
+          "text": "Formal causality tools (Naranjo, WHO-UMC) are not applied in the abstract.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2623,
+          "end": 2757,
+          "text": "**Dose–response.** Without documented astemizole/norastizole levels, the claim that exposure was supratherapeutic remains inferential.",
+          "unit": 16,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2761,
+          "end": 2928,
+          "text": "**Mechanism.** Whether the vasospasm was mediated by astemizole itself, by a metabolite, by cimetidine, or by an interaction with other drugs/conditions is unresolved.",
+          "unit": 17,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 2929,
+          "end": 3002,
+          "text": "Cimetidine has no established coronary vasospastic effect at usual doses.",
+          "unit": 18,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3006,
+          "end": 3149,
+          "text": "**Confounding.** Smoking, hypertension, dyslipidaemia, cocaine/ergot exposure, and other vasospastic triggers are not excluded in the abstract.",
+          "unit": 19,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3153,
+          "end": 3389,
+          "text": "**Generalizability.** One adult case cannot define risk in the broader population, in other age groups, or with other CYP3A4 inhibitors (e.g., ketoconazole, macrolides), which are the more commonly cited astemizole interaction partners.",
+          "unit": 20,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3393,
+          "end": 3539,
+          "text": "**Regulatory status.** Astemizole was withdrawn from the US market in 1999 and from many other markets in the 1990s; cimetidine remains available.",
+          "unit": 21,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 3540,
+          "end": 3694,
+          "text": "The report predates or coincides with those withdrawals, so it is part of the post-marketing signal base rather than a regulator-confirmed causal finding.",
+          "unit": 22,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3696,
+          "end": 3852,
+          "text": "**Regulator records.** I cannot, within this response and without live database access, cite a specific FDA or EMA adverse-event record for this exact case.",
+          "unit": 23,
+          "scope": "operational_not_clinical",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [],
+          "reason": "Operational/model evidence or abstention statement; not used as a clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 3853,
+          "end": 4021,
+          "text": "The relevant identifiable primary source is the PMID 9583453 report itself; the applicable regulator context is the astemizole withdrawal/restriction record (FDA, 1999;",
+          "unit": 24,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4022,
+          "end": 4116,
+          "text": "EMA/national agencies) and cimetidine's label, which lists CYP-mediated interaction potential.",
+          "unit": 25,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4117,
+          "end": 4201,
+          "text": "Those should be cited directly from the agencies' own archives rather than inferred.",
+          "unit": 26,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 4203,
+          "end": 4385,
+          "text": "**Bottom line.** The report describes a plausible pharmacokinetic interaction (cimetidine inhibiting astemizole clearance) temporally associated with vasospastic angina in one adult.",
+          "unit": 27,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 4386,
+          "end": 4493,
+          "text": "The measured-exposure details, provocation-test results, and outcome require verification in the full text.",
+          "unit": 28,
+          "scope": "operational_not_clinical",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [],
+          "reason": "Operational/model evidence or abstention statement; not used as a clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 90
+        },
+        {
+          "start": 4494,
+          "end": 4678,
+          "text": "Causality remains uncertain: the case is hypothesis-generating, not confirmatory, and the vasospastic presentation is atypical relative to astemizole's established arrhythmic toxicity.",
+          "unit": 29,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:9583453",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 55,
+              "end": 67,
+              "text": "PMID 9583453"
+            },
+            {
+              "start": 3901,
+              "end": 3913,
+              "text": "PMID 9583453"
+            },
+            {
+              "start": 4816,
+              "end": 4829,
+              "text": "PMID: 9583453"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Astemizole-induced torsades de pointes in a patient with vasospastic angina",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+            "ref": "turn275view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "1. Karch et al. Case report of vasospastic angina associated with astemizole/cimetidine. *Dtsch Med Wochenschr* 1998. PMID: 9583453. (Primary source; verify full text for doses, levels, provocation testing, outcome.)",
+          "start": 4698,
+          "end": 4914
+        },
+        {
+          "text": "2. US Food and Drug Administration. Astemizole (Hismanal) withdrawal/market action, 1999. FDA archives.",
+          "start": 4915,
+          "end": 5018
+        },
+        {
+          "text": "3. European Medicines Agency / national competent authorities. Astemizole withdrawal and QT-risk communications, 1990s.",
+          "start": 5019,
+          "end": 5138
+        },
+        {
+          "text": "4. Cimetidine prescribing information (current). CYP450 inhibition and drug-interaction section.",
+          "start": 5139,
+          "end": 5235
+        },
+        {
+          "text": "5. WHO-UMC causality assessment criteria; Naranjo ADR probability scale. (For framing uncertainty.)",
+          "start": 5236,
+          "end": 5335
+        },
+        {
+          "text": "6. ICH E2A/E2D pharmacovigilance guidance. (For case-report evidentiary weight.)",
+          "start": 5336,
+          "end": 5416
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 3,
+        "unsupported": 10
+      },
+      "unresolved_scope_or_attribution": 12,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 0,
+          "end": 251,
+          "text": "**Jurisdiction and population.** The report indexed as PMID 9583453 is a German single-patient case report (Karch et al., *Dtsch Med Wochenschr* 1998) concerning an adult patient with vasospastic angina after combined use of astemizole and cimetidine.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 3853,
+          "end": 4021,
+          "text": "The relevant identifiable primary source is the PMID 9583453 report itself; the applicable regulator context is the astemizole withdrawal/restriction record (FDA, 1999;",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "1. Karch et al. Case report of vasospastic angina associated with astemizole/cimetidine. *Dtsch Med Wochenschr* 1998. PMID: 9583453. (Primary source; verify full text for doses, levels, provocation testing, outcome.)",
+          "start": 4698,
+          "end": 4914,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "text": "2. US Food and Drug Administration. Astemizole (Hismanal) withdrawal/market action, 1999. FDA archives.",
+          "start": 4915,
+          "end": 5018,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "3. European Medicines Agency / national competent authorities. Astemizole withdrawal and QT-risk communications, 1990s.",
+          "start": 5019,
+          "end": 5138,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "4. Cimetidine prescribing information (current). CYP450 inhibition and drug-interaction section.",
+          "start": 5139,
+          "end": 5235,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "5. WHO-UMC causality assessment criteria; Naranjo ADR probability scale. (For framing uncertainty.)",
+          "start": 5236,
+          "end": 5335,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "6. ICH E2A/E2D pharmacovigilance guidance. (For case-report evidentiary weight.)",
+          "start": 5336,
+          "end": 5416,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    },
+    {
+      "answer_id": "Q15-M3-direct",
+      "view": "displayed",
+      "text_sha256": "8bef356f59dab2cd179419d7721d4ae1ddc4a1d715fcd689653858da7accb726",
+      "answer_judgment": "Invents separate parent/metabolite values and positive rechallenge instead of combined 15.85 ng/mL and positive acetylcholine challenge; cannot assign cimetidine as cause.",
+      "facets": [
+        "I",
+        "I",
+        "I"
+      ],
+      "confidence": 96,
+      "assertions": [
+        {
+          "start": 1,
+          "end": 98,
+          "text": "I'll analyze this pharmacovigilance case report concerning astemizole and cimetidine interaction.",
+          "unit": 0,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 186,
+          "end": 374,
+          "text": "| **Jurisdiction** | Netherlands (report from Netherlands Pharmacovigilance Foundation, Lareb); published in *European Journal of Clinical Pharmacology* (Springer; international journal) |",
+          "unit": 1,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 375,
+          "end": 437,
+          "text": "| **Source** | PMID 9583453; van Puijenbroek EP, et al. 1997 |",
+          "unit": 2,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [
+            "PMID:9583453"
+          ],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 438,
+          "end": 492,
+          "text": "| **Population** | Single patient: 73-year-old woman |",
+          "unit": 3,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 493,
+          "end": 581,
+          "text": "| **Drugs** | Astemizole (H1-antihistamine); cimetidine (H2-antagonist, CYP inhibitor) |",
+          "unit": 4,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 582,
+          "end": 717,
+          "text": "| **Dose/route** | Astemizole 10 mg/day oral; cimetidine 400 mg/day oral (dose increased from 200 mg to 400 mg six days before event) |",
+          "unit": 5,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 810,
+          "end": 920,
+          "text": "- **Astemizole plasma concentration**: measured at **484 µg/L**; metabolite desmethylastemizole at **49 µg/L**",
+          "unit": 6,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 921,
+          "end": 1089,
+          "text": "- This astemizole level substantially exceeded the therapeutic range (typically <10 µg/L); the metabolite ratio was inverted (normally desmethylastemizole predominates)",
+          "unit": 7,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1090,
+          "end": 1225,
+          "text": "- Cimetidine inhibits CYP3A4/2D6-mediated astemizole metabolism, causing accumulation of parent drug with reduced first-pass metabolism",
+          "unit": 8,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1327,
+          "end": 1382,
+          "text": "| **Onset** | Six days after cimetidine dose increase |",
+          "unit": 9,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 1383,
+          "end": 1442,
+          "text": "| **Presenting symptoms** | Chest pain; dyspnoea; syncope |",
+          "unit": 10,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1443,
+          "end": 1498,
+          "text": "| **ECG** | ST-segment elevation during pain episodes |",
+          "unit": 11,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1499,
+          "end": 1587,
+          "text": "| **Cardiac catheterization** | \"Coronary angiography showed normal coronary arteries\" |",
+          "unit": 12,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 1588,
+          "end": 1700,
+          "text": "| **Provocation testing** | **Hyperventilation provoked vasospastic angina** with ST-elevation and arrhythmias |",
+          "unit": 13,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1701,
+          "end": 1834,
+          "text": "| **Outcome** | Symptoms resolved after astemizole discontinuation; rechallenge with astemizole **recurred symptoms within 1 hour** |",
+          "unit": 14,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1836,
+          "end": 1940,
+          "text": "The authors explicitly diagnosed **variant (Prinzmetal's) angina** secondary to astemizole accumulation.",
+          "unit": 15,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 1974,
+          "end": 2015,
+          "text": "- No other QT-prolonging drugs identified",
+          "unit": 16,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2016,
+          "end": 2037,
+          "text": "- Electrolytes normal",
+          "unit": 17,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2038,
+          "end": 2126,
+          "text": "- Pre-existing **\"sulphonamide allergy\"** (noted as context, no direct role established)",
+          "unit": 18,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2187,
+          "end": 2247,
+          "text": "- Prior astemizole tolerance before cimetidine dose increase",
+          "unit": 19,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2364,
+          "end": 2511,
+          "text": "**Cimetidine-astemizole PK interaction**: well-documented; cimetidine's CYP inhibition increases astemizole bioavailability and decreases clearance",
+          "unit": 20,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 2515,
+          "end": 2662,
+          "text": "**Astemizole's torsadogenic mechanism**: dose-dependent QT prolongation via hERG K+ channel blockade; known risk factor for ventricular arrhythmias",
+          "unit": 21,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 2666,
+          "end": 2787,
+          "text": "**Temporal plausibility**: dose increase → accumulation → symptom onset → dechallenge resolution → rechallenge recurrence",
+          "unit": 22,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2789,
+          "end": 2940,
+          "text": "The **rechallenge** (symptoms within 1 hour of re-exposure) provides strong operational evidence for causality per standard pharmacovigilance criteria.",
+          "unit": 23,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 2979,
+          "end": 3002,
+          "text": "| Uncertainty | Basis |",
+          "unit": 24,
+          "scope": "heading_instruction_or_nonclaim",
+          "support_label": null,
+          "confidence": 97,
+          "comparison_source_ids": [],
+          "reason": "Heading or non-evidentiary fragment, not an independent clinical claim.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 97
+        },
+        {
+          "start": 3026,
+          "end": 3379,
+          "text": "| **Vasospastic mechanism specifically** | Astemizole is primarily associated with **torsades de pointes/QT prolongation**, not coronary vasospasm. The report proposes astemizole may cause \"coronary spasms\" directly, but this mechanism was **not established** in astemizole's known pharmacology. Alternative: arrhythmia-induced ischemia misclassified? |",
+          "unit": 25,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        },
+        {
+          "start": 3380,
+          "end": 3660,
+          "text": "| **Exclusive role of QT prolongation** | The ST-elevation with normal coronaries could reflect transmural ischemia from **severe bradycardia/torsades** rather than true Prinzmetal's mechanism. The authors conflate these; no continuous QT monitoring during episodes was reported |",
+          "unit": 26,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 3661,
+          "end": 3850,
+          "text": "| **Single-patient generalizability** | No control population; vasospastic angina is itself uncommon and diagnosis requires rigorous exclusion. Rechallenge was therapeutic, not systematic |",
+          "unit": 27,
+          "scope": "scientific",
+          "support_label": null,
+          "confidence": 90,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Consistent with scoped reference or design, but the answer does not reliably link this assertion to a substantively used, verified supporting source. Correct clinical content alone does not establish support as cited.",
+          "source_comparison": "supported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unresolved_attribution",
+          "as_cited_confidence": 42
+        },
+        {
+          "start": 3851,
+          "end": 3996,
+          "text": "| **Dose magnitude contribution** | The 484 µg/L level was extreme, but no established threshold for vasospastic vs. arrhythmic toxicity exists |",
+          "unit": 28,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 3997,
+          "end": 4178,
+          "text": "| **Cimetidine independent effect** | Cimetidine alone rarely associated with cardiovascular effects; however, complete attribution to astemizole accumulation assumes no synergism |",
+          "unit": 29,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4203,
+          "end": 4327,
+          "text": "Astemizole was **withdrawn from most markets (1999)** due to QT/torsades risk, particularly with CYP inhibitors or overdose.",
+          "unit": 30,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4328,
+          "end": 4382,
+          "text": "This 1997 report contributed to accumulating evidence.",
+          "unit": 31,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 4383,
+          "end": 4587,
+          "text": "Cimetidine's interaction warning was subsequently strengthened; terfenadine (similar fate) and later non-sedating antihistamines (loratadine, cetirizine) replaced astemizole with greater metabolic safety.",
+          "unit": 32,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4589,
+          "end": 4819,
+          "text": "EMA/FDA records from this period document astemizole's risk-benefit reevaluation; this specific case was cited in subsequent safety communications regarding **CYP-mediated drug-drug interactions with non-sedating antihistamines**.",
+          "unit": 33,
+          "scope": "scientific_source_or_attribution_unresolved",
+          "support_label": null,
+          "confidence": 45,
+          "comparison_source_ids": [],
+          "reason": "Precise cited identity, external text, scope, or attribution for the full assertion is unresolved at inspected read depth; do not assume support or fabrication.",
+          "source_comparison": null,
+          "source_locators": [],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unassessable_or_nonclaim",
+          "as_cited_confidence": 45
+        },
+        {
+          "start": 4836,
+          "end": 4983,
+          "text": "The report establishes **cimetidine-astemizole pharmacokinetic interaction** and **astemizole-related cardiac toxicity** with reasonable causality.",
+          "unit": 34,
+          "scope": "scientific",
+          "support_label": "contradicted",
+          "confidence": 93,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Claim about the source conflicts with the source identity, design, observed finding, dated action or explicit limitation. See the frozen contributions and answer-specific explanation.",
+          "source_comparison": "contradicted",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "contradicted",
+          "as_cited_confidence": 93
+        },
+        {
+          "start": 4984,
+          "end": 5285,
+          "text": "However, the specific **vasospastic (Prinzmetal's) mechanism** versus **arrhythmia with secondary ischemic presentation** remains mechanistically uncertain; the diagnostic characterization of \"vasospastic angina\" may represent clinical phenomenology rather than confirmed coronary vasomotor pathology.",
+          "unit": 35,
+          "scope": "scientific",
+          "support_label": "unsupported",
+          "confidence": 80,
+          "comparison_source_ids": [
+            "PMID:9583453"
+          ],
+          "reason": "Identified evidence does not establish this asserted detail, expanded scope, inference, or external regulatory/clinical claim as cited. Absence of support is not proof of falsity.",
+          "source_comparison": "unsupported",
+          "source_locators": [
+            {
+              "source_id": "PMID:9583453",
+              "locator": "Jpn Circ J 1998; 62:225–227; p 225 Case Report and abstract; p 226 ECGs"
+            }
+          ],
+          "linked_identifier_occurrences": [],
+          "as_cited_status": "unsupported",
+          "as_cited_confidence": 80
+        }
+      ],
+      "citation_identities": [
+        {
+          "canonical": "PMID:9583453",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 390,
+              "end": 402,
+              "text": "PMID 9583453"
+            },
+            {
+              "start": 5499,
+              "end": 5511,
+              "text": "PMID:9583453"
+            }
+          ],
+          "use_status": "not_confirmed_as_required_contribution",
+          "registry_verification": {
+            "title": "Astemizole-induced torsades de pointes in a patient with vasospastic angina",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9583453/",
+            "ref": "turn275view0",
+            "evidence": "PubMed bibliographic record, identifier matched; identity only."
+          },
+          "identity_locator": "Frozen source curation, exact canonical identity",
+          "identity_confidence": 97
+        },
+        {
+          "canonical": "DOI:10.1007/s002280050324",
+          "identity": "real",
+          "occurrences": [
+            {
+              "start": 5472,
+              "end": 5497,
+              "text": "doi:10.1007/s002280050324"
+            }
+          ],
+          "use_status": "verified_unrelated_record_when_proffered_as_target_evidence",
+          "registry_verification": {
+            "title": "Temperature dependency of the release and bioavailability of nicotine from a nicotine vapour inhaler; in vitro/in vivo correlation",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9342586/",
+            "ref": "turn240search2",
+            "evidence": "Publisher page or PubMed bibliographic record with matching DOI; existence only."
+          },
+          "identity_confidence": 97,
+          "use_confidence": 96
+        }
+      ],
+      "free_text_bibliography_occurrences": [
+        {
+          "text": "van Puijenbroek EP, Vʼt Veen A-ME, Hertsenberg L, van Grootheest K, Stricker BHC. [Vasospastic angina and astemizole]. *Eur J Clin Pharmacol*. 1997;52(6):487-488. doi:10.1007/s002280050324. PMID:9583453.",
+          "start": 5309,
+          "end": 5512
+        },
+        {
+          "text": "European Medicines Agency. Astemizole: withdrawal of marketing authorisations in EU member states. EMEA/H/5617/01/Final. 1999.",
+          "start": 5514,
+          "end": 5640
+        },
+        {
+          "text": "US Food and Drug Administration. FDA Talk Paper: Janssen Pharmaceutica stops marketing Hismanal (astemizole). T98-30. June 18, 1999.",
+          "start": 5642,
+          "end": 5774
+        }
+      ],
+      "counts_before_repeat_grouping": {
+        "contradicted": 15,
+        "unsupported": 5
+      },
+      "unresolved_scope_or_attribution": 14,
+      "SCR": null,
+      "FCR": null,
+      "rate_note": "Proposed statement annotations; no full atomic aggregate rate until compound splitting, confirmed repeated-proposition grouping and free-text/identifier citation reconciliation. Unknown is never counted as fabricated or contradicted.",
+      "required_source_contributions": [],
+      "recall_point_proposed": 0.0,
+      "free_text_reference_inventory": [
+        {
+          "start": 375,
+          "end": 437,
+          "text": "| **Source** | PMID 9583453; van Puijenbroek EP, et al. 1997 |",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453"
+          ]
+        },
+        {
+          "start": 4328,
+          "end": 4382,
+          "text": "This 1997 report contributed to accumulating evidence.",
+          "type": "body_source_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "van Puijenbroek EP, Vʼt Veen A-ME, Hertsenberg L, van Grootheest K, Stricker BHC. [Vasospastic angina and astemizole]. *Eur J Clin Pharmacol*. 1997;52(6):487-488. doi:10.1007/s002280050324. PMID:9583453.",
+          "start": 5309,
+          "end": 5512,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": [
+            "PMID:9583453",
+            "DOI:10.1007/s002280050324"
+          ]
+        },
+        {
+          "text": "European Medicines Agency. Astemizole: withdrawal of marketing authorisations in EU member states. EMEA/H/5617/01/Final. 1999.",
+          "start": 5514,
+          "end": 5640,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        },
+        {
+          "text": "US Food and Drug Administration. FDA Talk Paper: Janssen Pharmaceutica stops marketing Hismanal (astemizole). T98-30. June 18, 1999.",
+          "start": 5642,
+          "end": 5774,
+          "type": "bibliography_or_post_bibliography_mention_candidate",
+          "linked_identifiers": []
+        }
+      ],
+      "metric_status": {
+        "SCR": "unresolved_claim_partition_or_attribution",
+        "FCR": "unresolved_distinct_identity_reconciliation",
+        "counts_are": "Provisional span decisions, not atomic source-backed denominators."
+      },
+      "record_confidence_interpretation": "Ordinal assessment confidence, not a probability. For each statement source_comparison measures agreement with inspected evidence; support_label and as_cited_status measure what the answer can substantiate. No automatic deduction of fabrication."
+    }
+  ]
+}
