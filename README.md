@@ -1,6 +1,6 @@
 # Santé and Ling: direct-model evidence benchmark
 
-A small data and analysis repository for inspecting one recorded scientific-literature evaluation. This private preparation copy can be considered for public release after the owners approve its wording and reuse terms. No public release is implied.
+A small data and analysis repository for inspecting one recorded scientific-literature evaluation. The repository owner authorized public access on 13 November 2026. The data and scripts are available for inspection; see the reuse status below.
 
 **Scope:** 40 questions × six models × one direct setting = 240 scheduled outputs. There are 237 exact displayed answers and three missing Santé outputs. No retrieval-assisted run, private orchestration code, development history, improvement brief or editorial draft is included. The data are displayed-output records, not raw provider wire envelopes.
 
@@ -27,4 +27,4 @@ python3 analysis.py --output /tmp/sante-ling-check
 
 The second command reproduces the result JSON and tables in a separate folder. As a worked example, the direct clinical row in `TABLES.md` comes from the 18 questions for which every model has displayed text. For each answer calculate C / number of required facets, then average the 18 fractions. `verify.py` compares the regenerated files byte for byte with `results/`.
 
-Original answers, missing records and first AI labels stay unchanged. Returned labels are a separate analysis view. Endpoint aliases and current web pages do not guarantee the same served weights or frozen source versions. The [dataset manifest](dataset.json) and [checksums](SHA256SUMS) identify this release candidate.
+Original answers, missing records and first AI labels stay unchanged. Returned labels are a separate analysis view. Endpoint aliases and current web pages do not guarantee the same served weights or frozen source versions. The [dataset manifest](dataset.json) and [checksums](SHA256SUMS) identify this dataset.
